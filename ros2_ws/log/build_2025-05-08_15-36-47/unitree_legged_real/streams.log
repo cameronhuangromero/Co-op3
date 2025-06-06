@@ -1,0 +1,111 @@
+[0.013s] Invoking command in '/home/giszterlab/ros2_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/ros2_ws/src/unitree_ros2_to_real -DCMAKE_INSTALL_PREFIX=/home/giszterlab/ros2_ws/install/unitree_legged_real
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.707s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.779s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.784s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.793s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.868s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.871s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.981s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Looking for pthread.h
+[1.112s] -- Looking for pthread.h - found
+[1.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.191s] -- Found Threads: TRUE  
+[1.267s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[1.278s] [0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[1.361s] -- Configuring done
+[1.380s] -- Generating done
+[1.387s] -- Build files have been written to: /home/giszterlab/ros2_ws/build/unitree_legged_real
+[1.398s] Invoked command in '/home/giszterlab/ros2_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/ros2_ws/src/unitree_ros2_to_real -DCMAKE_INSTALL_PREFIX=/home/giszterlab/ros2_ws/install/unitree_legged_real
+[1.401s] Invoking command in '/home/giszterlab/ros2_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[1.460s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[1.461s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[4.382s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.382s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.383s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[4.383s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[4.383s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/src/ros2_position_example.cpp:6[m[K:
+[4.383s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.383s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.383s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.385s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.385s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.385s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.385s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.385s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.386s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.386s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.386s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[4.386s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[4.386s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/src/ros2_walk_example.cpp:6[m[K:
+[4.386s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.386s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.386s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.421s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[4.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[4.421s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[4.422s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[4.422s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[4.422s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[4.422s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[4.422s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[4.422s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[4.422s]                  from [01m[K/home/giszterlab/ros2_ws/src/unitree_ros2_to_real/src/ros2_udp.cpp:6[m[K:
+[4.422s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.423s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.423s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.334s] [ 66%] [32m[1mLinking CXX executable ros2_position_example[0m
+[7.365s] [ 83%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[7.473s] [ 83%] Built target ros2_position_example
+[7.502s] [ 83%] Built target ros2_walk_example
+[17.003s] [100%] [32m[1mLinking CXX executable ros2_udp[0m
+[17.211s] [100%] Built target ros2_udp
+[17.223s] Invoked command in '/home/giszterlab/ros2_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/ros2_ws/build/unitree_legged_real -- -j8 -l8
+[17.225s] Invoking command in '/home/giszterlab/ros2_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/ros2_ws/build/unitree_legged_real
+[17.234s] -- Install configuration: ""
+[17.235s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[17.236s] -- Set runtime path of "/home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+[17.236s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[17.237s] -- Set runtime path of "/home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example" to ""
+[17.237s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[17.238s] -- Set runtime path of "/home/giszterlab/ros2_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example" to ""
+[17.238s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[17.238s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[17.238s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[17.239s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[17.239s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[17.239s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[17.240s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[17.240s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[17.240s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[17.241s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[17.241s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[17.241s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[17.241s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[17.241s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[17.242s] -- Installing: /home/giszterlab/ros2_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[17.245s] Invoked command in '/home/giszterlab/ros2_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/ros2_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/ros2_ws/build/unitree_legged_real

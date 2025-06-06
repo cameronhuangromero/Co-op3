@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5405d5320da5e3ff411a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unitree_legged_real",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_position_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_position_example-50a0f40763b17b533992.json",
+					"name" : "ros2_position_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_udp-ce195bdeed5661c5192d.json",
+					"name" : "ros2_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_walk_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_walk_example-a43b8097ddf00886288a.json",
+					"name" : "ros2_walk_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-892b0dce3118e99ec6b4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_legged_real_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_legged_real_uninstall-58361bc08bb6f8ff6da7.json",
+					"name" : "unitree_legged_real_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giszterlab/ros2_ws/build/unitree_legged_real",
+		"source" : "/home/giszterlab/ros2_ws/src/unitree_ros2_to_real"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

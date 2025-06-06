@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_unitree_legged_msgs__py",
+		"source" : "/home/giszterlab/ros2_ws/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py"
+	}
+}
