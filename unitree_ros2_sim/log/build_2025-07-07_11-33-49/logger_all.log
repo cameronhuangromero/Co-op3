@@ -1,0 +1,501 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79c258937b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79c258a74f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79c258a74f10>>)
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.334s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/giszterlab/USING/unitree_ros2_sim'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_description) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'go1_sim/go1_description' with type 'ros.ament_cmake' and name 'go1_description'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_gazebo) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'go1_sim/go1_gazebo' with type 'ros.ament_cmake' and name 'go1_gazebo'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(go1_sim/go1_navigation) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'go1_sim/go1_navigation' with type 'ros.ament_python' and name 'go1_navigation'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_control) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'robotic_control' with type 'ros.ament_cmake' and name 'robotic_control'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_controller) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_unitree_legged_controller' with type 'ros.ament_cmake' and name 'ros2_unitree_legged_control'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_unitree_legged_msgs) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_unitree_legged_msgs' with type 'ros.ament_cmake' and name 'ros2_unitree_legged_msgs'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_guide2) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_guide2' with type 'ros.ament_cmake' and name 'unitree_guide2'
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.397s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'go1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_description', 'symlink_install': False, 'test_result_base': None}
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'go1_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'go1_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'go1_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'go1_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'robotic_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'robotic_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/robotic_control', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_unitree_legged_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ros2_unitree_legged_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_unitree_legged_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'unitree_guide2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_guide2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2', 'merge_install': False, 'path': '/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2', 'symlink_install': False, 'test_result_base': None}
+[0.454s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.455s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs' with build type 'ament_cmake'
+[0.455s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs'
+[0.457s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_description' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_description'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_gazebo' with build type 'ament_cmake'
+[0.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_gazebo'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation' with build type 'ament_python'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_navigation', 'ament_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/ament_prefix_path.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/ament_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/robotic_control' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/robotic_control'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_description -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/go1_description
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_gazebo -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo
+[0.882s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation'
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/robotic_control -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control
+[1.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation' returned '0': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation' for CMake module files
+[1.885s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/bin'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/pkgconfig/go1_navigation.pc'
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages'
+[1.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_navigation', 'pythonpath')
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/pythonpath.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/pythonpath.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/hook/pythonpath.sh'
+[1.889s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/bin'
+[1.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_navigation)
+[1.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/package.ps1'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/package.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/package.sh'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/package.bash'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/package.zsh'
+[1.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/colcon-core/packages/go1_navigation)
+[2.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_description -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/go1_description
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_description -- -j8 -l8
+[2.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_description -- -j8 -l8
+[2.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_description
+[2.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/robotic_control -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control
+[2.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[2.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description' for CMake module files
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_description
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description' for CMake config files
+[2.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[2.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[2.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[2.549s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/bin'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/lib/pkgconfig/go1_description.pc'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/lib/python3.10/site-packages'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/bin'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.ps1'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.sh'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.bash'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.zsh'
+[2.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/colcon-core/packages/go1_description)
+[2.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description' for CMake module files
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description' for CMake config files
+[2.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[2.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/bin'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/lib/pkgconfig/go1_description.pc'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/lib/python3.10/site-packages'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/bin'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.dsv'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.sh'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.bash'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.zsh'
+[2.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/colcon-core/packages/go1_description)
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs
+[2.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs -- -j8 -l8
+[3.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_gazebo -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo
+[3.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo -- -j8 -l8
+[3.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo -- -j8 -l8
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo
+[3.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_gazebo)
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo' for CMake module files
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo' for CMake config files
+[3.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo
+[3.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_gazebo', 'cmake_prefix_path')
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.ps1'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.dsv'
+[3.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.sh'
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/bin'
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/lib/pkgconfig/go1_gazebo.pc'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/lib/python3.10/site-packages'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/bin'
+[3.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.ps1'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.dsv'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.sh'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.bash'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.zsh'
+[3.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/colcon-core/packages/go1_gazebo)
+[3.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_gazebo)
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo' for CMake module files
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo' for CMake config files
+[4.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_gazebo', 'cmake_prefix_path')
+[4.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.ps1'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/hook/cmake_prefix_path.sh'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/bin'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/lib/pkgconfig/go1_gazebo.pc'
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/lib/python3.10/site-packages'
+[4.003s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/bin'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.ps1'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.dsv'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.sh'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.bash'
+[4.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.zsh'
+[4.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/colcon-core/packages/go1_gazebo)
+[15.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs -- -j8 -l8
+[15.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs
+[15.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[15.953s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs' for CMake module files
+[15.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs
+[15.955s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs' for CMake config files
+[15.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[15.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[15.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[15.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[15.960s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib'
+[15.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[15.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[15.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[15.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[15.963s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/bin'
+[15.963s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[15.964s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[15.965s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/bin'
+[15.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[15.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[15.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[15.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[15.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[15.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[15.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_msgs)
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs' for CMake module files
+[15.976s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs' for CMake config files
+[15.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'cmake_prefix_path')
+[15.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.ps1'
+[15.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.dsv'
+[15.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/cmake_prefix_path.sh'
+[15.981s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib'
+[15.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_msgs', 'ld_library_path_lib')
+[15.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.ps1'
+[15.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.dsv'
+[15.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/hook/ld_library_path_lib.sh'
+[15.986s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/bin'
+[15.986s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib/pkgconfig/ros2_unitree_legged_msgs.pc'
+[15.987s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib/python3.10/site-packages'
+[15.987s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/bin'
+[15.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.ps1'
+[15.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.dsv'
+[15.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.sh'
+[15.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.bash'
+[15.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/package.zsh'
+[15.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/colcon-core/packages/ros2_unitree_legged_msgs)
+[15.995s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller' with build type 'ament_cmake'
+[15.996s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller'
+[15.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.005s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2' with build type 'ament_cmake'
+[16.005s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2'
+[16.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control
+[16.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/unitree_guide2 -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2
+[17.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control
+[17.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control -- -j8 -l8
+[17.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[17.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[17.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_control)
+[17.790s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control' for CMake module files
+[17.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[17.790s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control' for CMake config files
+[17.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_control', 'cmake_prefix_path')
+[17.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.ps1'
+[17.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.dsv'
+[17.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.sh'
+[17.792s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib'
+[17.792s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/bin'
+[17.792s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/pkgconfig/robotic_control.pc'
+[17.793s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/python3.10/site-packages'
+[17.793s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/bin'
+[17.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.ps1'
+[17.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv'
+[17.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.sh'
+[17.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.bash'
+[17.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.zsh'
+[17.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/colcon-core/packages/robotic_control)
+[17.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotic_control)
+[17.796s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control' for CMake module files
+[17.796s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control' for CMake config files
+[17.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotic_control', 'cmake_prefix_path')
+[17.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.ps1'
+[17.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.dsv'
+[17.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/hook/cmake_prefix_path.sh'
+[17.798s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib'
+[17.798s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/bin'
+[17.798s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/pkgconfig/robotic_control.pc'
+[17.799s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/python3.10/site-packages'
+[17.799s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/bin'
+[17.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.ps1'
+[17.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv'
+[17.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.sh'
+[17.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.bash'
+[17.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.zsh'
+[17.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/colcon-core/packages/robotic_control)
+[18.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/unitree_guide2 -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2
+[18.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[36.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control -- -j8 -l8
+[36.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control
+[36.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_control)
+[36.324s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control' for CMake module files
+[36.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control
+[36.325s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control' for CMake config files
+[36.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_control', 'cmake_prefix_path')
+[36.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.ps1'
+[36.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.dsv'
+[36.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.sh'
+[36.328s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib'
+[36.328s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/bin'
+[36.329s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/pkgconfig/ros2_unitree_legged_control.pc'
+[36.329s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/python3.10/site-packages'
+[36.329s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/bin'
+[36.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.ps1'
+[36.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.dsv'
+[36.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.sh'
+[36.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.bash'
+[36.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.zsh'
+[36.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/colcon-core/packages/ros2_unitree_legged_control)
+[36.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_unitree_legged_control)
+[36.335s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control' for CMake module files
+[36.335s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control' for CMake config files
+[36.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_unitree_legged_control', 'cmake_prefix_path')
+[36.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.ps1'
+[36.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.dsv'
+[36.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/hook/cmake_prefix_path.sh'
+[36.337s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib'
+[36.337s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/bin'
+[36.337s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/pkgconfig/ros2_unitree_legged_control.pc'
+[36.337s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/python3.10/site-packages'
+[36.338s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/bin'
+[36.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.ps1'
+[36.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.dsv'
+[36.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.sh'
+[36.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.bash'
+[36.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.zsh'
+[36.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/colcon-core/packages/ros2_unitree_legged_control)
+[39.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '2': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[39.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_guide2)
+[39.305s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2' for CMake module files
+[39.305s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2' for CMake config files
+[39.305s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/bin'
+[39.305s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/pkgconfig/unitree_guide2.pc'
+[39.306s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/python3.10/site-packages'
+[39.306s] Level 1:colcon.colcon_core.environment:checking '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/bin'
+[39.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.ps1'
+[39.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.dsv'
+[39.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.sh'
+[39.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.bash'
+[39.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.zsh'
+[39.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/colcon-core/packages/unitree_guide2)
+[39.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[39.309s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.400s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giszterlab/USING/unitree_ros2_sim/install/local_setup.ps1'
+[39.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giszterlab/USING/unitree_ros2_sim/install/_local_setup_util_ps1.py'
+[39.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giszterlab/USING/unitree_ros2_sim/install/setup.ps1'
+[39.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giszterlab/USING/unitree_ros2_sim/install/local_setup.sh'
+[39.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giszterlab/USING/unitree_ros2_sim/install/_local_setup_util_sh.py'
+[39.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giszterlab/USING/unitree_ros2_sim/install/setup.sh'
+[39.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giszterlab/USING/unitree_ros2_sim/install/local_setup.bash'
+[39.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giszterlab/USING/unitree_ros2_sim/install/setup.bash'
+[39.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giszterlab/USING/unitree_ros2_sim/install/local_setup.zsh'
+[39.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giszterlab/USING/unitree_ros2_sim/install/setup.zsh'

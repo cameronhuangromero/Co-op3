@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-03fdcdda7b66b6bc39ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_unitree_legged_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_control-35c47f4cce078b3fcef8.json",
+					"name" : "ros2_unitree_legged_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_control_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_control_parameters-567bbb774808706c7f83.json",
+					"name" : "ros2_unitree_legged_control_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_control_uninstall-ab1f8f391e406816513d.json",
+					"name" : "ros2_unitree_legged_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-576eb1f2256c3df44753.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control",
+		"source" : "/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,456 @@
+[35m[1mConsolidate compiler generated dependencies of target junior_ctrl[0m
+[  3%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/Gait/FeetEndCal.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/Gait/GaitGenerator.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/State_12Joint.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/State_move_base.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/Gait/WaveGenerator.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/common/LowPassFilter.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/common/unitreeLeg.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/common/unitreeRobot.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/control/BalanceCtrl.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/control/ControlFrame.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/control/Estimator.cpp.o[0m
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/common/unitreeRobot.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/common/unitreeRobot.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/common/unitreeRobot.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_Trotting.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_move_base.h:37[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_move_base.cpp:47[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_Trotting.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_move_base.h:37[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_move_base.cpp:47[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_Trotting.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_move_base.h:37[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_move_base.cpp:47[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:[m[K In constructor ‘[01m[KBalanceCtrl::BalanceCtrl(double, Mat3, Mat6, double, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:36:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KBalanceCtrl::_mass[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   36 |     double [01;35m[K_mass[m[K, _alpha, _beta, _fricRatio;
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:31:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KMat3 BalanceCtrl::_Ib[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     Mat3 [01;35m[K_Ib[m[K;
+      |          [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KBalanceCtrl[m[K::BalanceCtrl(double mass, Mat3 Ib, Mat6 S, double alpha, double beta)
+      | [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:31:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KBalanceCtrl::_Ib[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     Mat3 [01;35m[K_Ib[m[K;
+      |          [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/BalanceCtrl.h:30:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KMat6 BalanceCtrl::_S[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   30 |     Mat6 [01;35m[K_S[m[K;
+      |          [01;35m[K^~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KBalanceCtrl[m[K::BalanceCtrl(double mass, Mat3 Ib, Mat6 S, double alpha, double beta)
+      | [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:[m[K In member function ‘[01m[Kvoid BalanceCtrl::calMatrixA(Vec34, RotMat, VecInt4)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:63:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontact[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 | void BalanceCtrl::calMatrixA(Vec34 feetPos2B, RotMat rotM, [01;35m[KVecInt4 contact[m[K){
+      |                                                            [01;35m[K~~~~~~~~^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:[m[K In member function ‘[01m[Kvoid BalanceCtrl::solveQP()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/BalanceCtrl.cpp:149:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  149 |     double [01;35m[Kvalue[m[K = solve_quadprog(G, g0, CE, ce0, CI, ci0, x);
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+[ 41%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/interface/IOROS.cpp.o[0m
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:9[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/unitreeRobot.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:[m[K In member function ‘[01m[Kvirtual void State_12Joint::run()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:58:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPosStopF[m[K’ was not declared in this scope
+   58 |         _lowCmd->motorCmd[i].q = [01;31m[KPosStopF[m[K;
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:59:35:[m[K [01;31m[Kerror: [m[K‘[01m[KVelStopF[m[K’ was not declared in this scope
+   59 |         _lowCmd->motorCmd[i].dq = [01;31m[KVelStopF[m[K;
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:[m[K In constructor ‘[01m[KFeetEndCal::FeetEndCal(CtrlComponents*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:17:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KFeetEndCal::_est[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 |     Estimator *[01;35m[K_est[m[K;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:16:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KLowlevelState* FeetEndCal::_lowState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   16 |     LowlevelState *[01;35m[K_lowState[m[K;
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/FeetEndCal.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    6 | [01;35m[KFeetEndCal[m[K::FeetEndCal(CtrlComponents *ctrlComp)
+      | [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/FeetEndCal.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:[m[K In constructor ‘[01m[KGaitGenerator::GaitGenerator(CtrlComponents*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:39:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KGaitGenerator::_contact[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     VecInt4 *[01;35m[K_contact[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/Gait/GaitGenerator.h:33:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KQuadrupedRobot* GaitGenerator::_robModel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   33 |     QuadrupedRobot *[01;35m[K_robModel[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/Gait/GaitGenerator.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    6 | [01;35m[KGaitGenerator[m[K::GaitGenerator(CtrlComponents *ctrlComp)
+      | [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_Trotting.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_move_base.h:37[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_move_base.cpp:47[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:[m[K In member function ‘[01m[Kvirtual FSMStateName State_12Joint::checkChange()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:81:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   81 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/junior_ctrl.dir/build.make:118: CMakeFiles/junior_ctrl.dir/src/FSM/State_12Joint.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:[m[K In constructor ‘[01m[KEstimator::Estimator(QuadrupedRobot*, LowlevelState*, VecInt4*, Vec4*, double, Vec18, std::string)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:90:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KEstimator::_robModel[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   90 |     QuadrupedRobot *[01;35m[K_robModel[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:89:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KLowlevelState* Estimator::_lowState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   89 |     LowlevelState* [01;35m[K_lowState[m[K;
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KEstimator[m[K::Estimator(QuadrupedRobot *robotModel, LowlevelState* lowState,
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:92:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KEstimator::_contact[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   92 |     VecInt4 *[01;35m[K_contact[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:91:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVec4* Estimator::_phase[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   91 |     Vec4 *[01;35m[K_phase[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KEstimator[m[K::Estimator(QuadrupedRobot *robotModel, LowlevelState* lowState,
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:93:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KEstimator::_dt[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   93 |     double [01;35m[K_dt[m[K;
+      |            [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:71:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVec18 Estimator::_Qdig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     Vec18 [01;35m[K_Qdig[m[K;                                    // adjustable process noise covariance
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    8 | [01;35m[KEstimator[m[K::Estimator(QuadrupedRobot *robotModel, LowlevelState* lowState,
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:[m[K In constructor ‘[01m[KEstimator::Estimator(QuadrupedRobot*, LowlevelState*, VecInt4*, Vec4*, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:90:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KEstimator::_robModel[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   90 |     QuadrupedRobot *[01;35m[K_robModel[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:89:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KLowlevelState* Estimator::_lowState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   89 |     LowlevelState* [01;35m[K_lowState[m[K;
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:17:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 | [01;35m[KEstimator[m[K::Estimator(QuadrupedRobot *robotModel, LowlevelState* lowState,
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:92:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KEstimator::_contact[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   92 |     VecInt4 *[01;35m[K_contact[m[K;
+      |              [01;35m[K^~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/Estimator.h:91:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVec4* Estimator::_phase[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   91 |     Vec4 *[01;35m[K_phase[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/Estimator.cpp:17:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   17 | [01;35m[KEstimator[m[K::Estimator(QuadrupedRobot *robotModel, LowlevelState* lowState,
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:[m[K In member function ‘[01m[Kvoid FSMStateList::deletePtr()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:54:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KFSMState[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   54 |         [01;35m[Kdelete invalid[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:55:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Passive[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   55 |         [01;35m[Kdelete passive[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:56:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FixedStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   56 |         [01;35m[Kdelete fixedStand[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:57:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FreeStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   57 |         [01;35m[Kdelete freeStand[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:58:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Trotting[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   58 |         [01;35m[Kdelete trotting[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:59:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_BalanceTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   59 |         [01;35m[Kdelete balanceTest[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:60:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_SwingTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   60 |         [01;35m[Kdelete swingTest[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:61:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_StepTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   61 |         [01;35m[Kdelete stepTest[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:62:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_ManualJointControl[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   62 |         [01;35m[Kdelete manualJoint[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:63:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_12Joint[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   63 |         [01;35m[Kdelete AllJoint[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:69:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_move_base[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   69 |         [01;35m[Kdelete moveBase[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOInterface.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOROS.h:69[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/IOROS.cpp:227[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOInterface.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOROS.h:69[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/IOROS.cpp:227[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOInterface.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/IOROS.h:69[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/IOROS.cpp:227[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/IOROS.cpp:[m[K In static member function ‘[01m[Kstatic void IOROS::RosShutDown(int)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/IOROS.cpp:236:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  236 | void IOROS::RosShutDown([01;35m[Kint sig[m[K){
+      |                         [01;35m[K~~~~^~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/junior_ctrl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[0.415s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[0.493s] [100%] Built target go1_jacobian_node
+[0.506s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[0.508s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[0.526s] -- Install configuration: ""
+[0.527s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node
+[0.527s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch
+[0.527s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch/jacobian.launch.py
+[0.528s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/package_run_dependencies/robotic_control
+[0.529s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/parent_prefix_path/robotic_control
+[0.529s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.sh
+[0.530s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.dsv
+[0.530s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.bash
+[0.531s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.sh
+[0.531s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.zsh
+[0.531s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.dsv
+[0.531s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv
+[0.531s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/packages/robotic_control
+[0.532s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig.cmake
+[0.532s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig-version.cmake
+[0.532s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.xml
+[0.538s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f812f80db5fafbea20c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros2_unitree_legged_msgs__py",
+					"jsonFile" : "directory-ros2_unitree_legged_msgs__py-1a0be1aed547479d91a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs/ros2_unitree_legged_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2_unitree_legged_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_unitree_legged_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_unitree_legged_msgs_egg-ae65649ae903fa1fdef0.json",
+					"name" : "ament_cmake_python_build_ros2_unitree_legged_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros2_unitree_legged_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros2_unitree_legged_msgs-26fff6bbbf21cf3c4dce.json",
+					"name" : "ament_cmake_python_copy_ros2_unitree_legged_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs-4c20d8b60904664782e9.json",
+					"name" : "ros2_unitree_legged_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__cpp-39bcd855d5ff0f51ec7d.json",
+					"name" : "ros2_unitree_legged_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2_unitree_legged_msgs__py::@46628c5883072adcc3a4",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__py-6e67dd9733852df48830.json",
+					"name" : "ros2_unitree_legged_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_generator_c-d2dcef95fc5e4b96d95d.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_generator_py-03493b965f74b8cfe54b.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_c-26d8543e2015112869dc.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext-2364f4dc885d6d767e06.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_cpp-fa70b6e9ce5956ea8b86.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c-5b66a3f727aae816c375.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c__pyext-321cb9cc2f7088906c26.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp-a0a95c7b0291887e333b.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c-c7b80cea925b0d44bc3b.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c__pyext-2c250f8a13ca73a1bcec.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp-3be496cdd0f9cb0d8081.json",
+					"name" : "ros2_unitree_legged_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_unitree_legged_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_unitree_legged_msgs_uninstall-a25ecec98fe0131f7789.json",
+					"name" : "ros2_unitree_legged_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca2e44c8d7aa4345917e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_msgs",
+		"source" : "/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

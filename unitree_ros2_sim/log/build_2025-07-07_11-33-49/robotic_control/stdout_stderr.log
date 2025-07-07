@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/giszterlab/USING/unitree_ros2_sim/robotic_control/include;/home/giszterlab/USING/unitree_ros2_sim/robotic_control/unitree_legged_sdk/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[ 33%] [32mBuilding CXX object CMakeFiles/go1_jacobian_node.dir/src/example_jacobian_sim.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/go1_jacobian_node.dir/src/unitreeLeg.cpp.o[0m
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/robotic_control/src/example_jacobian_sim.cpp:[m[K In member function ‘[01m[Kvoid Go1Ros2ControllerNode::jointStateCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/robotic_control/src/example_jacobian_sim.cpp:37:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   37 | [01;35m[Knst sensor_msgs::msg::JointState::SharedPtr msg[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+
+[100%] [32m[1mLinking CXX executable go1_jacobian_node[0m
+[100%] Built target go1_jacobian_node
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node
+-- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node" to ""
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch/jacobian.launch.py
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/package_run_dependencies/robotic_control
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/parent_prefix_path/robotic_control
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.sh
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.sh
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.bash
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.sh
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.zsh
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/packages/robotic_control
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig.cmake
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig-version.cmake
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.xml

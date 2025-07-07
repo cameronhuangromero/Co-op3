@@ -1,0 +1,34 @@
+#include "common/unitreeLeg.h"
+#include <iostream>
+#include <cmath>  // For std::sin, std::cos, etc.
+
+// Define Vec3 and Mat3 if not already defined by Unitree
+// Typically these are Eigen::Vector3f and Matrix3f
+// Replace below with appropriate includes if needed
+
+int main() {
+    // === Robot's leg parameters (Go1 specific) ===
+    float abadLink = 0.045f;   // Abduction link length
+    float hipLink = 0.083f;    // Hip link length
+    float kneeLink = 0.2f;     // Knee link length
+
+    // Hip offset (from body center to this leg's hip joint)
+    Vec3 pHip2B(0.1805f, -0.047f, 0.0f);  // Front Right Leg
+
+    // === Create QuadrupedLeg object ===
+    QuadrupedLeg frontRightLeg(0, abadLink, hipLink, kneeLink, pHip2B);
+
+    // === Desired foot position in BODY frame ===
+    Vec3 desiredFootPos(0.2f, -0.1f, -0.25f);  // X, Y, Z in meters
+
+    // === Compute joint angles via inverse kinematics ===
+    Vec3 jointAngles = frontRightLeg.calcQ(desiredFootPos, FrameType::BODY);
+
+    // === Print the resulting joint angles (radians) ===
+    std::cout << "Joint Angles for Front Right Leg:" << std::endl;
+    std::cout << "Abad (q1): " << jointAngles(0) << " rad" << std::endl;
+    std::cout << "Hip  (q2): " << jointAngles(1) << " rad" << std::endl;
+    std::cout << "Knee (q3): " << jointAngles(2) << " rad" << std::endl;
+
+    return 0;
+}

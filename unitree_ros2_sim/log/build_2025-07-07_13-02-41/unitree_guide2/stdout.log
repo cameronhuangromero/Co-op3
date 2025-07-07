@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target junior_ctrl[0m
+[  3%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/main.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/State_12Joint.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/FSM.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/control/ControlFrame.cpp.o[0m
+[ 17%] [32m[1mLinking CXX executable junior_ctrl[0m
+[100%] Built target junior_ctrl
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl
+-- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl" to ""
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/package_run_dependencies/unitree_guide2
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/parent_prefix_path/unitree_guide2
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.bash
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.zsh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/packages/unitree_guide2
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config-version.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.xml

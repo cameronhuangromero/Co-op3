@@ -1,0 +1,296 @@
+[0.016s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target junior_ctrl[0m
+[0.173s] [  3%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/main.cpp.o[0m
+[0.174s] [ 10%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/State_12Joint.cpp.o[0m
+[0.174s] [ 10%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/FSM.cpp.o[0m
+[0.174s] [ 13%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/control/ControlFrame.cpp.o[0m
+[2.015s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.015s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.015s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.016s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.016s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.016s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:9[m[K:
+[2.016s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[2.016s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.016s]   278 |     std::string [01;35m[K_valueName[m[K;
+[2.016s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.016s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.017s]   272 |     bool [01;35m[K_avgOnly[m[K;
+[2.017s]       |          [01;35m[K^~~~~~~~[m[K
+[2.017s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.017s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.017s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.017s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.017s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.018s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:9[m[K:
+[2.018s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.018s]   246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.018s]       |     [01;35m[K^~~~~~[m[K
+[2.049s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.049s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.049s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.049s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.049s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/FSM.cpp:4[m[K:
+[2.050s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[2.050s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.050s]   278 |     std::string [01;35m[K_valueName[m[K;
+[2.050s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.050s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.050s]   272 |     bool [01;35m[K_avgOnly[m[K;
+[2.050s]       |          [01;35m[K^~~~~~~~[m[K
+[2.050s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.051s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.051s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.051s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.051s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/FSM.cpp:4[m[K:
+[2.051s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.051s]   246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.051s]       |     [01;35m[K^~~~~~[m[K
+[2.095s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+[2.096s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+[2.096s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.096s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.096s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.096s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:9[m[K:
+[2.096s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[2.096s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.097s]    50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+[2.097s]       |                       [01;35m[K~~~~~~^~~[m[K
+[2.110s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+[2.113s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+[2.113s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.114s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.114s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/FSM.cpp:4[m[K:
+[2.114s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[2.114s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.114s]    50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+[2.114s]       |                       [01;35m[K~~~~~~^~~[m[K
+[2.129s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.129s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.129s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.129s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.129s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.129s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[2.129s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[2.130s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.130s]   278 |     std::string [01;35m[K_valueName[m[K;
+[2.130s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.130s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.130s]   272 |     bool [01;35m[K_avgOnly[m[K;
+[2.130s]       |          [01;35m[K^~~~~~~~[m[K
+[2.130s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.131s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.131s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.131s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.131s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.131s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[2.131s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.131s]   246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.131s]       |     [01;35m[K^~~~~~[m[K
+[2.185s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+[2.185s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+[2.185s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.185s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[2.185s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[2.185s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[2.185s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[2.185s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.186s]    50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+[2.186s]       |                       [01;35m[K~~~~~~^~~[m[K
+[2.244s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.244s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.244s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.244s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[2.244s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[2.244s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[2.245s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.245s]   278 |     std::string [01;35m[K_valueName[m[K;
+[2.245s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[2.245s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.245s]   272 |     bool [01;35m[K_avgOnly[m[K;
+[2.245s]       |          [01;35m[K^~~~~~~~[m[K
+[2.245s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[2.245s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[2.246s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.246s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[2.246s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[2.246s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.246s]   246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.246s]       |     [01;35m[K^~~~~~[m[K
+[2.303s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+[2.303s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+[2.303s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[2.303s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[2.303s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[2.303s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[2.304s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.304s]    50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+[2.304s]       |                       [01;35m[K~~~~~~^~~[m[K
+[5.063s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[5.063s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[5.063s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[5.063s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[5.063s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[5.063s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.063s]    35 |         [01;35m[Kdelete ioInter[m[K;
+[5.064s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.066s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[5.066s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[5.066s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/FSM.cpp:4[m[K:
+[5.066s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[5.066s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.066s]    35 |         [01;35m[Kdelete ioInter[m[K;
+[5.066s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.184s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/FSM.cpp:4[m[K:
+[5.184s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:[m[K In member function ‘[01m[Kvoid FSMStateList::deletePtr()[m[K’:
+[5.184s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:54:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KFSMState[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.184s]    54 |         [01;35m[Kdelete invalid[m[K;
+[5.185s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:55:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Passive[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.186s]    55 |         [01;35m[Kdelete passive[m[K;
+[5.186s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:56:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FixedStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.187s]    56 |         [01;35m[Kdelete fixedStand[m[K;
+[5.187s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:57:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FreeStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.187s]    57 |         [01;35m[Kdelete freeStand[m[K;
+[5.187s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:58:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Trotting[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.187s]    58 |         [01;35m[Kdelete trotting[m[K;
+[5.187s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.188s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:59:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_BalanceTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.188s]    59 |         [01;35m[Kdelete balanceTest[m[K;
+[5.188s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.188s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:60:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_SwingTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.188s]    60 |         [01;35m[Kdelete swingTest[m[K;
+[5.188s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.188s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:61:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_StepTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.189s]    61 |         [01;35m[Kdelete stepTest[m[K;
+[5.189s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.189s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:62:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_ManualJointControl[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.189s]    62 |         [01;35m[Kdelete manualJoint[m[K;
+[5.189s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.189s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:63:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_12Joint[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.189s]    63 |         [01;35m[Kdelete AllJoint[m[K;
+[5.189s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.190s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:69:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_move_base[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.190s]    69 |         [01;35m[Kdelete moveBase[m[K;
+[5.190s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.202s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[5.202s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/control/ControlFrame.cpp:4[m[K:
+[5.202s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:[m[K In member function ‘[01m[Kvoid FSMStateList::deletePtr()[m[K’:
+[5.202s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:54:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KFSMState[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.202s]    54 |         [01;35m[Kdelete invalid[m[K;
+[5.203s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.203s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:55:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Passive[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.203s]    55 |         [01;35m[Kdelete passive[m[K;
+[5.203s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.203s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:56:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FixedStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.203s]    56 |         [01;35m[Kdelete fixedStand[m[K;
+[5.203s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.203s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:57:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FreeStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.204s]    57 |         [01;35m[Kdelete freeStand[m[K;
+[5.204s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:58:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Trotting[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.204s]    58 |         [01;35m[Kdelete trotting[m[K;
+[5.204s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:59:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_BalanceTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.205s]    59 |         [01;35m[Kdelete balanceTest[m[K;
+[5.205s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.205s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:60:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_SwingTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.205s]    60 |         [01;35m[Kdelete swingTest[m[K;
+[5.205s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.205s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:61:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_StepTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.205s]    61 |         [01;35m[Kdelete stepTest[m[K;
+[5.206s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.206s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:62:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_ManualJointControl[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.206s]    62 |         [01;35m[Kdelete manualJoint[m[K;
+[5.206s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.206s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:63:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_12Joint[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.206s]    63 |         [01;35m[Kdelete AllJoint[m[K;
+[5.206s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.207s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:69:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_move_base[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.207s]    69 |         [01;35m[Kdelete moveBase[m[K;
+[5.207s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.232s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[5.232s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[5.232s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[5.233s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[5.233s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.233s]    35 |         [01;35m[Kdelete ioInter[m[K;
+[5.233s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.508s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[5.508s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:8[m[K,
+[5.509s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[5.509s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:9[m[K:
+[5.509s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[5.509s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.509s]    35 |         [01;35m[Kdelete ioInter[m[K;
+[5.509s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.632s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/ControlFrame.h:7[m[K,
+[5.633s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:9[m[K:
+[5.633s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:[m[K In member function ‘[01m[Kvoid FSMStateList::deletePtr()[m[K’:
+[5.633s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:54:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KFSMState[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.633s]    54 |         [01;35m[Kdelete invalid[m[K;
+[5.633s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.633s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:55:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Passive[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.633s]    55 |         [01;35m[Kdelete passive[m[K;
+[5.634s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.634s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:56:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FixedStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.634s]    56 |         [01;35m[Kdelete fixedStand[m[K;
+[5.634s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[5.634s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:57:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_FreeStand[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.634s]    57 |         [01;35m[Kdelete freeStand[m[K;
+[5.634s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.634s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:58:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_Trotting[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.635s]    58 |         [01;35m[Kdelete trotting[m[K;
+[5.635s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.635s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:59:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_BalanceTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.635s]    59 |         [01;35m[Kdelete balanceTest[m[K;
+[5.635s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.635s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:60:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_SwingTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.635s]    60 |         [01;35m[Kdelete swingTest[m[K;
+[5.635s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.636s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:61:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_StepTest[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.636s]    61 |         [01;35m[Kdelete stepTest[m[K;
+[5.636s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.636s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:62:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_ManualJointControl[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.636s]    62 |         [01;35m[Kdelete manualJoint[m[K;
+[5.636s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.637s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:63:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_12Joint[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.637s]    63 |         [01;35m[Kdelete AllJoint[m[K;
+[5.637s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.637s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSM.h:69:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of polymorphic class type ‘[01m[KState_move_base[m[K’ which has non-virtual destructor might cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[5.637s]    69 |         [01;35m[Kdelete moveBase[m[K;
+[5.637s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.033s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:[m[K In function ‘[01m[Kvoid ShutDown(int)[m[K’:
+[6.033s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/main.cpp:34:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.033s]    34 | void ShutDown([01;35m[Kint sig[m[K)
+[6.034s]       |               [01;35m[K~~~~^~~[m[K
+[6.602s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:[m[K In member function ‘[01m[Kvirtual FSMStateName State_12Joint::checkChange()[m[K’:
+[6.602s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:72:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[6.602s]    72 | [01;35m[K}[m[K
+[6.602s]       | [01;35m[K^[m[K
+[7.599s] [ 17%] [32m[1mLinking CXX executable junior_ctrl[0m
+[7.910s] [100%] Built target junior_ctrl
+[7.924s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '0': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[7.927s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2
+[7.935s] -- Install configuration: ""
+[7.935s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl
+[7.938s] -- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl" to ""
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/package_run_dependencies/unitree_guide2
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/parent_prefix_path/unitree_guide2
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.sh
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.dsv
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.sh
+[7.938s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.dsv
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.bash
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.sh
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.zsh
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.dsv
+[7.939s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.dsv
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/packages/unitree_guide2
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config.cmake
+[7.939s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config-version.cmake
+[7.940s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.xml
+[7.941s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '0': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2

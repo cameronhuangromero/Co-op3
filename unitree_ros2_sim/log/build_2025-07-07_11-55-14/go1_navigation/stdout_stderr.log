@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/go1_navigation/go1_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/go1_navigation/go1_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/go1_navigation/go1_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/go1_navigation/go1_navigation.egg-info/requires.txt
+writing top-level names to ../../build/go1_navigation/go1_navigation.egg-info/top_level.txt
+reading manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/go1_navigation/go1_navigation.egg-info to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nav_tf_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+Installing static_map_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+writing list of installed files to '/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log'

@@ -1,0 +1,23 @@
+[0.942s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data
+[1.217s] running egg_info
+[1.217s] writing ../../build/go1_navigation/go1_navigation.egg-info/PKG-INFO
+[1.217s] writing dependency_links to ../../build/go1_navigation/go1_navigation.egg-info/dependency_links.txt
+[1.218s] writing entry points to ../../build/go1_navigation/go1_navigation.egg-info/entry_points.txt
+[1.218s] writing requirements to ../../build/go1_navigation/go1_navigation.egg-info/requires.txt
+[1.218s] writing top-level names to ../../build/go1_navigation/go1_navigation.egg-info/top_level.txt
+[1.220s] reading manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+[1.220s] adding license file 'LICENSE'
+[1.221s] writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+[1.221s] running build
+[1.221s] running build_py
+[1.222s] running install
+[1.222s] running install_lib
+[1.224s] running install_data
+[1.224s] running install_egg_info
+[1.226s] removing '/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.227s] Copying ../../build/go1_navigation/go1_navigation.egg-info to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info
+[1.228s] running install_scripts
+[1.260s] Installing nav_tf_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+[1.260s] Installing static_map_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+[1.261s] writing list of installed files to '/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log'
+[1.292s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation' returned '0': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data

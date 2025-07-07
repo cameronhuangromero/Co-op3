@@ -1,0 +1,24 @@
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:30[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:21[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control/include/ros2_unitree_legged_control_parameters.hpp:1:184:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "ros2_unitree_legged_control_parameters.hpp" is deprecated. Use #include <ros2_unitree_legged_control/ros2_unitree_legged_control_parameters.hpp> instead.[m[K’
+    1 | nitree_legged_control_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                [01;36m[K^[m[K
+
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:21[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:[m[K In member function ‘[01m[Kvoid ros2_unitree_legged_control::UnitreeLeggedController::log_joint_update(const string&, const CmdType&, double, double, double, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:150:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 | nst std::string &joint_name, [01;35m[Kconst CmdType &cmd[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ros2_unitree_legged_control::UnitreeLeggedController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:129:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  129 |   [01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ros2_unitree_legged_control::UnitreeLeggedController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:179:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  179 |   [01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ros2_unitree_legged_control::UnitreeLeggedController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:226:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  226 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

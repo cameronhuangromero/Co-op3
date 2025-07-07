@@ -1,0 +1,50 @@
+[0.963s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data
+[1.337s] running egg_info
+[1.338s] creating ../../build/go1_navigation/go1_navigation.egg-info
+[1.338s] writing ../../build/go1_navigation/go1_navigation.egg-info/PKG-INFO
+[1.338s] writing dependency_links to ../../build/go1_navigation/go1_navigation.egg-info/dependency_links.txt
+[1.339s] writing entry points to ../../build/go1_navigation/go1_navigation.egg-info/entry_points.txt
+[1.339s] writing requirements to ../../build/go1_navigation/go1_navigation.egg-info/requires.txt
+[1.339s] writing top-level names to ../../build/go1_navigation/go1_navigation.egg-info/top_level.txt
+[1.339s] writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+[1.341s] reading manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+[1.341s] adding license file 'LICENSE'
+[1.343s] writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+[1.343s] running build
+[1.344s] running build_py
+[1.344s] creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build
+[1.344s] creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib
+[1.344s] creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+[1.344s] copying go1_navigation/__init__.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+[1.344s] copying go1_navigation/static_map_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+[1.345s] copying go1_navigation/tf_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+[1.345s] running install
+[1.345s] running install_lib
+[1.346s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+[1.346s] copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/__init__.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+[1.346s] copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/static_map_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+[1.347s] copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/tf_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+[1.347s] byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/__init__.py to __init__.cpython-310.pyc
+[1.348s] byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/static_map_publisher.py to static_map_publisher.cpython-310.pyc
+[1.348s] byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/tf_publisher.py to tf_publisher.cpython-310.pyc
+[1.349s] running install_data
+[1.349s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index
+[1.349s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index
+[1.350s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index/packages
+[1.350s] copying resource/go1_navigation -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index/packages
+[1.350s] copying package.xml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation
+[1.350s] copying launch/navigation.launch.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation
+[1.350s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/params
+[1.350s] copying params/nav2_params.yaml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/params
+[1.350s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/xml
+[1.351s] copying xml/go1_bt.xml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/xml
+[1.352s] creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+[1.352s] copying map/map.yaml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+[1.352s] copying map/map.pgm -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+[1.352s] running install_egg_info
+[1.355s] Copying ../../build/go1_navigation/go1_navigation.egg-info to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info
+[1.356s] running install_scripts
+[1.380s] Installing nav_tf_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+[1.380s] Installing static_map_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+[1.380s] writing list of installed files to '/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log'
+[1.415s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/go1_sim/go1_navigation' returned '0': PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go1_navigation build --build-base /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build install --record /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log --single-version-externally-managed install_data

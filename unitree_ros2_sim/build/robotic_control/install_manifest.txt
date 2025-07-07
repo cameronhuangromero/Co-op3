@@ -1,0 +1,17 @@
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch/jacobian.launch.py
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/package_run_dependencies/robotic_control
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/parent_prefix_path/robotic_control
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.sh
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.dsv
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.sh
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.dsv
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.bash
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.sh
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.zsh
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.dsv
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/packages/robotic_control
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig.cmake
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig-version.cmake
+/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.xml

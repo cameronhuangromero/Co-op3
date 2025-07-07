@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/spawn_go1.launch.py
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/start_world.launch.py
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/controllers_go1.launch.py
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/test_latest.world
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/simple_rooms.world
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs/model.config
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs/model.sdf
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/package_run_dependencies/go1_gazebo
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/parent_prefix_path/go1_gazebo
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.bash
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.zsh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/packages/go1_gazebo
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/cmake/go1_gazeboConfig.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/cmake/go1_gazeboConfig-version.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.xml

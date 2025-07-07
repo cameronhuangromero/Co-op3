@@ -1,0 +1,79 @@
+[0.418s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/robotic_control -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control
+[0.499s] -- The C compiler identification is GNU 11.4.0
+[0.582s] -- The CXX compiler identification is GNU 11.4.0
+[0.589s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.689s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.689s] -- Detecting C compile features
+[0.690s] -- Detecting C compile features - done
+[0.695s] -- Detecting CXX compiler ABI info
+[0.801s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.817s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.821s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.028s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.153s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.200s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.205s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.213s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.304s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.412s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.442s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.492s] -- Looking for pthread.h
+[1.569s] -- Looking for pthread.h - found
+[1.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.668s] -- Found Threads: TRUE  
+[1.728s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.770s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.894s] -- Configured cppcheck include dirs: /home/giszterlab/USING/unitree_ros2_sim/robotic_control/include;/home/giszterlab/USING/unitree_ros2_sim/robotic_control/unitree_legged_sdk/include
+[1.894s] -- Configured cppcheck exclude dirs and/or files: 
+[1.897s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.901s] -- Added test 'lint_cmake' to check CMake code style
+[1.903s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.917s] -- Added test 'uncrustify' to check C / C++ code style
+[1.917s] -- Configured uncrustify additional arguments: 
+[1.920s] -- Added test 'xmllint' to check XML markup files
+[1.922s] -- Configuring done
+[1.932s] -- Generating done
+[1.936s] -- Build files have been written to: /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[1.947s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/robotic_control -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control
+[1.948s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[2.000s] [ 33%] [32mBuilding CXX object CMakeFiles/go1_jacobian_node.dir/src/example_jacobian_sim.cpp.o[0m
+[2.002s] [ 66%] [32mBuilding CXX object CMakeFiles/go1_jacobian_node.dir/src/unitreeLeg.cpp.o[0m
+[7.027s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/robotic_control/src/example_jacobian_sim.cpp:[m[K In member function ‘[01m[Kvoid Go1Ros2ControllerNode::jointStateCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.027s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/robotic_control/src/example_jacobian_sim.cpp:37:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.027s]    37 | [01;35m[Knst sensor_msgs::msg::JointState::SharedPtr msg[m[K)
+[7.027s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.027s] 
+[16.742s] [100%] [32m[1mLinking CXX executable go1_jacobian_node[0m
+[17.289s] [100%] Built target go1_jacobian_node
+[17.300s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control -- -j8 -l8
+[17.302s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control
+[17.309s] -- Install configuration: ""
+[17.309s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node
+[17.313s] -- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node" to ""
+[17.313s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch
+[17.313s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch/jacobian.launch.py
+[17.313s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/package_run_dependencies/robotic_control
+[17.313s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/parent_prefix_path/robotic_control
+[17.313s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.sh
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.dsv
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.sh
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.dsv
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.bash
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.sh
+[17.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.zsh
+[17.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.dsv
+[17.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv
+[17.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/packages/robotic_control
+[17.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig.cmake
+[17.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig-version.cmake
+[17.316s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.xml
+[17.318s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/robotic_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/robotic_control

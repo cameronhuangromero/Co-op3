@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/go1_navigation/go1_navigation.egg-info
+writing ../../build/go1_navigation/go1_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/go1_navigation/go1_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/go1_navigation/go1_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/go1_navigation/go1_navigation.egg-info/requires.txt
+writing top-level names to ../../build/go1_navigation/go1_navigation.egg-info/top_level.txt
+writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/go1_navigation/go1_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build
+creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib
+creating /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+copying go1_navigation/__init__.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+copying go1_navigation/static_map_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+copying go1_navigation/tf_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation
+running install
+running install_lib
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/__init__.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/static_map_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+copying /home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/build/lib/go1_navigation/tf_publisher.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation
+byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/static_map_publisher.py to static_map_publisher.cpython-310.pyc
+byte-compiling /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation/tf_publisher.py to tf_publisher.cpython-310.pyc
+running install_data
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index/packages
+copying resource/go1_navigation -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation
+copying launch/navigation.launch.py -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/params
+copying params/nav2_params.yaml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/params
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/xml
+copying xml/go1_bt.xml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/xml
+creating /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+copying map/map.yaml -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+copying map/map.pgm -> /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/share/go1_navigation/map
+running install_egg_info
+Copying ../../build/go1_navigation/go1_navigation.egg-info to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/python3.10/site-packages/go1_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nav_tf_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+Installing static_map_publisher script to /home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation/lib/go1_navigation
+writing list of installed files to '/home/giszterlab/USING/unitree_ros2_sim/build/go1_navigation/install.log'

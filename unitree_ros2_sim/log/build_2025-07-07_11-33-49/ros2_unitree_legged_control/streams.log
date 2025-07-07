@@ -1,0 +1,100 @@
+[0.018s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting CXX compiler ABI info
+[0.172s] -- Detecting CXX compiler ABI info - done
+[0.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.182s] -- Detecting CXX compile features
+[0.182s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[0.508s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.524s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)
+[0.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.649s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.778s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.820s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Looking for C++ include pthread.h
+[0.943s] -- Looking for C++ include pthread.h - found
+[0.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.074s] -- Found Threads: TRUE  
+[1.402s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.414s] -- Found controller_interface: 2.50.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.533s] -- Configuring done
+[1.577s] -- Generating done
+[1.587s] -- Build files have been written to: /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control
+[1.604s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller -DCMAKE_INSTALL_PREFIX=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control
+[1.605s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control -- -j8 -l8
+[1.660s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control_parameters.hpp /home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.yaml `[0m
+[1.902s] [ 50%] [34m[1mCreating deprecated header file /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control/include/ros2_unitree_legged_control_parameters.hpp[0m
+[1.946s] [ 50%] Built target ros2_unitree_legged_control_parameters
+[1.967s] [ 75%] [32mBuilding CXX object CMakeFiles/ros2_unitree_legged_control.dir/src/ros2_unitree_legged_control.cpp.o[0m
+[7.655s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:30[m[K,
+[7.655s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:21[m[K:
+[7.655s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control/include/ros2_unitree_legged_control_parameters.hpp:1:184:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "ros2_unitree_legged_control_parameters.hpp" is deprecated. Use #include <ros2_unitree_legged_control/ros2_unitree_legged_control_parameters.hpp> instead.[m[K’
+[7.655s]     1 | nitree_legged_control_parameters.hpp> instead."[01;36m[K)[m[K
+[7.655s]       |                                                [01;36m[K^[m[K
+[7.655s] 
+[8.648s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:21[m[K:
+[8.648s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:[m[K In member function ‘[01m[Kvoid ros2_unitree_legged_control::UnitreeLeggedController::log_joint_update(const string&, const CmdType&, double, double, double, double)[m[K’:
+[8.648s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/include/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp:150:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.648s]   150 | nst std::string &joint_name, [01;35m[Kconst CmdType &cmd[m[K,
+[8.648s]       |                              [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[8.648s] 
+[8.680s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ros2_unitree_legged_control::UnitreeLeggedController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[8.680s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:129:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.680s]   129 |   [01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[8.681s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.682s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ros2_unitree_legged_control::UnitreeLeggedController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[8.682s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:179:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.682s]   179 |   [01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[8.682s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.686s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ros2_unitree_legged_control::UnitreeLeggedController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.686s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/ros2_unitree_legged_controller/src/ros2_unitree_legged_control.cpp:226:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.686s]   226 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[8.686s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[19.562s] [100%] [32m[1mLinking CXX shared library libros2_unitree_legged_control.so[0m
+[20.292s] [100%] Built target ros2_unitree_legged_control
+[20.304s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control -- -j8 -l8
+[20.306s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control
+[20.314s] -- Install configuration: ""
+[20.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control
+[20.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control_parameters.hpp
+[20.314s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/ros2_unitree_legged_control.xml
+[20.314s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control
+[20.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control
+[20.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control/ros2_unitree_legged_control.hpp
+[20.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control/unitree_joint_control_tool.h
+[20.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/include/ros2_unitree_legged_control/ros2_unitree_legged_control/visibility_control.h
+[20.315s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/ros2_unitree_legged_control/libros2_unitree_legged_control.so
+[20.321s] -- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib/ros2_unitree_legged_control/libros2_unitree_legged_control.so" to "/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib"
+[20.321s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/library_path.sh
+[20.321s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/library_path.dsv
+[20.322s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ament_index/resource_index/package_run_dependencies/ros2_unitree_legged_control
+[20.322s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ament_index/resource_index/parent_prefix_path/ros2_unitree_legged_control
+[20.322s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/ament_prefix_path.sh
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/ament_prefix_path.dsv
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/path.sh
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/environment/path.dsv
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/local_setup.bash
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/local_setup.sh
+[20.323s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/local_setup.zsh
+[20.324s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/local_setup.dsv
+[20.324s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.dsv
+[20.324s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ament_index/resource_index/packages/ros2_unitree_legged_control
+[20.324s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_unitree_legged_control
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ros2_unitree_legged_controlExport.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ros2_unitree_legged_controlExport-noconfig.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ament_cmake_export_libraries-extras.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ament_cmake_export_targets-extras.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ros2_unitree_legged_controlConfig.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/cmake/ros2_unitree_legged_controlConfig-version.cmake
+[20.325s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/share/ros2_unitree_legged_control/package.xml
+[20.327s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/ros2_unitree_legged_control

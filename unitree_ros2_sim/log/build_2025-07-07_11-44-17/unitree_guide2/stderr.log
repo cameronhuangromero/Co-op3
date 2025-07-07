@@ -1,0 +1,219 @@
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/KeyBoard.h:14[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/KeyBoard.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kdouble quadprogpp::solve_quadprog(quadprogpp::Matrix<double>&, quadprogpp::Vector<double>&, const quadprogpp::Matrix<double>&, const quadprogpp::Vector<double>&, const quadprogpp::Matrix<double>&, const quadprogpp::Vector<double>&, quadprogpp::Vector<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:84:25:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+   84 |   register unsigned int [01;35m[Ki[m[K, j, k, l; /* indices */
+      |                         [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:84:28:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+   84 |   register unsigned int i, [01;35m[Kj[m[K, k, l; /* indices */
+      |                            [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:84:31:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+   84 |   register unsigned int i, j, [01;35m[Kk[m[K, l; /* indices */
+      |                               [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:84:34:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+   84 |   register unsigned int i, j, k, [01;35m[Kl[m[K; /* indices */
+      |                                  [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:120:14:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Ki[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  120 |     c1 += G[i[01;35m[K][m[K[i];
+      |              [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:143:20:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kj[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  143 |       J[i][j] = z[j[01;35m[K][m[K;
+      |                    [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:192:10:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kk[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  192 |       x[k[01;35m[K][m[K += t2 * z[k];
+      |          [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:351:10:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kl[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  351 |     iai[l[01;35m[K][m[K = l;
+      |          [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::compute_d(quadprogpp::Vector<double>&, const quadprogpp::Matrix<double>&, const quadprogpp::Vector<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:449:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  449 |   register int [01;35m[Ki[m[K, j, n = d.size();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:449:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  449 |   register int i, [01;35m[Kj[m[K, n = d.size();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:449:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  449 |   register int i, j, [01;35m[Kn[m[K = d.size();
+      |                      [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:450:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  450 |   register double [01;35m[Ksum[m[K;
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::update_z(quadprogpp::Vector<double>&, const quadprogpp::Matrix<double>&, const quadprogpp::Vector<double>&, int)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:464:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  464 |   register int [01;35m[Ki[m[K, j, n = z.size();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:464:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  464 |   register int i, [01;35m[Kj[m[K, n = z.size();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:464:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  464 |   register int i, j, [01;35m[Kn[m[K = z.size();
+      |                      [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::update_r(const quadprogpp::Matrix<double>&, quadprogpp::Vector<double>&, const quadprogpp::Vector<double>&, int)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:477:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  477 |   register int [01;35m[Ki[m[K, j;
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:477:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  477 |   register int i, [01;35m[Kj[m[K;
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:478:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  478 |   register double [01;35m[Ksum[m[K;
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kbool quadprogpp::add_constraint(quadprogpp::Matrix<double>&, quadprogpp::Matrix<double>&, quadprogpp::Vector<double>&, unsigned int&, double&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:496:25:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  496 |   register unsigned int [01;35m[Ki[m[K, j, k;
+      |                         [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:496:28:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  496 |   register unsigned int i, [01;35m[Kj[m[K, k;
+      |                            [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:496:31:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  496 |   register unsigned int i, j, [01;35m[Kk[m[K;
+      |                               [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:514:13:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kj[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  514 |     ss = d[j[01;35m[K][m[K;
+      |             [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:532:15:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kk[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  532 |       t1 = J[k[01;35m[K][m[K[j - 1];
+      |               [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:544:8:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Ki[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  544 |     R[i[01;35m[K][m[K[iq - 1] = d[i];
+      |        [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::delete_constraint(quadprogpp::Matrix<double>&, quadprogpp::Matrix<double>&, quadprogpp::Vector<int>&, quadprogpp::Vector<double>&, unsigned int, int, unsigned int&, int)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:566:25:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  566 |   register unsigned int [01;35m[Ki[m[K, j, k, qq = 0; // just to prevent warnings from smart compilers
+      |                         [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:566:28:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  566 |   register unsigned int i, [01;35m[Kj[m[K, k, qq = 0; // just to prevent warnings from smart compilers
+      |                            [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:566:31:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  566 |   register unsigned int i, j, [01;35m[Kk[m[K, qq = 0; // just to prevent warnings from smart compilers
+      |                               [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:566:34:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  566 |   register unsigned int i, j, k, [01;35m[Kqq[m[K = 0; // just to prevent warnings from smart compilers
+      |                                  [01;35m[K^~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:572:12:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Ki[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  572 |     if (A[i[01;35m[K][m[K == l)
+      |            [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:591:12:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kj[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  591 |         R[j[01;35m[K][m[K[i] = R[j][i + 1];
+      |            [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:638:15:[m[K [01;35m[Kwarning: [m[Kaddress requested for ‘[01m[Kk[m[K’, which is declared ‘[01m[Kregister[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra-Wextra]8;;[m[K]
+  638 |       t1 = J[k[01;35m[K][m[K[j];
+      |               [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kdouble quadprogpp::distance(double, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:648:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  648 |   register double [01;35m[Ka1[m[K, b1, t;
+      |                   [01;35m[K^~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:648:23:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  648 |   register double a1, [01;35m[Kb1[m[K, t;
+      |                       [01;35m[K^~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:648:27:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  648 |   register double a1, b1, [01;35m[Kt[m[K;
+      |                           [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kdouble quadprogpp::scalar_product(const quadprogpp::Vector<double>&, const quadprogpp::Vector<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:668:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  668 |   register int [01;35m[Ki[m[K, n = x.size();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:668:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  668 |   register int i, [01;35m[Kn[m[K = x.size();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:669:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  669 |   register double [01;35m[Ksum[m[K;
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::cholesky_decomposition(quadprogpp::Matrix<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:679:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  679 |   register int [01;35m[Ki[m[K, j, k, n = A.nrows();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:679:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  679 |   register int i, [01;35m[Kj[m[K, k, n = A.nrows();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:679:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  679 |   register int i, j, [01;35m[Kk[m[K, n = A.nrows();
+      |                      [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:679:25:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  679 |   register int i, j, k, [01;35m[Kn[m[K = A.nrows();
+      |                         [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:680:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  680 |   register double [01;35m[Ksum[m[K;
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::forward_elimination(const quadprogpp::Matrix<double>&, quadprogpp::Vector<double>&, const quadprogpp::Vector<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:723:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  723 |   register int [01;35m[Ki[m[K, j, n = L.nrows();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:723:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  723 |   register int i, [01;35m[Kj[m[K, n = L.nrows();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:723:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  723 |   register int i, j, [01;35m[Kn[m[K = L.nrows();
+      |                      [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:[m[K In function ‘[01m[Kvoid quadprogpp::backward_elimination(const quadprogpp::Matrix<double>&, quadprogpp::Vector<double>&, const quadprogpp::Vector<double>&)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:737:16:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  737 |   register int [01;35m[Ki[m[K, j, n = U.nrows();
+      |                [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:737:19:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  737 |   register int i, [01;35m[Kj[m[K, n = U.nrows();
+      |                   [01;35m[K^[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/quadProgpp/QuadProg++.cc:737:22:[m[K [01;35m[Kwarning: [m[KISO C++17 does not allow ‘[01m[Kregister[m[K’ storage class specifier [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wregister-Wregister]8;;[m[K]
+  737 |   register int i, j, [01;35m[Kn[m[K = U.nrows();
+      |                      [01;35m[K^[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/KeyBoard.h:15[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/KeyBoard.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/KeyBoard.h:15[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/KeyBoard.cpp:4[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/KeyBoard.cpp:[m[K In member function ‘[01m[Kvirtual void* KeyBoard::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/interface/KeyBoard.cpp:107:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 | void* KeyBoard::run([01;35m[Kvoid *arg[m[K){
+      |                     [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  278 |     std::string [01;35m[K_valueName[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  272 |     bool [01;35m[K_avgOnly[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+      |                       [01;35m[K~~~~~~^~~[m[K
+In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+                 from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+   35 |         [01;35m[Kdelete ioInter[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:[m[K In member function ‘[01m[Kvirtual FSMStateName State_12Joint::checkChange()[m[K’:
+[01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:81:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   81 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

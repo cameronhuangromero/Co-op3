@@ -1,0 +1,20 @@
+[100%] Built target go1_jacobian_node
+-- Install configuration: ""
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/lib/robotic_control/go1_jacobian_node
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/launch/jacobian.launch.py
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/package_run_dependencies/robotic_control
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/parent_prefix_path/robotic_control
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/environment/path.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.bash
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.sh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.zsh
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/local_setup.dsv
+-- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.dsv
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/ament_index/resource_index/packages/robotic_control
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/cmake/robotic_controlConfig-version.cmake
+-- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/robotic_control/share/robotic_control/package.xml
