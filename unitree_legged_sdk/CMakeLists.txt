@@ -83,6 +83,11 @@ target_link_libraries(example_torque_databackMATLAB ${EXTRA_LIBS})
 add_executable(example_12_joints example/example_12_joints.cpp)
 target_link_libraries(example_12_joints ${EXTRA_LIBS})
 
+add_executable(example_12_joints_databackMATLAB example/example_12_joints_databackMATLAB.cpp)
+target_link_libraries(example_12_joints_databackMATLAB ${EXTRA_LIBS})
+
+
+
 
 # install
 install(TARGETS

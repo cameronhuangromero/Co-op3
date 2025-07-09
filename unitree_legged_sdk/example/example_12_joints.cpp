@@ -43,9 +43,16 @@ void Custom::RobotControl()
 {
   motiontime++;
   udp.GetRecv(state);
-  for (int i = 0; i < 12; ++i) {
-    std::cout << "Joint" << i << " pos: " << state.motorState[i].q << std::endl;
-  }
+  std::string jointNames[12] = {
+  "FR_0", "FR_1", "FR_2", "FL_0", "FL_1", "FL_2",
+  "RR_0", "RR_1", "RR_2", "RL_0", "RL_1", "RL_2"
+};
+
+for (int i = 0; i < 12; ++i) {
+  std::cout << jointNames[i]
+            << " | pos: " << state.motorState[i].q
+            << " | tau: " << state.motorState[i].tauEst << std::endl;
+}
   // gravity compensation
   cmd.motorCmd[FR_0].tau = -0.65f;
   cmd.motorCmd[FL_0].tau = +0.65f;
@@ -61,27 +68,54 @@ void Custom::RobotControl()
     //   torque = -5.0f;
 
     float Kp = 10.0f;
-    float Kd = 1.0f;
+    // float Kd = 4.0f;
     // float maxTorque = 5.0f;
+     struct JointConfig {
+      int index;
+      float maxTorque;
+    };
+
+     JointConfig joints[] = {
+      {FR_0, 0.5f},
+      {FR_1, 3.0f},
+      {FR_2, 0.5f},
+      {FL_0, 0.5f},
+      {FL_1, 3.0f},
+      {FL_2, 0.5f},
+      {RR_0, 0.5f},
+      {RR_1, 3.0f},
+      {RR_2, 0.5f},
+      {RL_0, 0.5f},
+      {RL_1, 3.0f},
+      {RL_2, 0.5f},
+    };
 
     // for (int i = 0; i < 12; ++i) {
-    int i = FR_1;
+       for (const auto& joint : joints) {
+      int i = joint.index;
         float q_des = 0.0f;
         float dq_des = 0.0f;
 
         float q_err = q_des - state.motorState[i].q;
         float dq_err = dq_des - state.motorState[i].dq;
+        float Kd = (i % 3 == 2) ? 4.0f : 1.0f;
         float torque = Kp * q_err + Kd * dq_err;
 
-        if (torque > 0.1f)
-            torque = 0.1f;
-        if (torque < -0.1f)
-            torque = -0.1f;
+
+
+        // FR_0=.5, FR_1=3, FR_2=1, FL_0=1, FL_1=3, FL_2=.25(just drops), RR_0=1, RR_1=3(vibrate), RR_2=.5(drops but does nothing at .25)
+        // RL_0=1, RL_1=3(vibrate but at 2 doesnt move), RL_2=.25(same as RR_2)  
+         if (torque > joint.maxTorque)
+        torque = joint.maxTorque;
+      if (torque < -joint.maxTorque)
+        torque = -joint.maxTorque;
 
         cmd.motorCmd[i].q = PosStopF;
         cmd.motorCmd[i].dq = VelStopF;
         cmd.motorCmd[i].Kp = 0;
         cmd.motorCmd[i].Kd = 0;
+        std::cout << "q_err: " << q_err << " dq_err: " << dq_err << " torque cmd: " << torque << std::endl;
+
         cmd.motorCmd[i].tau = torque;
     
   }
@@ -90,6 +124,7 @@ void Custom::RobotControl()
     exit(-1);
 
   udp.SetSend(cmd);
+}
 }
 
 int main(void)
