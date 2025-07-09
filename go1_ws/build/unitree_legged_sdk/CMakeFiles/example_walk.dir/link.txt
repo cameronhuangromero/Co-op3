@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -fPIC  -no-pie CMakeFiles/example_walk.dir/example/example_walk.cpp.o -o example_walk   -L/home/giszterlab/go1_ws/src/unitree_legged_sdk/lib/cpp/amd64  -Wl,-rpath,/home/giszterlab/go1_ws/src/unitree_legged_sdk/lib/cpp/amd64: -pthread /home/giszterlab/go1_ws/src/unitree_legged_sdk/lib/cpp/amd64/libunitree_legged_sdk.a 

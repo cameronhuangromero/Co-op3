@@ -1,0 +1,522 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (unitree_ros) JobQueued: {'identifier': 'unitree_ros', 'dependencies': OrderedDict()}
+[0.000691] (unitree_ros) JobStarted: {'identifier': 'unitree_ros'}
+[0.008464] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'cmake'}
+[0.008950] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/giszterlab/unitree_ws/src/unitree_ros', '-DCMAKE_INSTALL_PREFIX=/home/giszterlab/unitree_ws/install/unitree_ros'], 'cwd': '/home/giszterlab/unitree_ws/build/unitree_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1383'), ('SYSTEMD_EXEC_PID', '1559'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11987'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:7047'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1529,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1529'), ('INVOCATION_ID', 'a127652304ea42ba9dead56ec2d0951e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HVAW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:16365e03-dd6a-4c8e-a207-6c01fc4de7e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/unitree_ws/build/unitree_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.069113] (unitree_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099538] (-) TimerEvent: {}
+[0.136366] (unitree_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.149070] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199678] (-) TimerEvent: {}
+[0.243144] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260807] (unitree_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.261354] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.262202] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.268592] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299826] (-) TimerEvent: {}
+[0.367456] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.383182] (unitree_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.383716] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.384540] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.387252] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.389077] (unitree_ros) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.399943] (-) TimerEvent: {}
+[0.500251] (-) TimerEvent: {}
+[0.585942] (unitree_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600399] (-) TimerEvent: {}
+[0.666476] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.685157] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700550] (-) TimerEvent: {}
+[0.785813] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800691] (-) TimerEvent: {}
+[0.825207] (unitree_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.877658] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.880176] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900821] (-) TimerEvent: {}
+[0.968644] (unitree_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.995167] (unitree_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000896] (-) TimerEvent: {}
+[1.036883] (unitree_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.045103] (unitree_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.100988] (-) TimerEvent: {}
+[1.127976] (unitree_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.128519] (unitree_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201103] (-) TimerEvent: {}
+[1.208271] (unitree_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.209960] (unitree_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.287003] (unitree_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.301244] (-) TimerEvent: {}
+[1.320738] (unitree_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.340481] (unitree_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.349723] (unitree_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.401408] (-) TimerEvent: {}
+[1.501790] (-) TimerEvent: {}
+[1.602218] (-) TimerEvent: {}
+[1.702662] (-) TimerEvent: {}
+[1.803144] (-) TimerEvent: {}
+[1.881670] (unitree_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.903243] (-) TimerEvent: {}
+[2.003658] (-) TimerEvent: {}
+[2.104191] (-) TimerEvent: {}
+[2.204665] (-) TimerEvent: {}
+[2.305085] (-) TimerEvent: {}
+[2.339913] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.405229] (-) TimerEvent: {}
+[2.505666] (-) TimerEvent: {}
+[2.605965] (-) TimerEvent: {}
+[2.706379] (-) TimerEvent: {}
+[2.806997] (-) TimerEvent: {}
+[2.907413] (-) TimerEvent: {}
+[2.939821] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.967484] (unitree_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.969497] (unitree_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.007582] (-) TimerEvent: {}
+[3.008981] (unitree_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.009377] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.009585] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.009765] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.040846] (unitree_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.107674] (-) TimerEvent: {}
+[3.208033] (-) TimerEvent: {}
+[3.210422] (unitree_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.274214] (unitree_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[3.293150] (unitree_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/giszterlab/unitree_ws/build/unitree_ros\n'}
+[3.306251] (unitree_ros) CommandEnded: {'returncode': 0}
+[3.307202] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'build'}
+[3.308549] (-) TimerEvent: {}
+[3.309039] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/unitree_ws/build/unitree_ros', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/unitree_ws/build/unitree_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1383'), ('SYSTEMD_EXEC_PID', '1559'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11987'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:7047'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1529,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1529'), ('INVOCATION_ID', 'a127652304ea42ba9dead56ec2d0951e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HVAW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:16365e03-dd6a-4c8e-a207-6c01fc4de7e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/unitree_ws/build/unitree_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[3.356277] (unitree_ros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.366308] (unitree_ros) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.366555] (unitree_ros) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[3.374518] (unitree_ros) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_unitree_ros\n'}
+[3.408680] (-) TimerEvent: {}
+[3.508973] (-) TimerEvent: {}
+[3.609312] (-) TimerEvent: {}
+[3.642831] (unitree_ros) StdoutLine: {'line': b'running egg_info\n'}
+[3.643620] (unitree_ros) StdoutLine: {'line': b'creating unitree_ros.egg-info\n'}
+[3.643836] (unitree_ros) StdoutLine: {'line': b'writing unitree_ros.egg-info/PKG-INFO\n'}
+[3.644045] (unitree_ros) StdoutLine: {'line': b'writing dependency_links to unitree_ros.egg-info/dependency_links.txt\n'}
+[3.644229] (unitree_ros) StdoutLine: {'line': b'writing top-level names to unitree_ros.egg-info/top_level.txt\n'}
+[3.644433] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[3.646272] (unitree_ros) StdoutLine: {'line': b"reading manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[3.646836] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[3.677349] (unitree_ros) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_unitree_ros_egg\n'}
+[3.709427] (-) TimerEvent: {}
+[3.796309] (unitree_ros) StdoutLine: {'line': b'[  6%] Built target unitree_ros__cpp\n'}
+[3.797083] (unitree_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__functions.c.o\x1b[0m\n'}
+[3.797250] (unitree_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__functions.c.o\x1b[0m\n'}
+[3.807566] (unitree_ros) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.807824] (unitree_ros) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.809523] (-) TimerEvent: {}
+[3.811716] (unitree_ros) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.870242] (unitree_ros) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_generator_c.so\x1b[0m\n'}
+[3.906067] (unitree_ros) StdoutLine: {'line': b'[ 19%] Built target unitree_ros__rosidl_generator_c\n'}
+[3.909613] (-) TimerEvent: {}
+[3.920704] (unitree_ros) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.920947] (unitree_ros) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.921163] (unitree_ros) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.010777] (-) TimerEvent: {}
+[4.111110] (-) TimerEvent: {}
+[4.211434] (-) TimerEvent: {}
+[4.312192] (-) TimerEvent: {}
+[4.347341] (unitree_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[4.349169] (unitree_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[4.378016] (unitree_ros) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/bms_state__type_support.cpp.o\x1b[0m\n'}
+[4.412295] (-) TimerEvent: {}
+[4.456846] (unitree_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o\x1b[0m\n'}
+[4.512405] (-) TimerEvent: {}
+[4.531508] (unitree_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[4.577463] (unitree_ros) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/bms_state__type_support.c.o\x1b[0m\n'}
+[4.581463] (unitree_ros) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[4.612524] (-) TimerEvent: {}
+[4.631284] (unitree_ros) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.643392] (unitree_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/sensor_ranges__type_support.c.o\x1b[0m\n'}
+[4.643616] (unitree_ros) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/bms_state__type_support_c.cpp.o\x1b[0m\n'}
+[4.696252] (unitree_ros) StdoutLine: {'line': b'[ 50%] Built target unitree_ros__rosidl_typesupport_c\n'}
+[4.699969] (unitree_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.710991] (unitree_ros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/sensor_ranges__type_support_c.cpp.o\x1b[0m\n'}
+[4.712605] (-) TimerEvent: {}
+[4.750361] (unitree_ros) StdoutLine: {'line': b'[ 52%] Built target unitree_ros__rosidl_typesupport_introspection_c\n'}
+[4.762987] (unitree_ros) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[4.803500] (unitree_ros) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[4.812733] (-) TimerEvent: {}
+[4.829000] (unitree_ros) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.905154] (unitree_ros) StdoutLine: {'line': b'[ 58%] Built target unitree_ros__rosidl_typesupport_cpp\n'}
+[4.912848] (-) TimerEvent: {}
+[4.934793] (unitree_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o\x1b[0m\n'}
+[5.012971] (-) TimerEvent: {}
+[5.097918] (unitree_ros) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o\x1b[0m\n'}
+[5.113117] (-) TimerEvent: {}
+[5.155529] (unitree_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o\x1b[0m\n'}
+[5.213230] (-) TimerEvent: {}
+[5.278143] (unitree_ros) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/serializers.cpp.o\x1b[0m\n'}
+[5.314012] (-) TimerEvent: {}
+[5.335000] (unitree_ros) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.414122] (-) TimerEvent: {}
+[5.432533] (unitree_ros) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.478307] (unitree_ros) StdoutLine: {'line': b'[ 71%] Built target unitree_ros__rosidl_typesupport_fastrtps_c\n'}
+[5.514241] (-) TimerEvent: {}
+[5.533566] (unitree_ros) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.561023] (unitree_ros) StdoutLine: {'line': b'[ 73%] Built target unitree_ros__rosidl_typesupport_introspection_cpp\n'}
+[5.614358] (-) TimerEvent: {}
+[5.638562] (unitree_ros) StdoutLine: {'line': b'[ 73%] Built target unitree_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[5.658003] (unitree_ros) StdoutLine: {'line': b'[ 73%] Built target unitree_ros\n'}
+[5.677472] (unitree_ros) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.714460] (-) TimerEvent: {}
+[5.814858] (-) TimerEvent: {}
+[5.915187] (-) TimerEvent: {}
+[6.015523] (-) TimerEvent: {}
+[6.116196] (-) TimerEvent: {}
+[6.216538] (-) TimerEvent: {}
+[6.317887] (-) TimerEvent: {}
+[6.337851] (unitree_ros) StdoutLine: {'line': b'[ 76%] Built target unitree_ros__py\n'}
+[6.359984] (unitree_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_bms_state_s.c.o\x1b[0m\n'}
+[6.360283] (unitree_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_sensor_ranges_s.c.o\x1b[0m\n'}
+[6.418974] (-) TimerEvent: {}
+[6.519312] (-) TimerEvent: {}
+[6.532381] (unitree_ros) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/libunitree_ros__rosidl_generator_py.so\x1b[0m\n'}
+[6.574148] (unitree_ros) StdoutLine: {'line': b'[ 82%] Built target unitree_ros__rosidl_generator_py\n'}
+[6.595270] (unitree_ros) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.599219] (unitree_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.601434] (unitree_ros) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.619435] (-) TimerEvent: {}
+[6.699914] (unitree_ros) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.720652] (-) TimerEvent: {}
+[6.752719] (unitree_ros) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.762600] (unitree_ros) StdoutLine: {'line': b'[ 93%] Built target unitree_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[6.776065] (unitree_ros) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.818182] (unitree_ros) StdoutLine: {'line': b'[ 95%] Built target unitree_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.820216] (unitree_ros) StdoutLine: {'line': b'[ 95%] Built target unitree_ros__rosidl_typesupport_c__pyext\n'}
+[6.820714] (-) TimerEvent: {}
+[6.921023] (-) TimerEvent: {}
+[7.021475] (-) TimerEvent: {}
+[7.121939] (-) TimerEvent: {}
+[7.222352] (-) TimerEvent: {}
+[7.322766] (-) TimerEvent: {}
+[7.423213] (-) TimerEvent: {}
+[7.523673] (-) TimerEvent: {}
+[7.624156] (-) TimerEvent: {}
+[7.724616] (-) TimerEvent: {}
+[7.825062] (-) TimerEvent: {}
+[7.925523] (-) TimerEvent: {}
+[8.026001] (-) TimerEvent: {}
+[8.126462] (-) TimerEvent: {}
+[8.226960] (-) TimerEvent: {}
+[8.327409] (-) TimerEvent: {}
+[8.427866] (-) TimerEvent: {}
+[8.528312] (-) TimerEvent: {}
+[8.628766] (-) TimerEvent: {}
+[8.729244] (-) TimerEvent: {}
+[8.829699] (-) TimerEvent: {}
+[8.930155] (-) TimerEvent: {}
+[9.030567] (-) TimerEvent: {}
+[9.130934] (-) TimerEvent: {}
+[9.154827] (unitree_ros) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[9.231045] (-) TimerEvent: {}
+[9.331417] (-) TimerEvent: {}
+[9.345670] (unitree_ros) StdoutLine: {'line': b'[ 97%] Built target teleop_node\n'}
+[9.431547] (-) TimerEvent: {}
+[9.532001] (-) TimerEvent: {}
+[9.632440] (-) TimerEvent: {}
+[9.732879] (-) TimerEvent: {}
+[9.833347] (-) TimerEvent: {}
+[9.933791] (-) TimerEvent: {}
+[10.034269] (-) TimerEvent: {}
+[10.134716] (-) TimerEvent: {}
+[10.235207] (-) TimerEvent: {}
+[10.335683] (-) TimerEvent: {}
+[10.436171] (-) TimerEvent: {}
+[10.536625] (-) TimerEvent: {}
+[10.637073] (-) TimerEvent: {}
+[10.737521] (-) TimerEvent: {}
+[10.837996] (-) TimerEvent: {}
+[10.938449] (-) TimerEvent: {}
+[11.038895] (-) TimerEvent: {}
+[11.139372] (-) TimerEvent: {}
+[11.239815] (-) TimerEvent: {}
+[11.340297] (-) TimerEvent: {}
+[11.440738] (-) TimerEvent: {}
+[11.541214] (-) TimerEvent: {}
+[11.641675] (-) TimerEvent: {}
+[11.742154] (-) TimerEvent: {}
+[11.842596] (-) TimerEvent: {}
+[11.943043] (-) TimerEvent: {}
+[12.043486] (-) TimerEvent: {}
+[12.143952] (-) TimerEvent: {}
+[12.244403] (-) TimerEvent: {}
+[12.344848] (-) TimerEvent: {}
+[12.445326] (-) TimerEvent: {}
+[12.545772] (-) TimerEvent: {}
+[12.646259] (-) TimerEvent: {}
+[12.746703] (-) TimerEvent: {}
+[12.847194] (-) TimerEvent: {}
+[12.947644] (-) TimerEvent: {}
+[13.048121] (-) TimerEvent: {}
+[13.148574] (-) TimerEvent: {}
+[13.249031] (-) TimerEvent: {}
+[13.349454] (-) TimerEvent: {}
+[13.449925] (-) TimerEvent: {}
+[13.550325] (-) TimerEvent: {}
+[13.650764] (-) TimerEvent: {}
+[13.751220] (-) TimerEvent: {}
+[13.851658] (-) TimerEvent: {}
+[13.952115] (-) TimerEvent: {}
+[14.052551] (-) TimerEvent: {}
+[14.152990] (-) TimerEvent: {}
+[14.253427] (-) TimerEvent: {}
+[14.353865] (-) TimerEvent: {}
+[14.454320] (-) TimerEvent: {}
+[14.554763] (-) TimerEvent: {}
+[14.655225] (-) TimerEvent: {}
+[14.755661] (-) TimerEvent: {}
+[14.856070] (-) TimerEvent: {}
+[14.956463] (-) TimerEvent: {}
+[15.056789] (-) TimerEvent: {}
+[15.157227] (-) TimerEvent: {}
+[15.257683] (-) TimerEvent: {}
+[15.358159] (-) TimerEvent: {}
+[15.458608] (-) TimerEvent: {}
+[15.559051] (-) TimerEvent: {}
+[15.659489] (-) TimerEvent: {}
+[15.759942] (-) TimerEvent: {}
+[15.860380] (-) TimerEvent: {}
+[15.960821] (-) TimerEvent: {}
+[16.061286] (-) TimerEvent: {}
+[16.161727] (-) TimerEvent: {}
+[16.262184] (-) TimerEvent: {}
+[16.362616] (-) TimerEvent: {}
+[16.463052] (-) TimerEvent: {}
+[16.563490] (-) TimerEvent: {}
+[16.663941] (-) TimerEvent: {}
+[16.764393] (-) TimerEvent: {}
+[16.864829] (-) TimerEvent: {}
+[16.965257] (-) TimerEvent: {}
+[17.065693] (-) TimerEvent: {}
+[17.166155] (-) TimerEvent: {}
+[17.266603] (-) TimerEvent: {}
+[17.367039] (-) TimerEvent: {}
+[17.467463] (-) TimerEvent: {}
+[17.567895] (-) TimerEvent: {}
+[17.668363] (-) TimerEvent: {}
+[17.768802] (-) TimerEvent: {}
+[17.869273] (-) TimerEvent: {}
+[17.969708] (-) TimerEvent: {}
+[18.070182] (-) TimerEvent: {}
+[18.170620] (-) TimerEvent: {}
+[18.271066] (-) TimerEvent: {}
+[18.371469] (-) TimerEvent: {}
+[18.471934] (-) TimerEvent: {}
+[18.572384] (-) TimerEvent: {}
+[18.672823] (-) TimerEvent: {}
+[18.773294] (-) TimerEvent: {}
+[18.873742] (-) TimerEvent: {}
+[18.974225] (-) TimerEvent: {}
+[19.074681] (-) TimerEvent: {}
+[19.175149] (-) TimerEvent: {}
+[19.275596] (-) TimerEvent: {}
+[19.376040] (-) TimerEvent: {}
+[19.476509] (-) TimerEvent: {}
+[19.576998] (-) TimerEvent: {}
+[19.677460] (-) TimerEvent: {}
+[19.777929] (-) TimerEvent: {}
+[19.864234] (unitree_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable unitree_driver\x1b[0m\n'}
+[19.877961] (-) TimerEvent: {}
+[19.978245] (-) TimerEvent: {}
+[20.078711] (-) TimerEvent: {}
+[20.179227] (-) TimerEvent: {}
+[20.279703] (-) TimerEvent: {}
+[20.380185] (-) TimerEvent: {}
+[20.480762] (-) TimerEvent: {}
+[20.581240] (-) TimerEvent: {}
+[20.615030] (unitree_ros) StdoutLine: {'line': b'[100%] Built target unitree_driver\n'}
+[20.628642] (unitree_ros) CommandEnded: {'returncode': 0}
+[20.629737] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'install'}
+[20.639991] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giszterlab/unitree_ws/build/unitree_ros'], 'cwd': '/home/giszterlab/unitree_ws/build/unitree_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1383'), ('SYSTEMD_EXEC_PID', '1559'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11987'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:7047'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1529,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1529'), ('INVOCATION_ID', 'a127652304ea42ba9dead56ec2d0951e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HVAW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:16365e03-dd6a-4c8e-a207-6c01fc4de7e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/unitree_ws/build/unitree_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[20.648391] (unitree_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.648640] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/rosidl_interfaces/unitree_ros\n'}
+[20.648890] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.649250] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.649372] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.649483] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.h\n'}
+[20.649589] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.h\n'}
+[20.649695] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.649799] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.h\n'}
+[20.649956] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__functions.c\n'}
+[20.650156] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.h\n'}
+[20.650261] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__functions.h\n'}
+[20.650365] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.h\n'}
+[20.650529] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__functions.c\n'}
+[20.650630] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.h\n'}
+[20.650741] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__functions.h\n'}
+[20.650845] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/library_path.sh\n'}
+[20.651042] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/library_path.dsv\n'}
+[20.651189] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so\n'}
+[20.651293] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so" to ""\n'}
+[20.651397] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.651499] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.651643] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.651744] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.651846] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_c.h\n'}
+[20.652038] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h\n'}
+[20.652177] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[20.652282] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.652427] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.652534] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.652637] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.652740] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.652842] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_c.h\n'}
+[20.653004] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.c\n'}
+[20.653115] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_c.h\n'}
+[20.653211] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.c\n'}
+[20.653314] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so\n'}
+[20.653416] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.653518] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so\n'}
+[20.653660] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so" to ""\n'}
+[20.653850] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.654030] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.654154] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.654258] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.654378] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.hpp\n'}
+[20.654482] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__traits.hpp\n'}
+[20.654584] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__traits.hpp\n'}
+[20.654685] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__builder.hpp\n'}
+[20.654866] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.hpp\n'}
+[20.655046] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.hpp\n'}
+[20.655149] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__builder.hpp\n'}
+[20.655244] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.hpp\n'}
+[20.655337] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.hpp\n'}
+[20.655438] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.hpp\n'}
+[20.655601] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.655703] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.655805] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.655921] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.656095] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.656192] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.656285] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/dds_fastrtps\n'}
+[20.656378] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.656480] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.656582] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros\n'}
+[20.656720] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg\n'}
+[20.656826] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail\n'}
+[20.656980] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.cpp\n'}
+[20.657122] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.cpp\n'}
+[20.657227] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.657330] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.657432] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[20.657581] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.657685] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so\n'}
+[20.657787] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so" to ""\n'}
+[20.657888] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.sh\n'}
+[20.658067] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.dsv\n'}
+[20.658173] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info\n'}
+[20.658275] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[20.658378] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[20.658480] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.658581] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.658684] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros\n'}
+[20.658784] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.658949] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.659149] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/__init__.py\n'}
+[20.659291] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c\n'}
+[20.659397] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/libunitree_ros__rosidl_generator_py.so\n'}
+[20.659499] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg\n'}
+[20.659601] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state_s.c\n'}
+[20.659751] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/__init__.py\n'}
+[20.659915] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges.py\n'}
+[20.660081] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges_s.c\n'}
+[20.660240] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state.py\n'}
+[20.660395] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.660540] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.660684] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.681375] (-) TimerEvent: {}
+[20.695808] (unitree_ros) StdoutLine: {'line': b"Listing '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros'...\n"}
+[20.696125] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/__init__.py'...\n"}
+[20.696304] (unitree_ros) StdoutLine: {'line': b"Listing '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg'...\n"}
+[20.696463] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/__init__.py'...\n"}
+[20.696613] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state.py'...\n"}
+[20.696762] (unitree_ros) StdoutLine: {'line': b"Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges.py'...\n"}
+[20.700589] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.700968] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.701236] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.701602] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.701821] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.702205] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[20.702432] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so\n'}
+[20.702865] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so" to ""\n'}
+[20.703134] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.idl\n'}
+[20.703392] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.idl\n'}
+[20.703566] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.msg\n'}
+[20.703801] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.msg\n'}
+[20.704062] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/teleop_node\n'}
+[20.705353] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/teleop_node" to ""\n'}
+[20.705676] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include\n'}
+[20.705844] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros\n'}
+[20.706084] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/common_defines.hpp\n'}
+[20.706302] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/serializers.hpp\n'}
+[20.706462] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/unitree_driver.hpp\n'}
+[20.706693] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/unitree_ros.hpp\n'}
+[20.706857] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/include\n'}
+[20.707127] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk\n'}
+[20.707317] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/a1_const.h\n'}
+[20.707479] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/aliengo_const.h\n'}
+[20.707638] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/joystick.h\n'}
+[20.707796] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/go1_const.h\n'}
+[20.708080] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/unitree_legged_sdk.h\n'}
+[20.708317] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/quadruped.h\n'}
+[20.708505] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/b1_const.h\n'}
+[20.708663] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/comm.h\n'}
+[20.708820] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/safety.h\n'}
+[20.709079] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/udp.h\n'}
+[20.709237] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/loop.h\n'}
+[20.709382] (unitree_ros) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/include\n'}
+[20.709527] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/LEDPixel.h\n'}
+[20.709672] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/FaceLightClient.h\n'}
+[20.709819] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/config\n'}
+[20.709988] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/config/params.yaml\n'}
+[20.710158] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/launch\n'}
+[20.710303] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/launch/unitree_driver_launch.py\n'}
+[20.710448] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/unitree_driver\n'}
+[20.717395] (unitree_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/unitree_driver" to ""\n'}
+[20.717653] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libfaceLight_SDK_amd64.so\n'}
+[20.717853] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/package_run_dependencies/unitree_ros\n'}
+[20.718081] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/parent_prefix_path/unitree_ros\n'}
+[20.718281] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.sh\n'}
+[20.718497] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.dsv\n'}
+[20.718748] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/path.sh\n'}
+[20.718987] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/path.dsv\n'}
+[20.719207] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.bash\n'}
+[20.719419] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.sh\n'}
+[20.719635] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.zsh\n'}
+[20.719847] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.dsv\n'}
+[20.720075] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/package.dsv\n'}
+[20.720294] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/packages/unitree_ros\n'}
+[20.720498] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport.cmake\n'}
+[20.720706] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.720926] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.721156] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.721363] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.721566] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.721772] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport.cmake\n'}
+[20.722004] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.722229] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cppExport.cmake\n'}
+[20.722430] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.722633] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.722851] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.723086] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.723299] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport.cmake\n'}
+[20.723501] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.723711] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport.cmake\n'}
+[20.723925] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.724151] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[20.724358] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.724561] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.724763] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.724981] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.725208] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.725401] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.725605] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig.cmake\n'}
+[20.725797] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig-version.cmake\n'}
+[20.726003] (unitree_ros) StdoutLine: {'line': b'-- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/package.xml\n'}
+[20.728971] (unitree_ros) CommandEnded: {'returncode': 0}
+[20.765950] (unitree_ros) JobEnded: {'identifier': 'unitree_ros', 'rc': 0}
+[20.767031] (-) EventReactorShutdown: {}

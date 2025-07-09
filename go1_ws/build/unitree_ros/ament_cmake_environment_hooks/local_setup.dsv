@@ -1,0 +1,4 @@
+source;share/unitree_ros/environment/ament_prefix_path.sh
+source;share/unitree_ros/environment/library_path.sh
+source;share/unitree_ros/environment/path.sh
+source;share/unitree_ros/environment/pythonpath.sh

@@ -1,0 +1,6 @@
+Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/unitree_ws/src/unitree_ros -DCMAKE_INSTALL_PREFIX=/home/giszterlab/unitree_ws/install/unitree_ros
+Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/unitree_ws/src/unitree_ros -DCMAKE_INSTALL_PREFIX=/home/giszterlab/unitree_ws/install/unitree_ros
+Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/unitree_ws/build/unitree_ros -- -j8 -l8
+Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/unitree_ws/build/unitree_ros -- -j8 -l8
+Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/unitree_ws/build/unitree_ros
+Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/unitree_ws/build/unitree_ros

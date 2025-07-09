@@ -1,0 +1,143 @@
+[0.009s] Invoking command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/go1_ws/src/unitree_legged_sdk -DCMAKE_INSTALL_PREFIX=/home/giszterlab/go1_ws/install/unitree_legged_sdk
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.366s] [0m-- CMAKE_SYSTEM_PROCESSOR: x86_64[0m
+[0.370s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.758s] -- Configuring done
+[0.790s] -- Generating done
+[0.799s] -- Build files have been written to: /home/giszterlab/go1_ws/build/unitree_legged_sdk
+[0.806s] Invoked command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/go1_ws/src/unitree_legged_sdk -DCMAKE_INSTALL_PREFIX=/home/giszterlab/go1_ws/install/unitree_legged_sdk
+[0.809s] Invoking command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/go1_ws/build/unitree_legged_sdk -- -j8 -l8
+[0.868s] [ 20%] [32mBuilding CXX object CMakeFiles/example_torque.dir/example/example_torque.cpp.o[0m
+[0.868s] [ 20%] [32mBuilding CXX object CMakeFiles/example_walk.dir/example/example_walk.cpp.o[0m
+[0.868s] [ 30%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/example/example_velocity.cpp.o[0m
+[0.875s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/example/example_position.cpp.o[0m
+[0.875s] [ 50%] [32mBuilding CXX object CMakeFiles/example_joystick.dir/example/example_joystick.cpp.o[0m
+[1.436s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[1.436s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[1.436s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[1.436s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[1.436s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[1.437s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[1.437s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[1.437s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[1.437s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[1.437s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_velocity.cpp:5[m[K:
+[1.437s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.437s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.437s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.444s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[1.444s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[1.444s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[1.445s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[1.445s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[1.445s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[1.445s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[1.445s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[1.445s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[1.445s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_walk.cpp:5[m[K:
+[1.446s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.446s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.446s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.459s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[1.459s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[1.459s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[1.459s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[1.459s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[1.459s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[1.460s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[1.460s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[1.460s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[1.460s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_joystick.cpp:5[m[K:
+[1.460s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.460s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.460s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.740s] [ 60%] [32m[1mLinking CXX executable example_velocity[0m
+[1.756s] [ 70%] [32m[1mLinking CXX executable example_walk[0m
+[1.762s] [ 80%] [32m[1mLinking CXX executable example_joystick[0m
+[1.836s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[1.836s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[1.836s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[1.837s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[1.837s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_torque.cpp:5[m[K:
+[1.837s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.837s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.837s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.838s] [ 80%] Built target example_velocity
+[1.853s] [ 80%] Built target example_walk
+[1.859s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[1.860s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[1.860s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14[m[K,
+[1.860s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11[m[K,
+[1.860s]                  from [01m[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_position.cpp:5[m[K:
+[1.860s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[1.860s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[1.860s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.860s] [ 80%] Built target example_joystick
+[2.144s] [ 90%] [32m[1mLinking CXX executable example_torque[0m
+[2.167s] [100%] [32m[1mLinking CXX executable example_position[0m
+[2.230s] [100%] Built target example_torque
+[2.257s] [100%] Built target example_position
+[2.269s] Invoked command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/go1_ws/build/unitree_legged_sdk -- -j8 -l8
+[2.281s] Invoking command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/go1_ws/build/unitree_legged_sdk
+[2.289s] -- Install configuration: ""
+[2.289s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_position
+[2.290s] -- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_position" to ""
+[2.290s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_velocity
+[2.291s] -- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_velocity" to ""
+[2.291s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_torque
+[2.291s] -- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_torque" to ""
+[2.291s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_walk
+[2.292s] -- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_walk" to ""
+[2.292s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_joystick
+[2.292s] -- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_joystick" to ""
+[2.293s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include
+[2.293s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk
+[2.293s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/a1_const.h
+[2.293s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/aliengo_const.h
+[2.294s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/joystick.h
+[2.294s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/go1_const.h
+[2.294s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h
+[2.294s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/quadruped.h
+[2.294s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/b1_const.h
+[2.295s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/comm.h
+[2.295s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/safety.h
+[2.295s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/udp.h
+[2.295s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/loop.h
+[2.296s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/package_run_dependencies/unitree_legged_sdk
+[2.296s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/parent_prefix_path/unitree_legged_sdk
+[2.296s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/ament_prefix_path.sh
+[2.296s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/ament_prefix_path.dsv
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/path.sh
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/path.dsv
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.bash
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.sh
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.zsh
+[2.297s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.dsv
+[2.298s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/package.dsv
+[2.299s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/packages/unitree_legged_sdk
+[2.299s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/cmake/unitree_legged_sdkConfig.cmake
+[2.299s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/cmake/unitree_legged_sdkConfig-version.cmake
+[2.300s] -- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/package.xml
+[2.300s] Invoked command in '/home/giszterlab/go1_ws/build/unitree_legged_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/go1_ws/build/unitree_legged_sdk

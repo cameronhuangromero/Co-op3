@@ -1,0 +1,7 @@
+{
+  "package_name": "unitree_ros",
+  "non_idl_tuples": [
+    "/home/giszterlab/unitree_ws/src/unitree_ros:msg/BmsState.msg",
+    "/home/giszterlab/unitree_ws/src/unitree_ros:msg/SensorRanges.msg"
+  ]
+}

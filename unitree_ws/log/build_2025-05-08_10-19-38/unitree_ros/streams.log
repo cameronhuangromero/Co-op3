@@ -1,0 +1,308 @@
+[0.011s] Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/unitree_ws/src/unitree_ros -DCMAKE_INSTALL_PREFIX=/home/giszterlab/unitree_ws/install/unitree_ros
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.387s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.389s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.585s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.685s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.825s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.877s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.880s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.968s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.995s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.045s] -- Looking for pthread.h
+[1.127s] -- Looking for pthread.h - found
+[1.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.209s] -- Found Threads: TRUE  
+[1.287s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.320s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.340s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.349s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.881s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.969s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.009s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.009s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.009s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.009s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.040s] -- Found PythonExtra: .so  
+[3.210s] -- Configuring done
+[3.274s] -- Generating done
+[3.293s] -- Build files have been written to: /home/giszterlab/unitree_ws/build/unitree_ros
+[3.306s] Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/giszterlab/unitree_ws/src/unitree_ros -DCMAKE_INSTALL_PREFIX=/home/giszterlab/unitree_ws/install/unitree_ros
+[3.309s] Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/unitree_ws/build/unitree_ros -- -j8 -l8
+[3.356s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.366s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.366s] [  6%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[3.374s] [  6%] Built target ament_cmake_python_copy_unitree_ros
+[3.642s] running egg_info
+[3.643s] creating unitree_ros.egg-info
+[3.643s] writing unitree_ros.egg-info/PKG-INFO
+[3.643s] writing dependency_links to unitree_ros.egg-info/dependency_links.txt
+[3.644s] writing top-level names to unitree_ros.egg-info/top_level.txt
+[3.644s] writing manifest file 'unitree_ros.egg-info/SOURCES.txt'
+[3.646s] reading manifest file 'unitree_ros.egg-info/SOURCES.txt'
+[3.646s] writing manifest file 'unitree_ros.egg-info/SOURCES.txt'
+[3.677s] [  6%] Built target ament_cmake_python_build_unitree_ros_egg
+[3.796s] [  6%] Built target unitree_ros__cpp
+[3.797s] [ 10%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__functions.c.o[0m
+[3.797s] [ 10%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__functions.c.o[0m
+[3.807s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.807s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.811s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.870s] [ 19%] [32m[1mLinking C shared library libunitree_ros__rosidl_generator_c.so[0m
+[3.906s] [ 19%] Built target unitree_ros__rosidl_generator_c
+[3.920s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.920s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.921s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.347s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/bms_state__type_support.cpp.o[0m
+[4.349s] [ 30%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/sensor_ranges__type_support.cpp.o[0m
+[4.377s] [ 32%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/bms_state__type_support.cpp.o[0m
+[4.456s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[4.531s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/bms_state__type_support.cpp.o[0m
+[4.577s] [ 39%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/bms_state__type_support.c.o[0m
+[4.581s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/sensor_ranges__type_support.cpp.o[0m
+[4.631s] [ 43%] [32m[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_c.so[0m
+[4.643s] [ 45%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/sensor_ranges__type_support.c.o[0m
+[4.643s] [ 47%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/bms_state__type_support_c.cpp.o[0m
+[4.696s] [ 50%] Built target unitree_ros__rosidl_typesupport_c
+[4.699s] [ 50%] [32m[1mLinking C shared library libunitree_ros__rosidl_typesupport_introspection_c.so[0m
+[4.710s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/sensor_ranges__type_support_c.cpp.o[0m
+[4.750s] [ 52%] Built target unitree_ros__rosidl_typesupport_introspection_c
+[4.762s] [ 54%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/sensor_ranges__type_support.cpp.o[0m
+[4.803s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/sensor_ranges__type_support.cpp.o[0m
+[4.828s] [ 58%] [32m[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_cpp.so[0m
+[4.905s] [ 58%] Built target unitree_ros__rosidl_typesupport_cpp
+[4.934s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o[0m
+[5.097s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o[0m
+[5.155s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o[0m
+[5.278s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/serializers.cpp.o[0m
+[5.334s] [ 69%] [32m[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_c.so[0m
+[5.432s] [ 71%] [32m[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_introspection_cpp.so[0m
+[5.478s] [ 71%] Built target unitree_ros__rosidl_typesupport_fastrtps_c
+[5.533s] [ 73%] [32m[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.560s] [ 73%] Built target unitree_ros__rosidl_typesupport_introspection_cpp
+[5.638s] [ 73%] Built target unitree_ros__rosidl_typesupport_fastrtps_cpp
+[5.657s] [ 73%] Built target unitree_ros
+[5.677s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.337s] [ 76%] Built target unitree_ros__py
+[6.359s] [ 80%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_bms_state_s.c.o[0m
+[6.360s] [ 80%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_py.dir/rosidl_generator_py/unitree_ros/msg/_sensor_ranges_s.c.o[0m
+[6.532s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/unitree_ros/libunitree_ros__rosidl_generator_py.so[0m
+[6.574s] [ 82%] Built target unitree_ros__rosidl_generator_py
+[6.595s] [ 84%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.599s] [ 86%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.601s] [ 89%] [32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[6.699s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.752s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.762s] [ 93%] Built target unitree_ros__rosidl_typesupport_introspection_c__pyext
+[6.776s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.818s] [ 95%] Built target unitree_ros__rosidl_typesupport_fastrtps_c__pyext
+[6.820s] [ 95%] Built target unitree_ros__rosidl_typesupport_c__pyext
+[9.154s] [ 97%] [32m[1mLinking CXX executable teleop_node[0m
+[9.345s] [ 97%] Built target teleop_node
+[19.864s] [100%] [32m[1mLinking CXX executable unitree_driver[0m
+[20.614s] [100%] Built target unitree_driver
+[20.628s] Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/unitree_ws/build/unitree_ros -- -j8 -l8
+[20.641s] Invoking command in '/home/giszterlab/unitree_ws/build/unitree_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/unitree_ws/build/unitree_ros
+[20.648s] -- Install configuration: ""
+[20.648s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/rosidl_interfaces/unitree_ros
+[20.648s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_generator_c__visibility_control.h
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.h
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.h
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.h
+[20.649s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__functions.c
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.h
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__functions.h
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.h
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__functions.c
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.h
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__functions.h
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/library_path.sh
+[20.650s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/library_path.dsv
+[20.651s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so
+[20.651s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_c.so" to ""
+[20.651s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.651s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.651s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.651s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.651s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_c.h
+[20.651s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[20.652s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so
+[20.652s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_c.so" to ""
+[20.652s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.652s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.652s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.652s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.652s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_c.h
+[20.652s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.c
+[20.652s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[20.653s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.c
+[20.653s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so
+[20.653s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_c.so" to ""
+[20.653s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so
+[20.653s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_c.so" to ""
+[20.653s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.653s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.654s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__struct.hpp
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__traits.hpp
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__traits.hpp
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__builder.hpp
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__struct.hpp
+[20.654s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.hpp
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__builder.hpp
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.hpp
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/bms_state.hpp
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/sensor_ranges.hpp
+[20.655s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.655s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.655s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.655s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_fastrtps_cpp.hpp
+[20.656s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[20.656s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/dds_fastrtps
+[20.656s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so
+[20.656s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.656s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros
+[20.656s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg
+[20.656s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail
+[20.656s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__type_support.cpp
+[20.656s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__type_support.cpp
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/unitree_ros/unitree_ros/msg/detail/sensor_ranges__rosidl_typesupport_introspection_cpp.hpp
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so
+[20.657s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_introspection_cpp.so" to ""
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so
+[20.657s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_typesupport_cpp.so" to ""
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.sh
+[20.657s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/pythonpath.dsv
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/PKG-INFO
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/top_level.txt
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/SOURCES.txt
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros-1.2.0-py3.10.egg-info/dependency_links.txt
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.658s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_introspection_c.c
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/__init__.py
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_c.c
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/libunitree_ros__rosidl_generator_py.so
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state_s.c
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/__init__.py
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges.py
+[20.659s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges_s.c
+[20.660s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state.py
+[20.660s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.660s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.660s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/_unitree_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.695s] Listing '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros'...
+[20.696s] Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/__init__.py'...
+[20.696s] Listing '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg'...
+[20.696s] Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/__init__.py'...
+[20.696s] Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_bms_state.py'...
+[20.696s] Compiling '/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/msg/_sensor_ranges.py'...
+[20.700s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.700s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.701s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.701s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.701s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.702s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/local/lib/python3.10/dist-packages/unitree_ros/unitree_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.702s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so
+[20.702s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/libunitree_ros__rosidl_generator_py.so" to ""
+[20.703s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.idl
+[20.703s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.idl
+[20.703s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/BmsState.msg
+[20.703s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/msg/SensorRanges.msg
+[20.703s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/teleop_node
+[20.705s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/teleop_node" to ""
+[20.705s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include
+[20.705s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros
+[20.706s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/common_defines.hpp
+[20.706s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/serializers.hpp
+[20.706s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/unitree_driver.hpp
+[20.706s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_ros/unitree_ros.hpp
+[20.706s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/include
+[20.707s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk
+[20.707s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/a1_const.h
+[20.707s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/aliengo_const.h
+[20.707s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/joystick.h
+[20.707s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/go1_const.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/unitree_legged_sdk.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/quadruped.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/b1_const.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/comm.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/safety.h
+[20.708s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/udp.h
+[20.709s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/unitree_legged_sdk/loop.h
+[20.709s] -- Up-to-date: /home/giszterlab/unitree_ws/install/unitree_ros/include/include
+[20.709s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/LEDPixel.h
+[20.709s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/include/include/FaceLightClient.h
+[20.709s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/config
+[20.709s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/config/params.yaml
+[20.710s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/launch
+[20.710s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/launch/unitree_driver_launch.py
+[20.710s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/unitree_driver
+[20.717s] -- Set runtime path of "/home/giszterlab/unitree_ws/install/unitree_ros/lib/unitree_ros/unitree_driver" to ""
+[20.717s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/lib/libfaceLight_SDK_amd64.so
+[20.717s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/package_run_dependencies/unitree_ros
+[20.717s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/parent_prefix_path/unitree_ros
+[20.718s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.sh
+[20.718s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/ament_prefix_path.dsv
+[20.718s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/path.sh
+[20.718s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/environment/path.dsv
+[20.719s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.bash
+[20.719s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.sh
+[20.719s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.zsh
+[20.719s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/local_setup.dsv
+[20.719s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/package.dsv
+[20.720s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/ament_index/resource_index/packages/unitree_ros
+[20.720s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport.cmake
+[20.720s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cExport-noconfig.cmake
+[20.720s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[20.721s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.721s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport.cmake
+[20.721s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.721s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport.cmake
+[20.721s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cExport-noconfig.cmake
+[20.722s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_cppExport.cmake
+[20.722s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.722s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.722s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport.cmake
+[20.722s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.723s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport.cmake
+[20.723s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[20.723s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport.cmake
+[20.723s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/export_unitree_ros__rosidl_generator_pyExport-noconfig.cmake
+[20.724s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake-extras.cmake
+[20.724s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.724s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.724s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[20.724s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/ament_cmake_export_targets-extras.cmake
+[20.725s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.725s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.725s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig.cmake
+[20.725s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/cmake/unitree_rosConfig-version.cmake
+[20.725s] -- Installing: /home/giszterlab/unitree_ws/install/unitree_ros/share/unitree_ros/package.xml
+[20.729s] Invoked command in '/home/giszterlab/unitree_ws/build/unitree_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/unitree_ws/build/unitree_ros

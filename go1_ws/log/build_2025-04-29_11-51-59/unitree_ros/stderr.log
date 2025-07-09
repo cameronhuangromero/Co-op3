@@ -1,0 +1,30 @@
+In file included from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_driver.cpp:36[m[K:
+[01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory
+   34 | #include [01;31m[K<unitree_legged_sdk/unitree_legged_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:104: CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/src/serializers.cpp:31[m[K:
+[01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/serializers.hpp:33:10:[m[K [01;31m[Kfatal error: [m[Kunitree_legged_sdk/comm.h: No such file or directory
+   33 | #include [01;31m[K<unitree_legged_sdk/comm.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:118: CMakeFiles/unitree_driver.dir/src/serializers.cpp.o] Error 1
+In file included from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_ros.hpp:49[m[K,
+                 from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_ros.cpp:36[m[K:
+[01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory
+   34 | #include [01;31m[K<unitree_legged_sdk/unitree_legged_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_ros.hpp:49[m[K,
+                 from [01m[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_ros_node.cpp:32[m[K:
+[01m[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory
+   34 | #include [01;31m[K<unitree_legged_sdk/unitree_legged_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:90: CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:76: CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/unitree_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

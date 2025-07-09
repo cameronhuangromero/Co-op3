@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.000392] (unitree_legged_sdk) JobQueued: {'identifier': 'unitree_legged_sdk', 'dependencies': OrderedDict()}
+[0.000603] (unitree_ros) JobQueued: {'identifier': 'unitree_ros', 'dependencies': OrderedDict([('unitree_legged_sdk', '/home/giszterlab/go1_ws/install/unitree_legged_sdk')])}
+[0.000649] (unitree_legged_sdk) JobStarted: {'identifier': 'unitree_legged_sdk'}
+[0.007022] (unitree_legged_sdk) JobProgress: {'identifier': 'unitree_legged_sdk', 'progress': 'cmake'}
+[0.007587] (unitree_legged_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/giszterlab/go1_ws/src/unitree_legged_sdk', '-DCMAKE_INSTALL_PREFIX=/home/giszterlab/go1_ws/install/unitree_legged_sdk'], 'cwd': '/home/giszterlab/go1_ws/build/unitree_legged_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2063'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:16760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1522,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', 'b63717374d6544ee87bc8afec27d8b58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:00a600e4-4ccb-4ece-8e7d-97ca5a0ddeb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/go1_ws/build/unitree_legged_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.071448] (unitree_legged_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099193] (-) TimerEvent: {}
+[0.140795] (unitree_legged_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.152495] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199372] (-) TimerEvent: {}
+[0.228726] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.241609] (unitree_legged_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.241943] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.242481] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.246901] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299437] (-) TimerEvent: {}
+[0.346978] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.364531] (unitree_legged_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.364970] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.365899] (unitree_legged_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.366982] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[0m-- CMAKE_SYSTEM_PROCESSOR: x86_64\x1b[0m\n'}
+[0.370449] (unitree_legged_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399531] (-) TimerEvent: {}
+[0.499821] (-) TimerEvent: {}
+[0.540073] (unitree_legged_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599988] (-) TimerEvent: {}
+[0.700403] (-) TimerEvent: {}
+[0.758676] (unitree_legged_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.790808] (unitree_legged_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.799142] (unitree_legged_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/giszterlab/go1_ws/build/unitree_legged_sdk\n'}
+[0.800501] (-) TimerEvent: {}
+[0.806416] (unitree_legged_sdk) CommandEnded: {'returncode': 0}
+[0.807297] (unitree_legged_sdk) JobProgress: {'identifier': 'unitree_legged_sdk', 'progress': 'build'}
+[0.808938] (unitree_legged_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/go1_ws/build/unitree_legged_sdk', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/go1_ws/build/unitree_legged_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2063'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:16760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1522,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', 'b63717374d6544ee87bc8afec27d8b58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:00a600e4-4ccb-4ece-8e7d-97ca5a0ddeb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/go1_ws/build/unitree_legged_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.868526] (unitree_legged_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/example_torque.dir/example/example_torque.cpp.o\x1b[0m\n'}
+[0.868821] (unitree_legged_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/example_walk.dir/example/example_walk.cpp.o\x1b[0m\n'}
+[0.869012] (unitree_legged_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/example/example_velocity.cpp.o\x1b[0m\n'}
+[0.875011] (unitree_legged_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/example/example_position.cpp.o\x1b[0m\n'}
+[0.875326] (unitree_legged_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_joystick.dir/example/example_joystick.cpp.o\x1b[0m\n'}
+[0.900627] (-) TimerEvent: {}
+[1.001001] (-) TimerEvent: {}
+[1.101388] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302161] (-) TimerEvent: {}
+[1.402535] (-) TimerEvent: {}
+[1.436400] (unitree_legged_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.436651] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.436782] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.436904] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.437022] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.437142] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.437259] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.437386] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[1.437515] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[1.437634] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_velocity.cpp:5\x1b[m\x1b[K:\n'}
+[1.437755] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.437880] (unitree_legged_sdk) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.437998] (unitree_legged_sdk) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.444727] (unitree_legged_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.444967] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.445080] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.445224] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.445354] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.445493] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.445615] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.445743] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[1.445865] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[1.445981] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_walk.cpp:5\x1b[m\x1b[K:\n'}
+[1.446099] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.446234] (unitree_legged_sdk) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.446360] (unitree_legged_sdk) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.459184] (unitree_legged_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.459455] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.459599] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.459728] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.459855] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.459980] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.460108] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.460235] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[1.460362] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[1.460501] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_joystick.cpp:5\x1b[m\x1b[K:\n'}
+[1.460628] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.460782] (unitree_legged_sdk) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.460905] (unitree_legged_sdk) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.502656] (-) TimerEvent: {}
+[1.603014] (-) TimerEvent: {}
+[1.703371] (-) TimerEvent: {}
+[1.740647] (unitree_legged_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[1.756361] (unitree_legged_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable example_walk\x1b[0m\n'}
+[1.762523] (unitree_legged_sdk) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable example_joystick\x1b[0m\n'}
+[1.803489] (-) TimerEvent: {}
+[1.836200] (unitree_legged_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.836465] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.836583] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.836687] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.836786] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.836884] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.836983] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.837081] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[1.837178] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[1.837275] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_torque.cpp:5\x1b[m\x1b[K:\n'}
+[1.837398] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.837516] (unitree_legged_sdk) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.837615] (unitree_legged_sdk) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.838649] (unitree_legged_sdk) StdoutLine: {'line': b'[ 80%] Built target example_velocity\n'}
+[1.853157] (unitree_legged_sdk) StdoutLine: {'line': b'[ 80%] Built target example_walk\n'}
+[1.860026] (unitree_legged_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[1.860188] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[1.860254] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[1.860359] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[1.860512] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[1.860599] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[1.860659] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[1.860715] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/loop.h:14\x1b[m\x1b[K,\n'}
+[1.860771] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:11\x1b[m\x1b[K,\n'}
+[1.860842] (unitree_legged_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_legged_sdk/example/example_position.cpp:5\x1b[m\x1b[K:\n'}
+[1.860899] (unitree_legged_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.860959] (unitree_legged_sdk) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[1.861015] (unitree_legged_sdk) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.861069] (unitree_legged_sdk) StdoutLine: {'line': b'[ 80%] Built target example_joystick\n'}
+[1.903582] (-) TimerEvent: {}
+[2.003916] (-) TimerEvent: {}
+[2.104380] (-) TimerEvent: {}
+[2.144424] (unitree_legged_sdk) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable example_torque\x1b[0m\n'}
+[2.167815] (unitree_legged_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[2.204435] (-) TimerEvent: {}
+[2.230735] (unitree_legged_sdk) StdoutLine: {'line': b'[100%] Built target example_torque\n'}
+[2.257328] (unitree_legged_sdk) StdoutLine: {'line': b'[100%] Built target example_position\n'}
+[2.269617] (unitree_legged_sdk) CommandEnded: {'returncode': 0}
+[2.270482] (unitree_legged_sdk) JobProgress: {'identifier': 'unitree_legged_sdk', 'progress': 'install'}
+[2.281429] (unitree_legged_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giszterlab/go1_ws/build/unitree_legged_sdk'], 'cwd': '/home/giszterlab/go1_ws/build/unitree_legged_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2063'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:16760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1522,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', 'b63717374d6544ee87bc8afec27d8b58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:00a600e4-4ccb-4ece-8e7d-97ca5a0ddeb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/go1_ws/build/unitree_legged_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[2.289871] (unitree_legged_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.290065] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_position\n'}
+[2.290563] (unitree_legged_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_position" to ""\n'}
+[2.290808] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_velocity\n'}
+[2.291139] (unitree_legged_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_velocity" to ""\n'}
+[2.291370] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_torque\n'}
+[2.291717] (unitree_legged_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_torque" to ""\n'}
+[2.291928] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_walk\n'}
+[2.292278] (unitree_legged_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_walk" to ""\n'}
+[2.292519] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_joystick\n'}
+[2.292855] (unitree_legged_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin/example_joystick" to ""\n'}
+[2.293131] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include\n'}
+[2.293379] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk\n'}
+[2.293597] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/a1_const.h\n'}
+[2.293864] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/aliengo_const.h\n'}
+[2.294132] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/joystick.h\n'}
+[2.294392] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/go1_const.h\n'}
+[2.294622] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h\n'}
+[2.294833] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/quadruped.h\n'}
+[2.295035] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/b1_const.h\n'}
+[2.295240] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/comm.h\n'}
+[2.295489] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/safety.h\n'}
+[2.295731] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/udp.h\n'}
+[2.295948] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/include/unitree_legged_sdk/loop.h\n'}
+[2.296181] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/package_run_dependencies/unitree_legged_sdk\n'}
+[2.296426] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/parent_prefix_path/unitree_legged_sdk\n'}
+[2.296645] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/ament_prefix_path.sh\n'}
+[2.296869] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/ament_prefix_path.dsv\n'}
+[2.297078] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/path.sh\n'}
+[2.297265] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/environment/path.dsv\n'}
+[2.297444] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.bash\n'}
+[2.297605] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.sh\n'}
+[2.297753] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.zsh\n'}
+[2.297917] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/local_setup.dsv\n'}
+[2.298066] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/package.dsv\n'}
+[2.299125] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/ament_index/resource_index/packages/unitree_legged_sdk\n'}
+[2.299442] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/cmake/unitree_legged_sdkConfig.cmake\n'}
+[2.299808] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/cmake/unitree_legged_sdkConfig-version.cmake\n'}
+[2.300216] (unitree_legged_sdk) StdoutLine: {'line': b'-- Installing: /home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/package.xml\n'}
+[2.300544] (unitree_legged_sdk) CommandEnded: {'returncode': 0}
+[2.304578] (-) TimerEvent: {}
+[2.325067] (unitree_legged_sdk) JobEnded: {'identifier': 'unitree_legged_sdk', 'rc': 0}
+[2.327676] (unitree_ros) JobStarted: {'identifier': 'unitree_ros'}
+[2.335807] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'cmake'}
+[2.337005] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/giszterlab/go1_ws/src/unitree_ros', '-DCMAKE_INSTALL_PREFIX=/home/giszterlab/go1_ws/install/unitree_ros'], 'cwd': '/home/giszterlab/go1_ws/build/unitree_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2063'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:16760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1522,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', 'b63717374d6544ee87bc8afec27d8b58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:00a600e4-4ccb-4ece-8e7d-97ca5a0ddeb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/go1_ws/build/unitree_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk:/usr/local:/opt/ros/humble')]), 'shell': False}
+[2.401612] (unitree_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.404664] (-) TimerEvent: {}
+[2.468745] (unitree_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.477132] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.504784] (-) TimerEvent: {}
+[2.555746] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.564244] (unitree_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.564500] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.565040] (unitree_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.568401] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.604898] (-) TimerEvent: {}
+[2.653883] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.667535] (unitree_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.668036] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.668893] (unitree_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.671691] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.673619] (unitree_ros) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[2.705049] (-) TimerEvent: {}
+[2.805470] (-) TimerEvent: {}
+[2.853793] (unitree_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.905634] (-) TimerEvent: {}
+[2.935223] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.954242] (unitree_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.005775] (-) TimerEvent: {}
+[3.052338] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.091710] (unitree_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.105846] (-) TimerEvent: {}
+[3.141442] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.143803] (unitree_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.205962] (-) TimerEvent: {}
+[3.227183] (unitree_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.249915] (unitree_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.284980] (unitree_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.292105] (unitree_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.306054] (-) TimerEvent: {}
+[3.372221] (unitree_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.372491] (unitree_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.406229] (-) TimerEvent: {}
+[3.454757] (unitree_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.456031] (unitree_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.506314] (-) TimerEvent: {}
+[3.517575] (unitree_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.554734] (unitree_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.574482] (unitree_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.583617] (unitree_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.606466] (-) TimerEvent: {}
+[3.706879] (-) TimerEvent: {}
+[3.807315] (-) TimerEvent: {}
+[3.907856] (-) TimerEvent: {}
+[4.008312] (-) TimerEvent: {}
+[4.103555] (unitree_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.108446] (-) TimerEvent: {}
+[4.208853] (-) TimerEvent: {}
+[4.309310] (-) TimerEvent: {}
+[4.409796] (-) TimerEvent: {}
+[4.510251] (-) TimerEvent: {}
+[4.557795] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.610417] (-) TimerEvent: {}
+[4.710855] (-) TimerEvent: {}
+[4.811299] (-) TimerEvent: {}
+[4.911768] (-) TimerEvent: {}
+[5.012240] (-) TimerEvent: {}
+[5.109109] (unitree_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.112395] (-) TimerEvent: {}
+[5.142817] (unitree_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.146330] (unitree_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.189412] (unitree_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.189813] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.190020] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.190207] (unitree_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.212537] (-) TimerEvent: {}
+[5.220966] (unitree_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.312713] (-) TimerEvent: {}
+[5.374192] (unitree_ros) StdoutLine: {'line': b'-- Found unitree_legged_sdk: 0.0.1 (/home/giszterlab/go1_ws/install/unitree_legged_sdk/share/unitree_legged_sdk/cmake)\n'}
+[5.393880] (unitree_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.412879] (-) TimerEvent: {}
+[5.453832] (unitree_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[5.472285] (unitree_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/giszterlab/go1_ws/build/unitree_ros\n'}
+[5.486017] (unitree_ros) CommandEnded: {'returncode': 0}
+[5.488457] (unitree_ros) JobProgress: {'identifier': 'unitree_ros', 'progress': 'build'}
+[5.489414] (unitree_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/go1_ws/build/unitree_ros', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/go1_ws/build/unitree_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2063'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('JOURNAL_STREAM', '8:16760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'giszterlab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/giszterlab-Precision-Tower-5810:@/tmp/.ICE-unix/1522,unix/giszterlab-Precision-Tower-5810:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', 'b63717374d6544ee87bc8afec27d8b58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XYST52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:00a600e4-4ccb-4ece-8e7d-97ca5a0ddeb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/giszterlab/go1_ws/build/unitree_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/giszterlab/go1_ws/install/unitree_legged_sdk:/usr/local:/opt/ros/humble')]), 'shell': False}
+[5.513025] (-) TimerEvent: {}
+[5.545990] (unitree_ros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.554415] (unitree_ros) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.562905] (unitree_ros) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_unitree_ros\n'}
+[5.613128] (-) TimerEvent: {}
+[5.713468] (-) TimerEvent: {}
+[5.813784] (-) TimerEvent: {}
+[5.832744] (unitree_ros) StdoutLine: {'line': b'running egg_info\n'}
+[5.833464] (unitree_ros) StdoutLine: {'line': b'creating unitree_ros.egg-info\n'}
+[5.833660] (unitree_ros) StdoutLine: {'line': b'writing unitree_ros.egg-info/PKG-INFO\n'}
+[5.833849] (unitree_ros) StdoutLine: {'line': b'writing dependency_links to unitree_ros.egg-info/dependency_links.txt\n'}
+[5.834027] (unitree_ros) StdoutLine: {'line': b'writing top-level names to unitree_ros.egg-info/top_level.txt\n'}
+[5.834208] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[5.836409] (unitree_ros) StdoutLine: {'line': b"reading manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[5.836922] (unitree_ros) StdoutLine: {'line': b"writing manifest file 'unitree_ros.egg-info/SOURCES.txt'\n"}
+[5.867880] (unitree_ros) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_unitree_ros_egg\n'}
+[5.913905] (-) TimerEvent: {}
+[5.955536] (unitree_ros) StdoutLine: {'line': b'[  4%] Built target unitree_ros__cpp\n'}
+[5.958817] (unitree_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/bms_state__functions.c.o\x1b[0m\n'}
+[5.959037] (unitree_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_generator_c.dir/rosidl_generator_c/unitree_ros/msg/detail/sensor_ranges__functions.c.o\x1b[0m\n'}
+[5.965616] (unitree_ros) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.966994] (unitree_ros) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.968617] (unitree_ros) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.012361] (unitree_ros) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_generator_c.so\x1b[0m\n'}
+[6.013981] (-) TimerEvent: {}
+[6.053207] (unitree_ros) StdoutLine: {'line': b'[ 18%] Built target unitree_ros__rosidl_generator_c\n'}
+[6.063644] (unitree_ros) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.067624] (unitree_ros) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.067860] (unitree_ros) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.114104] (-) TimerEvent: {}
+[6.214403] (-) TimerEvent: {}
+[6.314717] (-) TimerEvent: {}
+[6.321602] (unitree_ros) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[6.324438] (unitree_ros) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[6.392237] (unitree_ros) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[6.392484] (unitree_ros) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_ros/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o\x1b[0m\n'}
+[6.415582] (-) TimerEvent: {}
+[6.516013] (-) TimerEvent: {}
+[6.555881] (unitree_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/bms_state__type_support.cpp.o\x1b[0m\n'}
+[6.616160] (-) TimerEvent: {}
+[6.656414] (unitree_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/bms_state__type_support.cpp.o\x1b[0m\n'}
+[6.701496] (unitree_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_ros/msg/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[6.716284] (-) TimerEvent: {}
+[6.718672] (unitree_ros) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/bms_state__type_support.c.o\x1b[0m\n'}
+[6.737301] (unitree_ros) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/bms_state__type_support_c.cpp.o\x1b[0m\n'}
+[6.745199] (unitree_ros) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.780982] (unitree_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_ros/msg/detail/sensor_ranges__type_support.c.o\x1b[0m\n'}
+[6.781690] (unitree_ros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_ros/msg/detail/sensor_ranges__type_support_c.cpp.o\x1b[0m\n'}
+[6.785246] (unitree_ros) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.812458] (unitree_ros) StdoutLine: {'line': b'[ 54%] Built target unitree_ros__rosidl_typesupport_c\n'}
+[6.816537] (-) TimerEvent: {}
+[6.826292] (unitree_ros) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/unitree_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_ros/msg/detail/sensor_ranges__type_support.cpp.o\x1b[0m\n'}
+[6.833882] (unitree_ros) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libunitree_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.850692] (unitree_ros) StdoutLine: {'line': b'[ 59%] Built target unitree_ros__rosidl_typesupport_cpp\n'}
+[6.880231] (unitree_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o\x1b[0m\n'}
+[6.886129] (unitree_ros) StdoutLine: {'line': b'[ 61%] Built target unitree_ros__rosidl_typesupport_introspection_c\n'}
+[6.901493] (unitree_ros) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o\x1b[0m\n'}
+[6.916656] (-) TimerEvent: {}
+[7.017168] (-) TimerEvent: {}
+[7.099240] (unitree_ros) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o\x1b[0m\n'}
+[7.105423] (unitree_ros) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.117283] (-) TimerEvent: {}
+[7.217631] (-) TimerEvent: {}
+[7.245459] (unitree_ros) StdoutLine: {'line': b'[ 68%] Built target unitree_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[7.252665] (unitree_ros) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/unitree_driver.dir/src/serializers.cpp.o\x1b[0m\n'}
+[7.266603] (unitree_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_driver.cpp:36\x1b[m\x1b[K:\n'}
+[7.266903] (unitree_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory\n'}
+[7.267039] (unitree_ros) StderrLine: {'line': b'   34 | #include \x1b[01;31m\x1b[K<unitree_legged_sdk/unitree_legged_sdk.h>\x1b[m\x1b[K\n'}
+[7.267165] (unitree_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.267287] (unitree_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[7.267435] (unitree_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:104: CMakeFiles/unitree_driver.dir/src/unitree_driver.cpp.o] Error 1\n'}
+[7.267573] (unitree_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.317747] (-) TimerEvent: {}
+[7.349870] (unitree_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/src/serializers.cpp:31\x1b[m\x1b[K:\n'}
+[7.350157] (unitree_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/serializers.hpp:33:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kunitree_legged_sdk/comm.h: No such file or directory\n'}
+[7.350318] (unitree_ros) StderrLine: {'line': b'   33 | #include \x1b[01;31m\x1b[K<unitree_legged_sdk/comm.h>\x1b[m\x1b[K\n'}
+[7.350549] (unitree_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.350696] (unitree_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[7.350828] (unitree_ros) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.351039] (unitree_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:118: CMakeFiles/unitree_driver.dir/src/serializers.cpp.o] Error 1\n'}
+[7.389266] (unitree_ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libunitree_ros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.390140] (unitree_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_ros.hpp:49\x1b[m\x1b[K,\n'}
+[7.390338] (unitree_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_ros.cpp:36\x1b[m\x1b[K:\n'}
+[7.390561] (unitree_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory\n'}
+[7.390675] (unitree_ros) StderrLine: {'line': b'   34 | #include \x1b[01;31m\x1b[K<unitree_legged_sdk/unitree_legged_sdk.h>\x1b[m\x1b[K\n'}
+[7.390773] (unitree_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.390868] (unitree_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[7.390962] (unitree_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_ros.hpp:49\x1b[m\x1b[K,\n'}
+[7.391057] (unitree_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/src/unitree_ros_node.cpp:32\x1b[m\x1b[K:\n'}
+[7.391153] (unitree_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/go1_ws/src/unitree_ros/include/unitree_ros/unitree_driver.hpp:34:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kunitree_legged_sdk/unitree_legged_sdk.h: No such file or directory\n'}
+[7.391263] (unitree_ros) StderrLine: {'line': b'   34 | #include \x1b[01;31m\x1b[K<unitree_legged_sdk/unitree_legged_sdk.h>\x1b[m\x1b[K\n'}
+[7.391393] (unitree_ros) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.391509] (unitree_ros) StderrLine: {'line': b'compilation terminated.\n'}
+[7.392837] (unitree_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:90: CMakeFiles/unitree_driver.dir/src/unitree_ros.cpp.o] Error 1\n'}
+[7.393040] (unitree_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/unitree_driver.dir/build.make:76: CMakeFiles/unitree_driver.dir/src/unitree_ros_node.cpp.o] Error 1\n'}
+[7.393191] (unitree_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/unitree_driver.dir/all] Error 2\n'}
+[7.393325] (unitree_ros) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.417864] (-) TimerEvent: {}
+[7.436623] (unitree_ros) StdoutLine: {'line': b'[ 75%] Built target unitree_ros__rosidl_typesupport_fastrtps_c\n'}
+[7.466997] (unitree_ros) StdoutLine: {'line': b'[ 75%] Built target unitree_ros__rosidl_typesupport_introspection_cpp\n'}
+[7.468166] (unitree_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.470075] (unitree_ros) CommandEnded: {'returncode': 2}
+[7.474763] (unitree_ros) JobEnded: {'identifier': 'unitree_ros', 'rc': 2}
+[7.485296] (-) EventReactorShutdown: {}
