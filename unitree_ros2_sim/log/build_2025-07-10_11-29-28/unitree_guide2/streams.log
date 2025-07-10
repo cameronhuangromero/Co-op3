@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target junior_ctrl[0m
+[0.182s] [  3%] [32mBuilding CXX object CMakeFiles/junior_ctrl.dir/src/FSM/State_12Joint.cpp.o[0m
+[1.864s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[1.864s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[1.864s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[1.864s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[1.865s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[1.865s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:[m[K In constructor ‘[01m[KAvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)[m[K’:
+[1.865s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:278:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KAvgCov::_valueName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.865s]   278 |     std::string [01;35m[K_valueName[m[K;
+[1.865s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[1.865s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:272:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool AvgCov::_avgOnly[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.865s]   272 |     bool [01;35m[K_avgOnly[m[K;
+[1.866s]       |          [01;35m[K^~~~~~~~[m[K
+[1.866s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelCmd.h:8[m[K,
+[1.866s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:7[m[K,
+[1.866s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[1.866s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[1.866s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[1.866s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/common/mathTools.h:246:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.866s]   246 |     [01;35m[KAvgCov[m[K(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[1.867s]       |     [01;35m[K^~~~~~[m[K
+[1.922s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/message/LowlevelState.h:10[m[K,
+[1.922s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:8[m[K,
+[1.922s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[1.922s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[1.922s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[1.922s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:[m[K In member function ‘[01m[Kvirtual void* CmdPanel::run(void*)[m[K’:
+[1.923s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/interface/CmdPanel.h:50:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.923s]    50 |     virtual void* run([01;35m[Kvoid *arg[m[K){return NULL;}
+[1.923s]       |                       [01;35m[K~~~~~~^~~[m[K
+[4.827s] In file included from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/FSMState.h:10[m[K,
+[4.827s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/FSM/State_12Joint.h:1[m[K,
+[4.827s]                  from [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:2[m[K:
+[4.827s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:[m[K In destructor ‘[01m[KCtrlComponents::~CtrlComponents()[m[K’:
+[4.827s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/include/control/CtrlComponents.h:35:9:[m[K [01;35m[Kwarning: [m[Kdeleting object of abstract class type ‘[01m[KIOInterface[m[K’ which has non-virtual destructor will cause undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdelete-non-virtual-dtor-Wdelete-non-virtual-dtor]8;;[m[K]
+[4.827s]    35 |         [01;35m[Kdelete ioInter[m[K;
+[4.827s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.094s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:[m[K In member function ‘[01m[Kvirtual FSMStateName State_12Joint::checkChange()[m[K’:
+[6.094s] [01m[K/home/giszterlab/USING/unitree_ros2_sim/unitree_guide2/src/FSM/State_12Joint.cpp:90:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[6.094s]    90 | [01;35m[K}[m[K
+[6.094s]       | [01;35m[K^[m[K
+[6.277s] [  6%] [32m[1mLinking CXX executable junior_ctrl[0m
+[6.590s] [100%] Built target junior_ctrl
+[6.604s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '0': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2 -- -j8 -l8
+[6.606s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2
+[6.613s] -- Install configuration: ""
+[6.614s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl
+[6.617s] -- Set runtime path of "/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/lib/unitree_guide2/junior_ctrl" to ""
+[6.617s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/package_run_dependencies/unitree_guide2
+[6.617s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/parent_prefix_path/unitree_guide2
+[6.617s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.sh
+[6.617s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/ament_prefix_path.dsv
+[6.617s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.sh
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/environment/path.dsv
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.bash
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.sh
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.zsh
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/local_setup.dsv
+[6.618s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.dsv
+[6.618s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/ament_index/resource_index/packages/unitree_guide2
+[6.619s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config.cmake
+[6.619s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/cmake/unitree_guide2Config-version.cmake
+[6.619s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2/share/unitree_guide2/package.xml
+[6.621s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2' returned '0': CMAKE_PREFIX_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/unitree_ros2_sim/install/unitree_guide2:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control:/home/giszterlab/USING/unitree_ros2_sim/install/robotic_control:/home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo:/home/giszterlab/USING/unitree_ros2_sim/install/go1_description:/usr/local:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/unitree_ros2_sim/install/ros2_unitree_legged_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/unitree_guide2

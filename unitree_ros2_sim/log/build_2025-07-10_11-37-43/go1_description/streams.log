@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_description -- -j8 -l8
+[0.455s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_description -- -j8 -l8
+[0.456s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_description
+[0.473s] -- Install configuration: ""
+[0.473s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//config
+[0.473s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//config/jtc.yaml
+[0.476s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//launch
+[0.477s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//launch/go1_visualize.launch.py
+[0.477s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes
+[0.477s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/calf.dae
+[0.477s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[0.477s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/trunk.dae
+[0.481s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/hip.dae
+[0.481s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[0.481s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[0.481s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//meshes/thigh.dae
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//rviz
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//rviz/go1_vis.rviz
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//urdf
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//urdf/go1.urdf
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/ros2_control.xacro
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/lidar.xacro
+[0.482s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/transmission.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/robot.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/leg.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/const.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description//xacro/materials.xacro
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[0.483s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/environment/path.sh
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/environment/path.dsv
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/local_setup.bash
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/local_setup.sh
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/local_setup.zsh
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/local_setup.dsv
+[0.484s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.dsv
+[0.484s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[0.489s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[0.490s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[0.490s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_description/share/go1_description/package.xml
+[0.508s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_description

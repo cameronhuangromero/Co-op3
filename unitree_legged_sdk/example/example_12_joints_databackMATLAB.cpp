@@ -43,6 +43,8 @@ public:
   std::vector<int64_t> joint_reach_times = std::vector<int64_t>(12, -1);
   std::vector<std::chrono::high_resolution_clock::time_point> joint_command_times = std::vector<std::chrono::high_resolution_clock::time_point>(12);
   std::vector<bool> joint_waiting = std::vector<bool>(12, false);
+  std::vector<float> last_target_torques = std::vector<float>(12, 0.0f);
+
 
 
   Safety safe;
@@ -95,30 +97,34 @@ int i = joint.index;
 
 // Store time only once when first sending command
       if (!joint_waiting[i]) {
+          float q_des = 0.0f;
+          float dq_des = 0.0f;
+
+          float q_err = q_des - state.motorState[i].q;
+          float dq_err = dq_des - state.motorState[i].dq;
+          float Kd = (i % 3 == 2) ? 4.0f : 1.0f;
+          float torque = Kp * q_err + Kd * dq_err;
+
+    if (torque > joint.maxTorque) torque = joint.maxTorque;
+    if (torque < -joint.maxTorque) torque = -joint.maxTorque;
+
+
+    last_target_torques[i] = torque;  // Save it 
           joint_command_times[i] = now;
           joint_waiting[i] = true;
       }
 
     
-    float q_des = 0.0f;
-    float dq_des = 0.0f;
-
-    float q_err = q_des - state.motorState[i].q;
-    float dq_err = dq_des - state.motorState[i].dq;
-    float Kd = (i % 3 == 2) ? 4.0f : 1.0f;
-    float torque = Kp * q_err + Kd * dq_err;
-
-    if (torque > joint.maxTorque) torque = joint.maxTorque;
-    if (torque < -joint.maxTorque) torque = -joint.maxTorque;
+    
 
     cmd.motorCmd[i].q = PosStopF;
     cmd.motorCmd[i].dq = VelStopF;
     cmd.motorCmd[i].Kp = 0;
     cmd.motorCmd[i].Kd = 0;
-    cmd.motorCmd[i].tau = torque;
+    cmd.motorCmd[i].tau = last_target_torques[i];
 
-    float error = fabs(torque - state.motorState[i].tauEst);
-if (joint_reach_times[i] == -1 && error < 0.03f) {
+    float error = fabs(last_target_torques[i] - state.motorState[i].tauEst);
+if (joint_waiting[i] && error < 0.03f) {
     joint_reach_times[i] = std::chrono::duration_cast<std::chrono::microseconds>(now - joint_command_times[i]).count();
     joint_waiting[i] = false;
   }
@@ -126,8 +132,8 @@ if (joint_reach_times[i] == -1 && error < 0.03f) {
     LogEntry entry;
     entry.jointName = jointNames[i];
     entry.tauEst = state.motorState[i].tauEst;
-    entry.targetTau = torque;
-    entry.error = torque - state.motorState[i].tauEst;
+    entry.targetTau = last_target_torques[i];
+    entry.error = last_target_torques[i] - state.motorState[i].tauEst;
     entry.reachTime_us = joint_reach_times[i];  // either -1 or previously set time
 
   auto loop_end = std::chrono::high_resolution_clock::now();

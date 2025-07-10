@@ -21,9 +21,6 @@ void State_12Joint::enter(){
 
 
 void State_12Joint::run() {
-    // _motionTime++;
-
-    // Smoothly increment percent
     _interpolationPercent += 1.0f / _interpolationDuration;
     if (_interpolationPercent > 1.0f) _interpolationPercent = 1.0f;
 
@@ -32,28 +29,54 @@ void State_12Joint::run() {
     float maxTorque = 5.0f;
 
     for (int i = 0; i < 12; ++i) {
-        // Gradual desired trajectory:
-        float q_des = (1 - _interpolationPercent) * _startPos[i] + _interpolationPercent * _targetPos[i];
-        float dq_des = 0.0f;
+        // Interpolate desired position
+        // float q_des = (1 - _interpolationPercent) * _startPos[i] + _interpolationPercent * _targetPos[i];
+       
 
-        float q_err = q_des - _lowState->motorState[i].q;
-        float dq_err = dq_des - _lowState->motorState[i].dq;
+        // float error = fabs(torque - _lowState->motorState[i].tauEst);
 
-        float raw_torque = Kp * q_err + Kd * dq_err;
-        float torque = maxTorque * std::tanh(raw_torque / maxTorque);
+            float torque = _lastTargetTorques[i];  // Default to last torque value
 
+        if (!_jointWaiting[i]) {
+
+             float q_des = 0.0f;
+            float dq_des = 0.0f;
+
+            float q_err = q_des - _lowState->motorState[i].q;
+            float dq_err = dq_des - _lowState->motorState[i].dq;
+
+            float raw_torque = Kp * q_err + Kd * dq_err;
+            float torque = maxTorque * std::tanh(raw_torque / maxTorque);
+
+            if (torque > maxTorque) torque = maxTorque;
+            if (torque < -maxTorque) torque = -maxTorque;
+            // Start waiting for this joint to reach
+            _lastTargetTorques[i] = torque;
+            _jointWaiting[i] = true;
+        }
+
+        
+
+        // Always send the last commanded torque until goal is reached
         _lowCmd->motorCmd[i].q = 0.0;
         _lowCmd->motorCmd[i].dq = 0.0;
         _lowCmd->motorCmd[i].Kp = 0;
         _lowCmd->motorCmd[i].Kd = 0;
-        _lowCmd->motorCmd[i].tau = torque;
+        _lowCmd->motorCmd[i].tau = _lastTargetTorques[i];
+
+        float error = fabs(_lastTargetTorques[i] - _lowState->motorState[i].tauEst);
+
+
+        // Check if the joint has reached the torque goal
+        if (_jointWaiting[i] && error < 0.03f) {
+            _jointWaiting[i] = false;  // Reset for next cycle if needed
+        }
 
         RCLCPP_INFO(rclcpp::get_logger("FSM"),
-            "Joint %d: q_des=%.3f, q=%.3f, torque=%.3f",
-            i, q_des, _lowState->motorState[i].q, torque);
+            "Joint %d: cmd=%.3f, tau=%.3f, torque=%.3f, error=%.4f, holding=%d",
+            i, torque, _lowState->motorState[i].tauEst, _lastTargetTorques[i], error, _jointWaiting[i]);
     }
 }
-
 
 
 void State_12Joint::exit() {

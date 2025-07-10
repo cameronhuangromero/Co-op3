@@ -15,7 +15,8 @@ public:
     float _targetPos[12] = {0};              // desired final joint positions (e.g., all 0)
     float _startPos[12] = {0};               // filled in at entry
 
-
+    std::array<bool, 12> _jointWaiting = {false};
+std::array<float, 12> _lastTargetTorques = {0.0f};
 private:
    
 };

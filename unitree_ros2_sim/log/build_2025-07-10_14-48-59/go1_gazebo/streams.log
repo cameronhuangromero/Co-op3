@@ -1,0 +1,31 @@
+[0.030s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo -- -j8 -l8
+[0.445s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo -- -j8 -l8
+[0.447s] Invoking command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo
+[0.463s] -- Install configuration: ""
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/spawn_go1.launch.py
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/start_world.launch.py
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//launch/controllers_go1.launch.py
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/test_latest.world
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/simple_rooms.world
+[0.464s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs/model.config
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo//worlds/building_editor_models/stairs/model.sdf
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/package_run_dependencies/go1_gazebo
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/parent_prefix_path/go1_gazebo
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/ament_prefix_path.sh
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/ament_prefix_path.dsv
+[0.465s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/path.sh
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/environment/path.dsv
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.bash
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.sh
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.zsh
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/local_setup.dsv
+[0.466s] -- Installing: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.dsv
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/ament_index/resource_index/packages/go1_gazebo
+[0.466s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/cmake/go1_gazeboConfig.cmake
+[0.467s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/cmake/go1_gazeboConfig-version.cmake
+[0.467s] -- Up-to-date: /home/giszterlab/USING/unitree_ros2_sim/install/go1_gazebo/share/go1_gazebo/package.xml
+[0.493s] Invoked command in '/home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giszterlab/USING/unitree_ros2_sim/install/go1_navigation:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/unitree_ros2_sim/build/go1_gazebo
