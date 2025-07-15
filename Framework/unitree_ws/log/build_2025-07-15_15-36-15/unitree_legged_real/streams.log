@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.096s] [ 37%] Built target udp_high
+[0.096s] [ 37%] Built target ros2_walk_example
+[0.096s] [ 37%] Built target jsp_high
+[0.097s] [ 50%] Built target custom_gait
+[0.097s] [ 62%] Built target jsp_low
+[0.099s] [ 75%] Built target ros2_position_example
+[0.099s] [ 87%] Built target udp_low
+[0.104s] [ 93%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[15.653s] [100%] [32m[1mLinking CXX executable ros2_udp[0m
+[15.854s] [100%] Built target ros2_udp
+[15.869s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
+[15.871s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real
+[15.883s] -- Install configuration: ""
+[15.883s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib
+[15.883s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[15.883s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[15.883s] -- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[15.885s] -- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+[15.885s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+[15.886s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+[15.886s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[15.887s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[15.887s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+[15.887s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+[15.888s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+[15.889s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch
+[15.889s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+[15.889s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+[15.889s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config
+[15.890s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+[15.890s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+[15.890s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+[15.890s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[15.891s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[15.892s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[15.894s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[15.894s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[15.894s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[15.895s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[15.895s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[15.896s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[15.896s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[15.896s] -- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[15.896s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[15.897s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[15.897s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[15.897s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[15.898s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real

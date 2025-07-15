@@ -1,0 +1,102 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ros2_unitree_legged_msgs: 0.4.0 (/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- -- CMAKE_SYSTEM_PROCESSOR: x86_64
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real
+[ 31%] [32mBuilding CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/udp_low.dir/src/udp_low.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/jsp_low.dir/src/jsp_low.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable ros2_position_example[0m
+[ 62%] [32m[1mLinking CXX executable ros2_walk_example[0m
+[ 62%] Built target ros2_position_example
+[ 62%] Built target ros2_walk_example
+[ 68%] [32m[1mLinking CXX executable custom_gait[0m
+[ 68%] Built target custom_gait
+[ 75%] [32m[1mLinking CXX executable jsp_high[0m
+[ 75%] Built target jsp_high
+[ 81%] [32m[1mLinking CXX executable udp_high[0m
+[ 81%] Built target udp_high
+[ 87%] [32m[1mLinking CXX executable udp_low[0m
+[ 87%] Built target udp_low
+[ 93%] [32m[1mLinking CXX executable ros2_udp[0m
+[100%] [32m[1mLinking CXX executable jsp_low[0m
+[100%] Built target ros2_udp
+[100%] Built target jsp_low
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_high" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_high" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/custom_gait" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_low" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+-- Set runtime path of "/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_low" to ""
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+-- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml

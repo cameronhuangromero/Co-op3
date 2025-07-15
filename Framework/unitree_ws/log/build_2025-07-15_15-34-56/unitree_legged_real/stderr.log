@@ -1,0 +1,11 @@
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid highCmdCallback(ros2_unitree_legged_msgs::msg::HighCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khigh_freq_tracker[m[K’ was not declared in this scope
+   89 |     [01;31m[Khigh_freq_tracker[m[K.add_timestamp();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klow_freq_tracker[m[K’ was not declared in this scope
+  106 |     [01;31m[Klow_freq_tracker[m[K.add_timestamp();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target jsp_high[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target jsp_low[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target udp_high[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target udp_low[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target ros2_walk_example[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target ros2_position_example[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target custom_gait[0m
+[0.096s] [ 12%] Built target jsp_high
+[0.097s] [ 25%] Built target jsp_low
+[0.098s] [ 37%] Built target custom_gait
+[0.099s] [ 50%] Built target udp_high
+[0.099s] [ 62%] Built target udp_low
+[0.099s] [ 75%] Built target ros2_position_example
+[0.100s] [ 87%] Built target ros2_walk_example
+[0.101s] [ 93%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[3.055s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid highCmdCallback(ros2_unitree_legged_msgs::msg::HighCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.055s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khigh_freq_tracker[m[K’ was not declared in this scope
+[3.056s]    89 |     [01;31m[Khigh_freq_tracker[m[K.add_timestamp();
+[3.056s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.065s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.065s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klow_freq_tracker[m[K’ was not declared in this scope
+[3.065s]   106 |     [01;31m[Klow_freq_tracker[m[K.add_timestamp();
+[3.065s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.602s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+[6.602s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+[6.603s] gmake: *** [Makefile:146: all] Error 2
+[6.606s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real' returned '2': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
