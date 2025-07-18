@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/go1_description -- -j8 -l8
+[0.051s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/go1_description -- -j8 -l8
+[0.062s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/Framework/unitree_ws/build/go1_description
+[0.077s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//launch
+[0.083s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//launch/load_go1.launch.py
+[0.083s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//config
+[0.083s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//config/go1.rviz
+[0.083s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes
+[0.084s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/calf.dae
+[0.084s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[0.084s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/trunk.dae
+[0.084s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/hip.dae
+[0.085s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[0.085s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[0.085s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//meshes/thigh.dae
+[0.086s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro
+[0.086s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[0.086s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/transmission.xacro
+[0.086s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/robot.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/leg.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/const.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description//xacro/materials.xacro
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[0.087s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[0.088s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/environment/path.sh
+[0.090s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/environment/path.dsv
+[0.091s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/local_setup.bash
+[0.091s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/local_setup.sh
+[0.091s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/local_setup.zsh
+[0.091s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/local_setup.dsv
+[0.092s] -- Installing: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/package.dsv
+[0.092s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[0.092s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[0.092s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[0.093s] -- Up-to-date: /home/giszterlab/USING/Framework/unitree_ws/install/go1_description/share/go1_description/package.xml
+[0.094s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/Framework/unitree_ws/build/go1_description

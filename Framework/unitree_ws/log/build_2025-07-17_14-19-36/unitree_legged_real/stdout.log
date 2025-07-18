@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[ 12%] Built target jsp_low
+[ 25%] Built target udp_low
+[ 37%] Built target jsp_high
+[ 50%] Built target ros2_position_example
+[ 68%] Built target ros2_walk_example
+[ 68%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[ 81%] Built target udp_high
+[ 93%] Built target custom_gait

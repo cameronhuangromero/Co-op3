@@ -1,0 +1,24 @@
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:90:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom[m[K’ does not name a type; did you mean ‘[01m[KCustom[m[K’?
+   90 | [01;31m[Kcustom[m[K::void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg)
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KCustom[m[K
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:111:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom[m[K’ does not name a type; did you mean ‘[01m[KCustom[m[K’?
+  111 | [01;31m[Kcustom[m[K::void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
+      | [01;31m[K^~~~~~[m[K
+      | [32m[KCustom[m[K
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In lambda function:
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:146:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klowcmd_tracker[m[K’ was not declared in this scope
+  146 |         double freq = [01;31m[Klowcmd_tracker[m[K.get_frequency_hz();
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:156:98:[m[K [01;31m[Kerror: [m[K‘[01m[KlowCmdCallback[m[K’ was not declared in this scope
+  156 | _subscription<ros2_unitree_legged_msgs::msg::LowCmd>("low_cmd", 1, [01;31m[KlowCmdCallback[m[K);
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:165:101:[m[K [01;31m[Kerror: [m[K‘[01m[KhighCmdCallback[m[K’ was not declared in this scope
+  165 | ubscription<ros2_unitree_legged_msgs::msg::HighCmd>("high_cmd", 1, [01;31m[KhighCmdCallback[m[K);
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

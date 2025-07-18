@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[ 12%] Built target jsp_low
+[ 25%] Built target udp_low
+[ 37%] Built target jsp_high
+[ 50%] Built target ros2_position_example
+[ 68%] Built target ros2_walk_example
+[ 68%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[ 81%] Built target udp_high
+[ 93%] Built target custom_gait
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klowcmd_tracker[m[K’ was not declared in this scope
+  114 |     [01;31m[Klowcmd_tracker[m[K.tick();  // Mark time
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -150,14 +150,6 @@ void Custom::RobotControl() {
 }
 
 
-
-
-
-
-
-
-
-
 int main(void)
 {
   std::cout << "Communication level is set to LOW-level." << std::endl

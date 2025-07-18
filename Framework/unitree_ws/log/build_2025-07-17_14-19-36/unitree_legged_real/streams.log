@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real': CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real:/home/giszterlab/USING/Framework/unitree_ws/install/go1_description:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.095s] [ 12%] Built target jsp_low
+[0.099s] [ 25%] Built target udp_low
+[0.105s] [ 37%] Built target jsp_high
+[0.106s] [ 50%] Built target ros2_position_example
+[0.106s] [ 68%] Built target ros2_walk_example
+[0.107s] [ 68%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[0.108s] [ 81%] Built target udp_high
+[0.116s] [ 93%] Built target custom_gait
+[3.145s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kvoid lowCmdCallback(ros2_unitree_legged_msgs::msg::LowCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.145s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klowcmd_tracker[m[K’ was not declared in this scope
+[3.145s]   114 |     [01;31m[Klowcmd_tracker[m[K.tick();  // Mark time
+[3.146s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.825s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+[6.825s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+[6.826s] gmake: *** [Makefile:146: all] Error 2
+[6.828s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real' returned '2': CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real:/home/giszterlab/USING/Framework/unitree_ws/install/go1_description:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:/home/giszterlab/USING/Framework/unitree_ws/install/unitree_legged_real/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8

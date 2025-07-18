@@ -19,7 +19,7 @@ int main(int argc, char **argv)
     std::cin.ignore();
 
     auto node = rclcpp::Node::make_shared("node_ros2_postition_example");
-    rclcpp::WallRate loop_rate(500);
+    rclcpp::WallRate loop_rate(1000);
 
     long motiontime = 0;
 

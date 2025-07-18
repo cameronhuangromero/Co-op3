@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target ros2_udp[0m
+[0.124s] [ 56%] Built target custom_gait
+[0.125s] [ 56%] Built target udp_high
+[0.125s] [ 56%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[0.125s] [ 56%] Built target ros2_position_example
+[0.125s] [ 56%] Built target ros2_walk_example
+[0.127s] [ 68%] Built target udp_low
+[0.127s] [ 81%] Built target jsp_high
+[0.128s] [ 93%] Built target jsp_low
+[3.208s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:90:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+[3.208s]    90 | Custom::[01;31m[Kvoid[m[K highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg)
+[3.208s]       |         [01;31m[K^~~~[m[K
+[3.208s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:111:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+[3.208s]   111 | Custom::[01;31m[Kvoid[m[K lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
+[3.209s]       |         [01;31m[K^~~~[m[K
+[3.219s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In lambda function:
+[3.220s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:146:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klowcmd_tracker[m[K’ was not declared in this scope
+[3.220s]   146 |         double freq = [01;31m[Klowcmd_tracker[m[K.get_frequency_hz();
+[3.220s]       |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.235s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.236s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:156:98:[m[K [01;31m[Kerror: [m[K‘[01m[KlowCmdCallback[m[K’ was not declared in this scope
+[3.236s]   156 | _subscription<ros2_unitree_legged_msgs::msg::LowCmd>("low_cmd", 1, [01;31m[KlowCmdCallback[m[K);
+[3.236s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.236s] 
+[3.244s] [01m[K/home/giszterlab/USING/Framework/unitree_ws/src/unitree_ros2/unitree_legged_real/src/ros2_udp.cpp:165:101:[m[K [01;31m[Kerror: [m[K‘[01m[KhighCmdCallback[m[K’ was not declared in this scope
+[3.244s]   165 | ubscription<ros2_unitree_legged_msgs::msg::HighCmd>("high_cmd", 1, [01;31m[KhighCmdCallback[m[K);
+[3.245s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.245s] 
+[4.088s] gmake[2]: *** [CMakeFiles/ros2_udp.dir/build.make:76: CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o] Error 1
+[4.088s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/ros2_udp.dir/all] Error 2
+[4.088s] gmake: *** [Makefile:146: all] Error 2
+[4.092s] Invoked command in '/home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real' returned '2': AMENT_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/giszterlab/USING/Framework/unitree_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/giszterlab/USING/Framework/unitree_ws/build/unitree_legged_real -- -j8 -l8

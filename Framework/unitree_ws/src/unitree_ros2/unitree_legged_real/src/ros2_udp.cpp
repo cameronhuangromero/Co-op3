@@ -5,7 +5,49 @@
 #include "ros2_unitree_legged_msgs/msg/low_state.hpp"
 #include "unitree_legged_sdk/unitree_legged_sdk.h"
 #include "convert.h"
+#include <array>
+#include <chrono>
 
+
+class MicrosecondFrequencyTracker {
+public:
+    static constexpr size_t WINDOW_SIZE = 100;
+
+    void tick() {
+        using clock = std::chrono::steady_clock;
+        auto now = clock::now();
+
+        if (init) {
+            auto dt = std::chrono::duration_cast<std::chrono::microseconds>(now - last_time).count();
+            buffer[index] = dt;
+            index = (index + 1) % WINDOW_SIZE;
+            count = std::min(count + 1, WINDOW_SIZE);
+        } else {
+            init = true;
+        }
+
+        last_time = now;
+    }
+
+    double get_frequency_hz() const {
+        if (count < 2) return 0.0;
+
+        long total_us = 0;
+        for (size_t i = 0; i < count; ++i)
+            total_us += buffer[i];
+
+        double avg_us = static_cast<double>(total_us) / count;
+        return avg_us > 0.0 ? 1e6 / avg_us : 0.0;
+    }
+
+private:
+    std::array<long, WINDOW_SIZE> buffer{};
+    size_t index = 0;
+    size_t count = 0;
+    bool init = false;
+    std::chrono::steady_clock::time_point last_time;
+};
+// --------------------------------------------------------------------
 using namespace UNITREE_LEGGED_SDK;
 class Custom
 {
@@ -18,6 +60,10 @@ public:
 
     LowCmd low_cmd = {0};
     LowState low_state = {0};
+    MicrosecondFrequencyTracker lowcmd_tracker;
+
+    void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg);
+    void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg);
 
 public:
     Custom()
@@ -36,6 +82,7 @@ rclcpp::Subscription<ros2_unitree_legged_msgs::msg::LowCmd>::SharedPtr sub_low;
 
 rclcpp::Publisher<ros2_unitree_legged_msgs::msg::HighState>::SharedPtr pub_high;
 rclcpp::Publisher<ros2_unitree_legged_msgs::msg::LowState>::SharedPtr pub_low;
+
 
 long high_count = 0;
 long low_count = 0;
@@ -64,7 +111,9 @@ void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg
 void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
 {
 
-    printf("lowCmdCallback is running !\t%ld\n", low_count);
+    custom.lowcmd_tracker.tick();  // Mark time
+
+    // printf("lowCmdCallback is running !\t%ld\n", low_count);
 
     custom.low_cmd = rosMsg2Cmd(msg);
 
@@ -80,14 +129,20 @@ void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
 
     pub_low->publish(low_state_ros);
 
-    printf("lowCmdCallback ending!\t%ld\n\n", ::low_count++);
+    // printf("lowCmdCallback ending!\t%ld\n\n", ::low_count++);
+    low_count++;
 }
+
+
 
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
 
     auto node = rclcpp::Node::make_shared("node_ros2_udp");
+
+    
+
 
     if (strcasecmp(argv[1], "LOWLEVEL") == 0)
     {
@@ -96,6 +151,13 @@ int main(int argc, char **argv)
         pub_low = node->create_publisher<ros2_unitree_legged_msgs::msg::LowState>("low_state", 1);
         sub_low = node->create_subscription<ros2_unitree_legged_msgs::msg::LowCmd>("low_cmd", 1, lowCmdCallback);
 
+        auto timer = node->create_wall_timer(
+        std::chrono::milliseconds(500),
+        [node]() {
+            double freq = custom.lowcmd_tracker.get_frequency_hz();
+            RCLCPP_INFO(node->get_logger(), "LowCmd callback avg frequency: %.2f Hz", freq);
+        });
+        
         rclcpp::spin(node);
     }
     else if (strcasecmp(argv[1], "HIGHLEVEL") == 0)
