@@ -61,6 +61,7 @@ public:
     LowCmd low_cmd = {0};
     LowState low_state = {0};
     MicrosecondFrequencyTracker lowcmd_tracker;
+    MicrosecondFrequencyTracker highcmd_tracker;
 
     void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg);
     void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg);
@@ -83,13 +84,14 @@ rclcpp::Subscription<ros2_unitree_legged_msgs::msg::LowCmd>::SharedPtr sub_low;
 rclcpp::Publisher<ros2_unitree_legged_msgs::msg::HighState>::SharedPtr pub_high;
 rclcpp::Publisher<ros2_unitree_legged_msgs::msg::LowState>::SharedPtr pub_low;
 
-
 long high_count = 0;
 long low_count = 0;
 
 void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg)
 {
     printf("highCmdCallback is running !\t%ld\n", ::high_count);
+
+    custom.highcmd_tracker.tick();  // Track time for frequency
 
     custom.high_cmd = rosMsg2Cmd(msg);
 
@@ -105,13 +107,15 @@ void highCmdCallback(const ros2_unitree_legged_msgs::msg::HighCmd::SharedPtr msg
 
     pub_high->publish(high_state_ros);
 
+    double high_freq = custom.highcmd_tracker.get_frequency_hz();
+    printf("HighCmd callback frequency: %.2f Hz\n", high_freq);
+
     printf("highCmdCallback ending !\t%ld\n\n", ::high_count++);
 }
 
 void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
 {
-
-    custom.lowcmd_tracker.tick();  // Mark time
+    custom.lowcmd_tracker.tick();  // Track time for frequency
 
     // printf("lowCmdCallback is running !\t%ld\n", low_count);
 
@@ -129,11 +133,12 @@ void lowCmdCallback(const ros2_unitree_legged_msgs::msg::LowCmd::SharedPtr msg)
 
     pub_low->publish(low_state_ros);
 
+    double low_freq = custom.lowcmd_tracker.get_frequency_hz();
+    printf("LowCmd callback frequency: %.2f Hz\n", low_freq);
+
     // printf("lowCmdCallback ending!\t%ld\n\n", ::low_count++);
     low_count++;
 }
-
-
 
 int main(int argc, char **argv)
 {
@@ -141,12 +146,9 @@ int main(int argc, char **argv)
 
     auto node = rclcpp::Node::make_shared("node_ros2_udp");
 
-    
-
-
     if (strcasecmp(argv[1], "LOWLEVEL") == 0)
     {
-        printf("low level runing!\n");
+        printf("low level running!\n");
 
         pub_low = node->create_publisher<ros2_unitree_legged_msgs::msg::LowState>("low_state", 1);
         sub_low = node->create_subscription<ros2_unitree_legged_msgs::msg::LowCmd>("low_cmd", 1, lowCmdCallback);
@@ -162,7 +164,7 @@ int main(int argc, char **argv)
     }
     else if (strcasecmp(argv[1], "HIGHLEVEL") == 0)
     {
-        printf("high level runing!\n");
+        printf("high level running!\n");
 
         pub_high = node->create_publisher<ros2_unitree_legged_msgs::msg::HighState>("high_state", 1);
         sub_high = node->create_subscription<ros2_unitree_legged_msgs::msg::HighCmd>("high_cmd", 1, highCmdCallback);

@@ -30,7 +30,7 @@ public:
   LowCmd cmd = {0};
   LowState state = {0};
   float qInit[3] = {0};
-  float qDes[3] = {0};
+  // float qDes[3] = {0};
   float sin_mid_q[3] = {0.0, 1.2, -2.0};
   float Kp[3] = {0};
   float Kd[3] = {0};
@@ -41,8 +41,9 @@ public:
   float dt = 0.002; // 0.001~0.01
 
   float qDes[12] = {0};     // Desired joint positions
-    float KpDes[12] = {5.0};  // Optional: gain per joint
-    float KdDes[12] = {1.0};
+    float KpDes[12] = {5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0};
+float KdDes[12] = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+
 
 
 };
