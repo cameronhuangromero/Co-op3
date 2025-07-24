@@ -8,6 +8,7 @@
 #include <unistd.h>
 #include <atomic>
 #include <algorithm> // for std::clamp
+#include "common/joint_state_buffer.h"
 
 
 
@@ -48,11 +49,17 @@ public:
 private:
   std::array<std::atomic<float>, 12> bufferedTorques{};
   std::array<std::atomic<bool>, 12> torqueEnabled{};  // Which joints are active
-  // std::array<float, 12> GetJointTorques() const;
 
-  static constexpr int kRingSize = 1000;  // Keep last 1000 readings
-  std::array<std::array<float, 12>, kRingSize> torqueBuffer;
-  std::atomic<int> bufferIndex{0};
+  // static constexpr int kRingSize = 1000;  // Keep last 1000 readings
+  // struct JointState {
+  //   float q;
+  //   float dq;
+  //   float tauEst;
+  // };
+  // std::array<std::array<JointState, 12>, kRingSize> stateBuffer;
+  // std::atomic<int> bufferIndex{0};
+  JointStateBuffer buffer;
+  
   
 
 };
@@ -142,11 +149,40 @@ void Custom::RobotControl() {
 
     udp.SetSend(cmd);
 
-    // Save current torques to ring buffer
-    int index = bufferIndex.fetch_add(1) % kRingSize;
+//     int index = bufferIndex.fetch_add(1) % kRingSize;
+//     for (int i = 0; i < 12; ++i) {
+//         stateBuffer[index][i] = {
+//             state.motorState[i].q,
+//             state.motorState[i].dq,
+//             state.motorState[i].tauEst
+//     };
+// }
+
+//     if (motiontime % 1000 == 0) {
+//     std::cout << "Joint states at buffer[" << index << "]:" << std::endl;
+//     for (int i = 0; i < 12; ++i) {
+//         std::cout << "Joint " << i << " q: " << stateBuffer[index][i].q
+//                   << ", dq: " << stateBuffer[index][i].dq
+//                   << ", tau: " << stateBuffer[index][i].tauEst << std::endl;
+//     }
+// }
+  std::array<JointState, 12> currentStates;
     for (int i = 0; i < 12; ++i) {
-        torqueBuffer[index][i] = state.motorState[i].tauEst;
+      currentStates[i] = {
+        state.motorState[i].q,
+        state.motorState[i].dq,
+        state.motorState[i].tauEst
+      };
     }
+  buffer.push(currentStates);
+
+  if (motiontime % 1000 == 0) {
+    auto latest = buffer.latest();
+    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+}
+
+
+    
 }
 
 

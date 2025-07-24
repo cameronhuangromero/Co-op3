@@ -59,6 +59,11 @@ target_link_libraries(control_joint_torque ${EXTRA_LIBS})
 add_executable(control_joint_angle example/control_joint_angle.cpp)
 target_link_libraries(control_joint_angle ${EXTRA_LIBS})
 
+add_executable(control_joint_position example/control_joint_position.cpp common/unitreeLeg.cpp)
+target_link_libraries(control_joint_position ${EXTRA_LIBS})
+
+add_executable(control_tip_force example/control_tip_force.cpp common/unitreeLeg.cpp)
+target_link_libraries(control_tip_force ${EXTRA_LIBS})
 
 # install
 install(TARGETS

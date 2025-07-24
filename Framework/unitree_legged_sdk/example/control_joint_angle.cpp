@@ -7,6 +7,10 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdint.h>
+#include <unistd.h>
+#include <atomic>
+#include <algorithm>
+#include "common/joint_state_buffer.h"
 
 using namespace std;
 using namespace UNITREE_LEGGED_SDK;
@@ -41,9 +45,22 @@ public:
   float dt = 0.002; // 0.001~0.01
 
   float qDes[12] = {0};     // Desired joint positions
-    float KpDes[12] = {5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0};
-float KdDes[12] = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+  float KpDes[12] = {5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0};
+  float KdDes[12] = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+  float qTarget[12] = {0};  // Final target set externally
+  float stepSize = 0.005f;  // For very smooth transitions
+  bool joints_initialized = false;
 
+private:
+  // static constexpr int kRingSize = 1000;  // Or however deep you want
+  // struct JointState {
+  //   float q;
+  //   float dq;
+  //   float tauEst;
+  // };
+  // std::array<std::array<JointState, 12>, kRingSize> stateBuffer;
+  // std::atomic<int> bufferIndex{0};                // Shared index, if multithreaded
+  JointStateBuffer buffer;
 
 
 };
@@ -68,9 +85,20 @@ double jointLinearInterpolation(double initPos, double targetPos, double rate)
 
 void Custom::receiveJointCommand(int joint_index, float target)
 {
+  if (!joints_initialized)
+{
+  for (int i = 0; i < 12; ++i)
+  {
+    qDes[i] = state.motorState[i].q;
+    // qTarget[i] = qDes[i];
+  }
+  joints_initialized = true;
+}
+
+
   if (joint_index >= 0 && joint_index < 12)
   {
-    qDes[joint_index] = target;
+    qTarget[joint_index] = target;  // just set the new goal
   }
 }
 
@@ -92,13 +120,20 @@ void Custom::RobotControl()
   {
 
     for (int i = 0; i < 12; ++i)
-    {
-    cmd.motorCmd[i].q   = qDes[i];
-    cmd.motorCmd[i].dq  = 0;
-    cmd.motorCmd[i].Kp  = KpDes[i];
-    cmd.motorCmd[i].Kd  = KdDes[i];
-    cmd.motorCmd[i].tau = 0.0f;
-    }
+{
+  float diff = qTarget[i] - qDes[i];
+
+  if (fabs(diff) < stepSize)
+    qDes[i] = qTarget[i];  // close enough, snap to target
+  else
+    qDes[i] += (diff > 0 ? stepSize : -stepSize);  // move a bit toward target
+
+  cmd.motorCmd[i].q = qDes[i];
+  cmd.motorCmd[i].dq = 0;
+  cmd.motorCmd[i].Kp = KpDes[i];
+  cmd.motorCmd[i].Kd = KdDes[i];
+  cmd.motorCmd[i].tau = 0.0f;
+}
   }
 
   if (motiontime > 10)
@@ -112,6 +147,38 @@ void Custom::RobotControl()
   }
 
   udp.SetSend(cmd);
+
+//   int index = bufferIndex.fetch_add(1) % kRingSize;
+//     for (int i = 0; i < 12; ++i) {
+//         stateBuffer[index][i] = {
+//             state.motorState[i].q,
+//             state.motorState[i].dq,
+//             state.motorState[i].tauEst
+//     };
+// }
+
+//     if (motiontime % 1000 == 0) {
+//     std::cout << "Joint states at buffer[" << index << "]:" << std::endl;
+//     for (int i = 0; i < 12; ++i) {
+//         std::cout << "Joint " << i << " q: " << stateBuffer[index][i].q
+//                   << ", dq: " << stateBuffer[index][i].dq
+//                   << ", tau: " << stateBuffer[index][i].tauEst << std::endl;
+//     }
+// }
+  std::array<JointState, 12> currentStates;
+    for (int i = 0; i < 12; ++i) {
+      currentStates[i] = {
+        state.motorState[i].q,
+        state.motorState[i].dq,
+        state.motorState[i].tauEst
+      };
+    }
+  buffer.push(currentStates);
+
+  if (motiontime % 1000 == 0) {
+    auto latest = buffer.latest();
+    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+}
 }
 
 int main(void)
