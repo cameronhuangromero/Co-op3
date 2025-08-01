@@ -176,8 +176,15 @@ void Custom::RobotControl()
   buffer.push(currentStates);
 
   if (motiontime % 1000 == 0) {
-    auto latest = buffer.latest();
-    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+  auto smoothed = buffer.boxcarAverage(10);
+  std::cout << "[Filtered] Joint States (boxcar avg over 10):" << std::endl;
+  for (int i = 0; i < 12; ++i) {
+    std::cout << "Joint " << i
+              << " q: " << smoothed[i].q
+              << " dq: " << smoothed[i].dq
+              << " tau: " << smoothed[i].tauEst
+              << std::endl;
+  }
 }
 }
 
@@ -199,7 +206,7 @@ int main(void)
   LoopFunc loop_udpSend("udp_send", custom.dt, 3, boost::bind(&Custom::UDPSend, &custom));
   LoopFunc loop_udpRecv("udp_recv", custom.dt, 3, boost::bind(&Custom::UDPRecv, &custom));
 
-  custom.receiveJointCommand(1, 1.4f);
+  custom.receiveJointCommand(1, 0.4f);
 
 
   loop_udpSend.start();

@@ -129,7 +129,8 @@ void Custom::RobotControl() {
     cmd.motorCmd[RR_0].tau = -0.65f;
     cmd.motorCmd[RL_0].tau = +0.65f;
 
-    if (motiontime >= 500)
+    // if (motiontime >= 500)
+    if (motiontime >= 500 && motiontime < 506)
     {
         for (int i = 0; i < 12; ++i) {
             if (torqueEnabled[i].load()) {
@@ -177,9 +178,17 @@ void Custom::RobotControl() {
   buffer.push(currentStates);
 
   if (motiontime % 1000 == 0) {
-    auto latest = buffer.latest();
-    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+  auto smoothed = buffer.boxcarAverage(10);
+  std::cout << "[Filtered] Joint States (boxcar avg over 10):" << std::endl;
+  for (int i = 0; i < 12; ++i) {
+    std::cout << "Joint " << i
+              << " q: " << smoothed[i].q
+              << " dq: " << smoothed[i].dq
+              << " tau: " << smoothed[i].tauEst
+              << std::endl;
+  }
 }
+
 
 
     
@@ -195,13 +204,13 @@ int main(void)
   std::cin.ignore();
 
   Custom custom(LOWLEVEL);
-custom.singlejointtorque(FR_1, 0.2f);
+// custom.singlejointtorque(FR_1, 0.2f);
 
 // custom.legjointtorque(Custom::FL, 0.1f, 0.2f, 0.3f);
 
-// std::array<float, 12> allTaus = {0.1f, 0.1f, 0.1f, 0.2f, 0.2f, 0.2f,
-//                                  0.3f, 0.3f, 0.3f, 0.4f, 0.4f, 0.4f};
-// custom.alljointtorque(allTaus);
+std::array<float, 12> allTaus = {0.1f, 0.1f, 0.1f, 0.2f, 0.2f, 0.2f,
+                                 0.3f, 0.3f, 0.3f, 0.4f, 0.4f, 0.4f};
+custom.alljointtorque(allTaus);
   LoopFunc loop_control("control_loop", custom.dt, boost::bind(&Custom::RobotControl, &custom));
   LoopFunc loop_udpSend("udp_send", custom.dt, 3, boost::bind(&Custom::UDPSend, &custom));
   LoopFunc loop_udpRecv("udp_recv", custom.dt, 3, boost::bind(&Custom::UDPRecv, &custom));

@@ -9,6 +9,35 @@
 using namespace std;
 using namespace UNITREE_LEGGED_SDK;
 
+Mat3 Mat3Inverse(const Mat3& m) {
+    float det =
+        m(0,0)*(m(1,1)*m(2,2)-m(1,2)*m(2,1)) -
+        m(0,1)*(m(1,0)*m(2,2)-m(1,2)*m(2,0)) +
+        m(0,2)*(m(1,0)*m(2,1)-m(1,1)*m(2,0));
+
+    if (fabs(det) < 1e-8) {
+        cerr << "Matrix is singular or nearly singular, cannot invert!" << endl;
+        return Mat3::Zero();  // Or some safe fallback
+    }
+
+    float invDet = 1.0f / det;
+
+    Mat3 inv;
+    inv(0,0) =  (m(1,1)*m(2,2) - m(1,2)*m(2,1)) * invDet;
+    inv(0,1) = -(m(0,1)*m(2,2) - m(0,2)*m(2,1)) * invDet;
+    inv(0,2) =  (m(0,1)*m(1,2) - m(0,2)*m(1,1)) * invDet;
+
+    inv(1,0) = -(m(1,0)*m(2,2) - m(1,2)*m(2,0)) * invDet;
+    inv(1,1) =  (m(0,0)*m(2,2) - m(0,2)*m(2,0)) * invDet;
+    inv(1,2) = -(m(0,0)*m(1,2) - m(0,2)*m(1,0)) * invDet;
+
+    inv(2,0) =  (m(1,0)*m(2,1) - m(1,1)*m(2,0)) * invDet;
+    inv(2,1) = -(m(0,0)*m(2,1) - m(0,1)*m(2,0)) * invDet;
+    inv(2,2) =  (m(0,0)*m(1,1) - m(0,1)*m(1,0)) * invDet;
+
+    return inv;
+}
+
 class Custom
 {
 public:
@@ -126,7 +155,17 @@ Vec3 qFR;
     cmd.motorCmd[RL_0 + i].tau = tauRL(i);
   }
 
+ Mat3 J = legFR.calcJaco(qFR);
+  Mat3 JT = J.transpose();
 
+  Vec3 tauEst;
+  for (int i = 0; i < 3; ++i)
+      tauEst(i) = state.motorState[FR_0 + i].tauEst;
+
+  Mat3 JT_inv = Mat3Inverse(JT);
+  Vec3 footForceEstimate = JT_inv * tauEst;
+
+  std::cout << "Estimated foot force (N): " << footForceEstimate.transpose() << std::endl;
 
   safe.PositionLimit(cmd);
   int res = safe.PowerProtect(cmd, state, 1);
@@ -164,23 +203,29 @@ Vec3 qFR;
   buffer.push(currentStates);
 
   if (motiontime % 1000 == 0) {
-    auto latest = buffer.latest();
-    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+  auto smoothed = buffer.boxcarAverage(10);
+  std::cout << "[Filtered] Joint States (boxcar avg over 10):" << std::endl;
+  for (int i = 0; i < 12; ++i) {
+    std::cout << "Joint " << i
+              << " q: " << smoothed[i].q
+              << " dq: " << smoothed[i].dq
+              << " tau: " << smoothed[i].tauEst
+              << std::endl;
+  }
 }
 }
 
 
 int main(void)
 {
-  std::cout << "Force control enabled for FR leg only!" << std::endl;
   std::cout << "Robot must be hung up and in LOW-level mode." << std::endl;
   std::cin.ignore();
 
   Custom custom(LOWLEVEL);
-  custom.desiredFootForceFR = Vec3(0, 0, -30);  // Apply downward force
-  custom.desiredFootForceFL = Vec3(0, 0, -30);
-  custom.desiredFootForceRR = Vec3(0, 0, -30);
-  custom.desiredFootForceRL = Vec3(0, 0, -30);
+  custom.desiredFootForceFR = Vec3(0, 0, -5);  // Apply downward force
+  custom.desiredFootForceFL = Vec3(0, 0, -5);
+  custom.desiredFootForceRR = Vec3(0, 0, -5);
+  custom.desiredFootForceRL = Vec3(0, 0, -5);
 
   LoopFunc loop_control("control_loop", custom.dt, boost::bind(&Custom::RobotControl, &custom));
   LoopFunc loop_udpSend("udp_send", custom.dt, 3, boost::bind(&Custom::UDPSend, &custom));

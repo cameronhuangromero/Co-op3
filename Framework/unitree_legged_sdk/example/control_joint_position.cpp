@@ -129,6 +129,35 @@ void Custom::RobotControl()
     cmd.motorCmd[RL_0 + i].tau = 0;
   }
 
+  // Extract actual joint angles
+Vec3 q_fr(state.motorState[FR_0].q, state.motorState[FR_1].q, state.motorState[FR_2].q);
+Vec3 q_fl(state.motorState[FL_0].q, state.motorState[FL_1].q, state.motorState[FL_2].q);
+Vec3 q_rr(state.motorState[RR_0].q, state.motorState[RR_1].q, state.motorState[RR_2].q);
+Vec3 q_rl(state.motorState[RL_0].q, state.motorState[RL_1].q, state.motorState[RL_2].q);
+
+// Compute actual foot positions from joint angles
+Vec3 footPosFR = legFR.calcPEe2B(q_fr);
+Vec3 footPosFL = legFL.calcPEe2B(q_fl);
+Vec3 footPosRR = legRR.calcPEe2B(q_rr);
+Vec3 footPosRL = legRL.calcPEe2B(q_rl);
+
+// Compute errors
+Vec3 errFR = footPosFR - desFootFR;
+Vec3 errFL = footPosFL - desFootFL;
+Vec3 errRR = footPosRR - desFootRR;
+Vec3 errRL = footPosRL - desFootRL;
+
+// Log every 1000 cycles (~2 sec if dt=0.002s)
+if (motiontime % 10 == 0) {
+  std::cout << "\n[Foot Position Error - BODY frame]:" << std::endl;
+
+  std::cout << "FR: Error (x,y,z): " << errFR(0) << ", " << errFR(1) << ", " << errFR(2) << std::endl;
+  std::cout << "FL: Error (x,y,z): " << errFL(0) << ", " << errFL(1) << ", " << errFL(2) << std::endl;
+  std::cout << "RR: Error (x,y,z): " << errRR(0) << ", " << errRR(1) << ", " << errRR(2) << std::endl;
+  std::cout << "RL: Error (x,y,z): " << errRL(0) << ", " << errRL(1) << ", " << errRL(2) << std::endl;
+}
+
+
   // Safety and send
   safe.PositionLimit(cmd);
   int res = safe.PowerProtect(cmd, state, 1);
@@ -166,8 +195,15 @@ void Custom::RobotControl()
   buffer.push(currentStates);
 
   if (motiontime % 1000 == 0) {
-    auto latest = buffer.latest();
-    std::cout << "Latest joint q[0]: " << latest[0].q << ", dq[0]: " << latest[0].dq << std::endl;
+  auto smoothed = buffer.boxcarAverage(10);
+  std::cout << "[Filtered] Joint States (boxcar avg over 10):" << std::endl;
+  for (int i = 0; i < 12; ++i) {
+    std::cout << "Joint " << i
+              << " q: " << smoothed[i].q
+              << " dq: " << smoothed[i].dq
+              << " tau: " << smoothed[i].tauEst
+              << std::endl;
+  }
 }
 }
 
