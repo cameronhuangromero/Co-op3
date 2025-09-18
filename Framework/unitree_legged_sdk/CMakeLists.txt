@@ -19,8 +19,8 @@ if(PYTHON_BUILD)
 endif()
 
 set(EXTRA_LIBS -pthread libunitree_legged_sdk.a)
-set(CMAKE_CXX_FLAGS "-O3 -fPIC")
-set(CMAKE_CXX_STANDARD 14)
+# set(CMAKE_CXX_FLAGS "-O3 -fPIC")
+# set(CMAKE_CXX_STANDARD 14)
 
 find_package(catkin QUIET)
 if(${catkin_FOUND})
@@ -54,7 +54,8 @@ add_executable(example_joystick example/example_joystick.cpp)
 target_link_libraries(example_joystick ${EXTRA_LIBS})
 
 add_executable(control_joint_torque example/control_joint_torque.cpp)
-target_link_libraries(control_joint_torque ${EXTRA_LIBS})
+target_link_libraries(control_joint_torque ${EXTRA_LIBS} rt
+)
 
 add_executable(control_joint_angle example/control_joint_angle.cpp)
 target_link_libraries(control_joint_angle ${EXTRA_LIBS})
@@ -64,6 +65,9 @@ target_link_libraries(control_joint_position ${EXTRA_LIBS})
 
 add_executable(control_tip_force example/control_tip_force.cpp common/unitreeLeg.cpp)
 target_link_libraries(control_tip_force ${EXTRA_LIBS})
+
+
+
 
 # install
 install(TARGETS

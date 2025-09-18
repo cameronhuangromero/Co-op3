@@ -9,6 +9,9 @@
 #include <atomic>
 #include <algorithm> // for std::clamp
 #include "common/joint_state_buffer.h"
+#include <fcntl.h>    // shm_open
+#include <sys/mman.h> // mmap
+#include <unistd.h>   // ftruncate, close
 
 
 
@@ -17,8 +20,11 @@ using namespace UNITREE_LEGGED_SDK;
 class Custom
 {
 public:
-  Custom(uint8_t level) : safe(LeggedType::Go1),
-                          udp(level, 8090, "192.168.123.10", 8007)
+  Custom(uint8_t level, JointStateBuffer* buf, TorqueCommandBuffer* cmd_buf) 
+    : safe(LeggedType::Go1),
+      udp(level, 8090, "192.168.123.10", 8007),
+      buffer(buf),    // pass in shared memory buffer
+      command_buffer(cmd_buf)
                           
 
   {
@@ -58,11 +64,15 @@ private:
   // };
   // std::array<std::array<JointState, 12>, kRingSize> stateBuffer;
   // std::atomic<int> bufferIndex{0};
-  JointStateBuffer buffer;
+  JointStateBuffer* buffer; 
+  TorqueCommandBuffer* command_buffer;
+
+};
+
   
   
 
-};
+
 
 void Custom::UDPRecv()
 {
@@ -133,12 +143,15 @@ void Custom::RobotControl() {
     if (motiontime >= 500 && motiontime < 506)
     {
         for (int i = 0; i < 12; ++i) {
-            if (torqueEnabled[i].load()) {
+            // if (torqueEnabled[i].load()) 
+            if (command_buffer->enabled[i].load())
+            {
                 cmd.motorCmd[i].q = PosStopF;
                 cmd.motorCmd[i].dq = VelStopF;
                 cmd.motorCmd[i].Kp = 0;
                 cmd.motorCmd[i].Kd = 0;
-                cmd.motorCmd[i].tau = bufferedTorques[i].load();
+                // cmd.motorCmd[i].tau = bufferedTorques[i].load();
+                cmd.motorCmd[i].tau = std::clamp(command_buffer->torques[i].load(), -5.0f, 5.0f);
                 std::cout << "Joint " << i << " torque: " << bufferedTorques[i].load() << std::endl;
             }
         }
@@ -175,10 +188,10 @@ void Custom::RobotControl() {
         state.motorState[i].tauEst
       };
     }
-  buffer.push(currentStates);
+buffer->push(currentStates);
 
   if (motiontime % 1000 == 0) {
-  auto smoothed = buffer.boxcarAverage(10);
+  auto smoothed = buffer->boxcarAverage(10);
   std::cout << "[Filtered] Joint States (boxcar avg over 10):" << std::endl;
   for (int i = 0; i < 12; ++i) {
     std::cout << "Joint " << i
@@ -203,14 +216,57 @@ int main(void)
             << "Press Enter to continue..." << std::endl;
   std::cin.ignore();
 
-  Custom custom(LOWLEVEL);
-// custom.singlejointtorque(FR_1, 0.2f);
+
+  // --- Create shared memory for joint state buffer ---
+  const char* shm_name = "/joint_state_buffer";
+  int fd = shm_open(shm_name, O_CREAT | O_RDWR, 0666);
+  if (fd < 0) {
+    perror("shm_open failed");
+    return -1;
+  }
+  ftruncate(fd, sizeof(JointStateBuffer));
+  JointStateBuffer* shm_buffer = static_cast<JointStateBuffer*>(
+      mmap(nullptr, sizeof(JointStateBuffer), PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0));
+  close(fd);
+
+  if (shm_buffer == MAP_FAILED) {
+    perror("mmap failed");
+    return -1;
+  }
+
+  // Initialize buffer (only once, here in writer process)
+  shm_buffer->init();
+
+  // --- Create shared memory for torque command buffer ---
+const char* shm_cmd_name = "/torque_command_buffer";
+int fd_cmd = shm_open(shm_cmd_name, O_CREAT | O_RDWR, 0666);
+if (fd_cmd < 0) {
+    perror("shm_open torque_command_buffer failed");
+    return -1;
+}
+ftruncate(fd_cmd, sizeof(TorqueCommandBuffer));
+TorqueCommandBuffer* shm_cmd_buffer = static_cast<TorqueCommandBuffer*>(
+    mmap(nullptr, sizeof(TorqueCommandBuffer),
+         PROT_READ | PROT_WRITE, MAP_SHARED, fd_cmd, 0));
+close(fd_cmd);
+
+if (shm_cmd_buffer == MAP_FAILED) {
+    perror("mmap torque_command_buffer failed");
+    return -1;
+}
+
+// Initialize command buffer (only once, here in writer process)
+shm_cmd_buffer->init();
+
+
+  Custom custom(LOWLEVEL, shm_buffer, shm_cmd_buffer);
+  // custom.singlejointtorque(FR_1, 0.2f);
 
 // custom.legjointtorque(Custom::FL, 0.1f, 0.2f, 0.3f);
 
-std::array<float, 12> allTaus = {0.1f, 0.1f, 0.1f, 0.2f, 0.2f, 0.2f,
-                                 0.3f, 0.3f, 0.3f, 0.4f, 0.4f, 0.4f};
-custom.alljointtorque(allTaus);
+// std::array<float, 12> allTaus = {0.1f, 0.1f, 0.1f, 0.2f, 0.2f, 0.2f,
+//                                  0.3f, 0.3f, 0.3f, 0.4f, 0.4f, 0.4f};
+// custom.alljointtorque(allTaus);
   LoopFunc loop_control("control_loop", custom.dt, boost::bind(&Custom::RobotControl, &custom));
   LoopFunc loop_udpSend("udp_send", custom.dt, 3, boost::bind(&Custom::UDPSend, &custom));
   LoopFunc loop_udpRecv("udp_recv", custom.dt, 3, boost::bind(&Custom::UDPRecv, &custom));
@@ -219,6 +275,7 @@ custom.alljointtorque(allTaus);
   loop_udpRecv.start();
   loop_control.start();
 
+  
   while (1)
   {
     sleep(10);
