@@ -12,6 +12,7 @@ public:
   JointStateBufferNode()
   : Node("joint_state_buffer_node")
   {
+    // creates a publisher for the "filtered_joint_states" topic
     publisher_ = this->create_publisher<sensor_msgs::msg::JointState>("filtered_joint_states", 10);
 
     // Attach to existing shared memory created by torque controller
@@ -21,6 +22,7 @@ public:
       throw std::runtime_error("Failed to open shared memory object");
     }
 
+    // maps shared memory buffer to the current process' space, and buffer points to joint state buffer node
     buffer_ = static_cast<JointStateBuffer*>(
       mmap(nullptr, sizeof(JointStateBuffer), PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0)
     );
@@ -30,7 +32,7 @@ public:
       throw std::runtime_error("Failed to mmap shared memory buffer");
     }
 
-    // Publish at 100 Hz
+    // Publish at 100 Hz/every 10 ms
     timer_ = this->create_wall_timer(
       std::chrono::milliseconds(10),
       std::bind(&JointStateBufferNode::publishJointStates, this)
@@ -55,6 +57,7 @@ private:
       msg.effort[i]   = smoothed[i].tauEst;
     }
 
+    // publish the message containing the joint state data
     publisher_->publish(msg);
   }
 

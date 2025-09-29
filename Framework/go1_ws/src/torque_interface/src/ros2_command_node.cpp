@@ -37,6 +37,7 @@ public:
     );
   }
 
+// writes torque value into the buffer
 private:
   void commandCallback(const std_msgs::msg::Float32MultiArray::SharedPtr msg) {
     if (msg->data.size() != TorqueCommandBuffer::kNumJoints) {

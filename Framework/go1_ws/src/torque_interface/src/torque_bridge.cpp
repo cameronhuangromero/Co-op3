@@ -3,16 +3,20 @@
 
 TorqueBridge::TorqueBridge() : Node("torque_bridge")
 {
+    // subscribed to joint command topic
     single_sub_cmd_ = this->create_subscription<torque_interface::msg::JointCommand>(
         "/joint_command", 10,
         std::bind(&TorqueBridge::single_command_callback, this, std::placeholders::_1)
     );
 
+    // publishes joint feedback
     pub_feedback_ = this->create_publisher<torque_interface::msg::JointFeedback>(
         "/joint_feedback", 10
     );
 }
 
+// triggered by receiving single joint message
+// extracts the torque and joint
 void TorqueBridge::single_command_callback(const torque_interface::msg::JointCommand::SharedPtr msg)
 {
     send_to_low_level(msg->joint_index, msg->torque);
@@ -21,6 +25,7 @@ void TorqueBridge::single_command_callback(const torque_interface::msg::JointCom
     publish_feedback(msg->joint_index, tau_feedback);
 }
 
+// not fully implemented? 
 void TorqueBridge::send_to_low_level(int joint_index, float tau)
 {
     Custom torque(LOWLEVEL);
