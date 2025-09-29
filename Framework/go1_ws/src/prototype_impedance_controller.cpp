@@ -6,7 +6,7 @@
 #include <algorithm>
 
 /**
-ROS2 node implementing a joint space impedance controller
+ROS2 node implementing a prototype joint space impedance controller
 
 This node above the torque bridge in the control hierarchy.
 
