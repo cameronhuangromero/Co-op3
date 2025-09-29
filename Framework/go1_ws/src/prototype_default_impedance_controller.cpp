@@ -50,7 +50,7 @@ ImpedanceController::ImpedanceController()
 
     // subscriptions
     sub_desired_ = this->create_subscription<std_msgs::msg::Float32MultiArray>("desired_positions", 10, std::bind(&ImpedanceController::desiredPositionsCallback, this, std::placeholders::_1));
-    sub_joint_state_ = this->create_subscription<sensor_msgs::msg::JointState>("filtered_positions", 10, std::bind(&ImpedanceController::jointStateCallback, this, std::placeholders::_1));
+    sub_joint_state_ = this->create_subscription<sensor_msgs::msg::JointState>("filtered_joint_states", 10, std::bind(&ImpedanceController::jointStateCallback, this, std::placeholders::_1));
 
     // publish desired torque
     pub_torques_ = this->create_publisher<std_msgs::msg::Float32MultiArray>("desired_torques", 10);
@@ -58,7 +58,7 @@ ImpedanceController::ImpedanceController()
 
     // timer for control loop
     auto period = std::chrono::duration<double>(1.0/rate);
-    timer_ = this->create_wall_timer(std::chrono::duration_cast<std::chrono::nanoseconds>(period), std::bind(&ImpedanceController:controlLoop, this));
+    timer_ = this->create_wall_timer(std::chrono::duration_cast<std::chrono::nanoseconds>(period), std::bind(&ImpedanceController::controlLoop, this));
 
 
     // logs initialization
@@ -76,6 +76,7 @@ void ImpedanceController::desiredPositionsCallback(const std_msgs::msg::Float32M
     // checks if the message has the correct number of joint positions, and prints warning/error if not
     if ((int)msg->data.size() != k_number_joints){
         RCLCPP_WARN(this->get_logger(), "Expected %d joint commands but got %zu", k_number_joints, msg->data.size());
+        return;
     }
 
     // loops over each joint and stores the desired position listed int he message into the node's internal desired_position_ vector
@@ -125,7 +126,7 @@ void ImpedanceController::controlLoop()
     torque_msg.data.resize(k_number_joints);
 
     // loop over joints
-    for (int = 0; i < k_number_joints; ++i)
+    for (int i = 0; i < k_number_joints; ++i)
     {
         double position_error = local_desired_position[i] - local_measured_position[i];
         double velocity_error = local_desired_velocity[i] - local_measured_velocity[i];
@@ -144,4 +145,10 @@ void ImpedanceController::controlLoop()
     }
 
     pub_torques_->publish(torque_msg);
+}
+
+// Helper
+void ImpedanceController::ensureVectorSize(std::vector<double> &v, double default_value){
+    if ((int)v.size() != k_number_joints)
+        v.assign(k_number_joints, default_value):
 }
