@@ -1,3 +1,5 @@
+#include "impedance_interface/pid_impedance_controller"
+
 PIDController::PIDController(const std::vector<double> &Kp, const std::vector<double> &Ki, const std::vector<double> &Kd): Kp_(Kp), Ki_(Ki), Kd_(Kd), integral_error_(Kp.size(), 0.0) {}
 
 std::vector<double> PIDController::computeTorque(

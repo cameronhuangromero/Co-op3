@@ -6,8 +6,6 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
-
-
 include_directories(
   ../../../../unitree_legged_sdk/include
 )
@@ -18,29 +16,18 @@ ament_target_dependencies(joint_state_buffer_node rclcpp sensor_msgs)
 add_executable(torque_command_node src/ros2_command_node.cpp)
 ament_target_dependencies(torque_command_node rclcpp std_msgs)
 
+add_executable(test_pid
+  src/main.cpp
+  src/prototype_pid_impedance_controller.cpp
+)
+target_include_directories(test_pid PUBLIC include)
+ament_target_dependencies(test_pid rclcpp std_msgs sensor_msgs)
+
 install(TARGETS
   joint_state_buffer_node
   torque_command_node
+  test_pid
   DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
