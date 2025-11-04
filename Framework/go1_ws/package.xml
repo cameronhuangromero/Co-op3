@@ -1,11 +1,20 @@
+<?xml version="1.0">
 <package format="3">
-  <name>joint_state_buffer_node</name>
+  <name>impedance_controller_framework</name>
   <version>0.1.0</version>
-  <description>ROS 2 node to publish joint states from shared memory buffer</description>
-  <maintainer email="you@example.com">Your Name</maintainer>
-  <license>BSD-3-Clause</license>
+  <description>
+      A ROS 2 framework for implementing and using impedance controllers, intended for use on the Unitree GO1 robot.
+      Includes a base class, a prototype implementation, and a ROS node that subscribes to joint states and publishes desired torques.
+  </description>
+
+  <maintainer email="chr47@drexel.edu">Cameron Romero</maintainer>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
+

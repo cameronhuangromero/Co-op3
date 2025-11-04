@@ -1,33 +1,49 @@
 cmake_minimum_required(VERSION 3.5)
-project(joint_state_buffer_node)
+project(impedance_controller_framework)
 
+# dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
+# headers
 include_directories(
+  include
   ../../../../unitree_legged_sdk/include
 )
 
-add_executable(joint_state_buffer_node src/ros2_buffer_node.cpp)
-ament_target_dependencies(joint_state_buffer_node rclcpp sensor_msgs)
-
-add_executable(torque_command_node src/ros2_command_node.cpp)
-ament_target_dependencies(torque_command_node rclcpp std_msgs)
-
-add_executable(test_pid
-  src/main.cpp
-  src/prototype_pid_impedance_controller.cpp
+# build lib
+add_library(impedance_controllers
+  src/impedance_controller_node.cpp
 )
-target_include_directories(test_pid PUBLIC include)
-ament_target_dependencies(test_pid rclcpp std_msgs sensor_msgs)
 
+ament_target_dependencies(impedance_controllers
+  rclcpp
+  sensor_msgs
+  std_msgs
+)
+
+# main executable
+add_executable(impedance_controller_main src/main.cpp)
+
+target_link_libraries(impedance_controller_main impedance_controllers)
+
+ament_target_dependencies(impedance_controller_main
+  rclcpp
+  sensor_msgs
+  std_msgs
+)
+
+# installation
 install(TARGETS
-  joint_state_buffer_node
-  torque_command_node
-  test_pid
+  impedance_controller_main
+  impedance_controllers
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY include/
+  DESTINATION include
 )
 
 ament_package()
