@@ -1,4 +1,4 @@
-#include "impedance_controller_base.hpp"
+#include "impedance_interface/impedance_controller_base.hpp"
 #include "main.cpp"
 /*
  * Author: Cameron Romero

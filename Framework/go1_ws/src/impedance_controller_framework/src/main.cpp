@@ -1,7 +1,7 @@
 #pragma once
 
 #include "impedance_controller_node.cpp"
-#include "prototype_impedance_controller.hpp"
+#include "impedance_interface/prototype_impedance_controller.hpp"
 
 int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);
