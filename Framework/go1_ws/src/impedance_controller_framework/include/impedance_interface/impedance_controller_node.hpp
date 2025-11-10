@@ -4,7 +4,7 @@
 #include <sensor_msgs/msg/joint_state.hpp>
 #include <std_msgs/msg/float32_multi_array.hpp>
 
-#include "impedance_controller_base.hpp"
+#include "impedance_interface/impedance_controller_base.hpp"
 
 /*
  * Author: Cameron Romero
