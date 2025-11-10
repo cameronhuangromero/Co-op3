@@ -1,5 +1,10 @@
+#include "impedance_interface/impedance_controller_node.hpp"
 #include "impedance_interface/impedance_controller_base.hpp"
-#include "main.cpp"
+
+#include <memory>
+#include <rclcpp/rclcpp.hpp>
+#include <sensor_msgs/msg/joint_state.hpp>
+#include <std_msgs/msg/float32_multi_array.hpp>
 /*
  * Author: Cameron Romero
  *
