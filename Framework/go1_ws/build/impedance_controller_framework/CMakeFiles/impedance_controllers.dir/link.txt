@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimpedance_controllers.a CMakeFiles/impedance_controllers.dir/src/impedance_controller_node.cpp.o
+/usr/bin/ranlib libimpedance_controllers.a

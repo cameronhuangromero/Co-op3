@@ -1,0 +1,87 @@
+[0.011s] Invoking command in '/home/giszterlab/Co-op3/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/Co-op3/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.066s] [ 25%] [32mBuilding CXX object CMakeFiles/impedance_controllers.dir/src/impedance_controller_node.cpp.o[0m
+[0.129s] In file included from [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:3[m[K,
+[0.129s]                  from [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:2[m[K:
+[0.129s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerNode[m[K’ does not name a type; did you mean ‘[01m[KImpedanceControllerBase[m[K’?
+[0.129s]    17 | [01;31m[KImpedanceControllerNode[m[K::ImpedanceControllerNode(
+[0.129s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.129s]       | [32m[KImpedanceControllerBase[m[K
+[0.130s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:30:6:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerNode[m[K’ has not been declared
+[0.130s]    30 | void [01;31m[KImpedanceControllerNode[m[K::jointStateCallback(
+[0.130s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.130s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[0.130s]    31 |     const [01;31m[Ksensor_msgs[m[K::msg::JointState::SharedPtr msg) {
+[0.130s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[0.130s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.131s]    31 |     const sensor_msgs::msg[01;31m[K::[m[KJointState::SharedPtr msg) {
+[0.131s]       |                           [01;31m[K^~[m[K
+[0.131s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.131s]    31 |     const sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState::SharedPtr msg) {
+[0.131s]       |                           [01;31m[K^[m[K[32m[K~[m[K
+[0.131s]       |                           [32m[K)[m[K
+[0.131s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:30:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.132s]    30 | void ImpedanceControllerNode::jointStateCallback[01;36m[K([m[K
+[0.132s]       |                                                 [01;36m[K^[m[K
+[0.132s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.132s]    31 |     const sensor_msgs::msg[01;31m[K::[m[KJointState::SharedPtr msg) {
+[0.132s]       |                           [01;31m[K^~[m[K
+[0.132s] In file included from [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:2[m[K:
+[0.132s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.133s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:7:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.133s]     7 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.133s]       |   [01;31m[K^~~~~~[m[K
+[0.133s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:9:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.133s]     9 |   auto controller = std::[01;31m[Kmake_shared[m[K<PrototypeImpedanceController>();
+[0.134s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[0.134s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:5:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.134s]     4 | #include "impedance_interface/prototype_impedance_controller.hpp"
+[0.134s]   +++ |+[32m[K#include <memory>[m[K
+[0.134s]     5 | 
+[0.134s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:9:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.135s]     9 |   auto controller = std::make_shared<PrototypeImpedanceController[01;31m[K>[m[K();
+[0.135s]       |                                                                  [01;31m[K^[m[K
+[0.135s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:9:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.135s]     9 |   auto controller = std::make_shared<PrototypeImpedanceController>([01;31m[K)[m[K;
+[0.135s]       |                                                                    [01;31m[K^[m[K
+[0.135s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:10:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.135s]    10 |   auto node = std::[01;31m[Kmake_shared[m[K<ImpedanceControllerNode>(controller);
+[0.135s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[0.136s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:10:20:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.136s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:10:32:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerNode[m[K’ was not declared in this scope; did you mean ‘[01m[KImpedanceControllerBase[m[K’?
+[0.136s]    10 |   auto node = std::make_shared<[01;31m[KImpedanceControllerNode[m[K>(controller);
+[0.136s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.136s]       |                                [32m[KImpedanceControllerBase[m[K
+[0.136s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.136s]    12 |   [01;31m[Krclcpp[m[K::spin(node);
+[0.136s]       |   [01;31m[K^~~~~~[m[K
+[0.136s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/main.cpp:13:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.137s]    13 |   [01;31m[Krclcpp[m[K::shutdown();
+[0.137s]       |   [01;31m[K^~~~~~[m[K
+[0.137s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:[m[K At global scope:
+[0.137s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerNode[m[K’ does not name a type; did you mean ‘[01m[KImpedanceControllerBase[m[K’?
+[0.137s]    17 | [01;31m[KImpedanceControllerNode[m[K::ImpedanceControllerNode(
+[0.137s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.138s]       | [32m[KImpedanceControllerBase[m[K
+[0.138s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:30:6:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerNode[m[K’ has not been declared
+[0.138s]    30 | void [01;31m[KImpedanceControllerNode[m[K::jointStateCallback(
+[0.138s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.139s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[0.139s]    31 |     const [01;31m[Ksensor_msgs[m[K::msg::JointState::SharedPtr msg) {
+[0.139s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[0.139s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.139s]    31 |     const sensor_msgs::msg[01;31m[K::[m[KJointState::SharedPtr msg) {
+[0.139s]       |                           [01;31m[K^~[m[K
+[0.140s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.140s]    31 |     const sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KJointState::SharedPtr msg) {
+[0.140s]       |                           [01;31m[K^[m[K[32m[K~[m[K
+[0.140s]       |                           [32m[K)[m[K
+[0.140s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:30:49:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[0.140s]    30 | void ImpedanceControllerNode::jointStateCallback[01;36m[K([m[K
+[0.140s]       |                                                 [01;36m[K^[m[K
+[0.140s] [01m[K/home/giszterlab/Co-op3/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.140s]    31 |     const sensor_msgs::msg[01;31m[K::[m[KJointState::SharedPtr msg) {
+[0.141s]       |                           [01;31m[K^~[m[K
+[0.141s] gmake[2]: *** [CMakeFiles/impedance_controllers.dir/build.make:76: CMakeFiles/impedance_controllers.dir/src/impedance_controller_node.cpp.o] Error 1
+[0.141s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/impedance_controllers.dir/all] Error 2
+[0.142s] gmake: *** [Makefile:146: all] Error 2
+[0.142s] Invoked command in '/home/giszterlab/Co-op3/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/Co-op3/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
