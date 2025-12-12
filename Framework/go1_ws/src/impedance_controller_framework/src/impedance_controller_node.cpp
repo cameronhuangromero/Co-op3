@@ -1,4 +1,4 @@
-#include "impedance_interface/impedance_controller_node.hpp"
+#include "impedance_controller_framework/impedance_interface/impedance_controller_node.hpp"
 #include "impedance_interface/impedance_controller_base.hpp"
 
 #include <memory>
