@@ -9,7 +9,7 @@ find_package(std_msgs REQUIRED)
 
 
 include_directories(
-  ../../../../unitree_legged_sdk/include
+  ../../../unitree_legged_sdk/include
 )
 
 add_executable(joint_state_buffer_node src/ros2_buffer_node.cpp)
@@ -25,22 +25,3 @@ install(TARGETS
 )
 
 ament_package()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
