@@ -2,6 +2,9 @@
 
 /*
     @brief Implementation of the ImpedanceControllerFactory class
+
+    Author: Cameron Romero
+    Date: 1/12/26
 */
 
 std::unordered_map<std::string, ImpedanceControllerFactory::CreatorFunc>& ImpedanceControllerFactory::getRegistry()

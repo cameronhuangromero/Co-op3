@@ -3,6 +3,13 @@
 #include "impedance_controller_factory.hpp"
 #include "impedance_controller_manager.hpp"
 
+/*
+    @brief Unit tests for ImpedanceControllerFactory and ImpedanceControllerManager
+
+    Author: Cameron Romero
+    Date: 1/12/26
+*/
+
 namespace
 {
     const bool dummy_registered = []()
@@ -15,6 +22,7 @@ namespace
     }();
 }
 
+// Tests for ImpedanceControllerFactory
 class FactoryTest : public ::testing::Test {};
 
 TEST_F(FactoryTest, CreateDummyController)
@@ -30,6 +38,7 @@ TEST_F(FactoryTest, CreateNonexistantController)
     EXPECT_EQ(controller, nullptr);
 }
 
+// Tests for ImpedanceControllerManager
 class ManagerTest : public ::testing::Test
 {  
 public:

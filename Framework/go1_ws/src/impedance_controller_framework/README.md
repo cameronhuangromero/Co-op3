@@ -1,4 +1,7 @@
-# Giszter Framework Design (as of 1/12/26)
+# Giszter Framework Design'
+
+Author: Cameron Romero
+Date: 1/12/26
 
 ## Impedance Controllers
 - Each controller implements a commmon interface

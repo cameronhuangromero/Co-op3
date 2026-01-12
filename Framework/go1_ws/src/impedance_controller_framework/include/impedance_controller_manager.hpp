@@ -11,6 +11,9 @@
 
     Allows switching between different impedance controllers
     Forwards input to controllers and fetches output torque from current controller
+
+    Author: Cameron Romero
+    Date: 1/12/26
 */
 
 class ImpedanceControllerManager

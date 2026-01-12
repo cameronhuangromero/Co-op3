@@ -3,6 +3,9 @@
 
 /*
     @brief Implementation of ImpedanceControllerManager managing a single active controller
+
+    Author: Cameron Romero
+    Date: 1/12/26
 */
 
 ImpedanceControllerManager::ImpedanceControllerManager() : active_controller_(nullptr) {}

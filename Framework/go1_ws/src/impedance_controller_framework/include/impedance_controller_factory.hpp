@@ -12,6 +12,9 @@
 
     Provides a registry-based factory pattern to dynamically create impedance controllers
     Allows for easy addition of new controller types without modifying factory code
+
+    Author: Cameron Romero
+    Date: 1/12/26
 */
 
 class ImpedanceControllerFactory
