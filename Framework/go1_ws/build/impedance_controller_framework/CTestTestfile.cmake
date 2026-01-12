@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework
+# Build directory: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_impedance_controller "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml")
+set_tests_properties(test_impedance_controller PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" TIMEOUT "60" WORKING_DIRECTORY "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/CMakeLists.txt;33;ament_add_gtest;/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/CMakeLists.txt;0;")
+subdirs("gtest")

@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'torque_interface'}
+[0.000539] (impedance_controller_framework) JobQueued: {'identifier': 'impedance_controller_framework', 'dependencies': OrderedDict()}
+[0.000701] (impedance_controller_framework) JobStarted: {'identifier': 'impedance_controller_framework'}
+[0.008921] (impedance_controller_framework) JobProgress: {'identifier': 'impedance_controller_framework', 'progress': 'cmake'}
+[0.009621] (impedance_controller_framework) JobProgress: {'identifier': 'impedance_controller_framework', 'progress': 'build'}
+[0.010270] (impedance_controller_framework) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('SSH_CLIENT', '10.250.58.11 53532 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/usr/src/gtest'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-429e2328-de41-46fe-aa6a-ffaa23bd7ec6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3361'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/giszterlab/.local/bin:/opt/ros/humble/bin:/home/giszterlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d41ab6edfd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.250.58.11 53532 10.250.112.217 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.066292] (impedance_controller_framework) StdoutLine: {'line': b'[ 75%] Built target test_dummy\n'}
+[0.066645] (impedance_controller_framework) StdoutLine: {'line': b'[ 75%] Built target gtest_main\n'}
+[0.066831] (impedance_controller_framework) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[0.079119] (impedance_controller_framework) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_impedance_controller\x1b[0m\n'}
+[0.097674] (impedance_controller_framework) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o\x1b[0m\n'}
+[0.099714] (-) TimerEvent: {}
+[0.200010] (-) TimerEvent: {}
+[0.300490] (-) TimerEvent: {}
+[0.400994] (-) TimerEvent: {}
+[0.501485] (-) TimerEvent: {}
+[0.601967] (-) TimerEvent: {}
+[0.702438] (-) TimerEvent: {}
+[0.803015] (-) TimerEvent: {}
+[0.903486] (-) TimerEvent: {}
+[1.003965] (-) TimerEvent: {}
+[1.104402] (-) TimerEvent: {}
+[1.204902] (-) TimerEvent: {}
+[1.305337] (-) TimerEvent: {}
+[1.405822] (-) TimerEvent: {}
+[1.506288] (-) TimerEvent: {}
+[1.606904] (-) TimerEvent: {}
+[1.707365] (-) TimerEvent: {}
+[1.807877] (-) TimerEvent: {}
+[1.908446] (-) TimerEvent: {}
+[2.008937] (-) TimerEvent: {}
+[2.109411] (-) TimerEvent: {}
+[2.209855] (-) TimerEvent: {}
+[2.234730] (impedance_controller_framework) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_impedance_controller\x1b[0m\n'}
+[2.310021] (-) TimerEvent: {}
+[2.353030] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `(anonymous namespace)::dummy_registered::{lambda()#1}::operator()() const':\n"}
+[2.353510] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0xaa): undefined reference to `ImpedanceControllerFactory::registerController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::shared_ptr<ImpedanceController> ()>)'\n"}
+[2.353758] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateDummyController_Test::TestBody()':\n"}
+[2.353951] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0x187): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[2.354128] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateNonexistantController_Test::TestBody()':\n"}
+[2.354320] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0x4bb): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[2.354491] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerSuccess_Test::TestBody()':\n"}
+[2.354689] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0x6a1): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[2.354865] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: test_impedance_controller.cpp:(.text+0x7a5): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'\n"}
+[2.355031] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerFailure_Test::TestBody()':\n"}
+[2.355193] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0x9d3): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[2.355356] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: test_impedance_controller.cpp:(.text+0xae1): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'\n"}
+[2.355516] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()':\n"}
+[2.355701] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0xd13): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'\n"}
+[2.355870] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()':\n"}
+[2.356033] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text+0xf2c): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[2.356198] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: test_impedance_controller.cpp:(.text+0xf85): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'\n"}
+[2.356358] (impedance_controller_framework) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest::ManagerTest()':\n"}
+[2.356518] (impedance_controller_framework) StderrLine: {'line': b"test_impedance_controller.cpp:(.text._ZN11ManagerTestC2Ev[_ZN11ManagerTestC5Ev]+0x37): undefined reference to `ImpedanceControllerManager::ImpedanceControllerManager()'\n"}
+[2.372092] (impedance_controller_framework) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.374095] (impedance_controller_framework) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:99: test_impedance_controller] Error 1\n'}
+[2.374673] (impedance_controller_framework) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2\n'}
+[2.374953] (impedance_controller_framework) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.377202] (impedance_controller_framework) CommandEnded: {'returncode': 2}
+[2.389988] (impedance_controller_framework) JobEnded: {'identifier': 'impedance_controller_framework', 'rc': 2}
+[2.400683] (-) EventReactorShutdown: {}

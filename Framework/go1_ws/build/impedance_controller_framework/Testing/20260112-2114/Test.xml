@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260112-2114-Experimental"
+	Name="giszterlab-Precision-Tower-5810"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="giszterlab-Precision-Tower-5810"
+	OSRelease="6.8.0-85-generic"
+	OSVersion="#85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="63"
+	ProcessorCacheSize="10240"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15914"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1197.3"
+	>
+	<Testing>
+		<StartDateTime>Jan 12 16:14 EST</StartDateTime>
+		<StartTestTime>1768252463</StartTestTime>
+		<TestList>
+			<Test>./test_impedance_controller</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_impedance_controller</Name>
+			<Path>.</Path>
+			<FullName>./test_impedance_controller</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0740091</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework':
+ - /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller --gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from FactoryTest
+[ RUN      ] FactoryTest.CreateDummyController
+/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:24: Failure
+Expected equality of these values:
+  controller-&gt;name()
+    Which is: "DummyImpedanceController"
+  "DummyController"
+[  FAILED  ] FactoryTest.CreateDummyController (0 ms)
+[ RUN      ] FactoryTest.CreateNonexistantController
+[       OK ] FactoryTest.CreateNonexistantController (0 ms)
+[----------] 2 tests from FactoryTest (0 ms total)
+
+[----------] 4 tests from ManagerTest
+[ RUN      ] ManagerTest.SetActiveControllerSuccess
+/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:43: Failure
+Expected equality of these values:
+  manager.getActiveControllerName()
+    Which is: "DummyImpedanceController"
+  "DummyController"
+[  FAILED  ] ManagerTest.SetActiveControllerSuccess (0 ms)
+[ RUN      ] ManagerTest.SetActiveControllerFailure
+[       OK ] ManagerTest.SetActiveControllerFailure (0 ms)
+[ RUN      ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero
+[       OK ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero (0 ms)
+[ RUN      ] ManagerTest.ComputeTorqueWithActiveController
+[       OK ] ManagerTest.ComputeTorqueWithActiveController (0 ms)
+[----------] 4 tests from ManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] FactoryTest.CreateDummyController
+[  FAILED  ] ManagerTest.SetActiveControllerSuccess
+
+ 2 FAILED TESTS
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+-- run_test.py: verify result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Jan 12 16:14 EST</EndDateTime>
+		<EndTestTime>1768252463</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

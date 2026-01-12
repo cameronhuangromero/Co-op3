@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (-) JobUnselected: {'identifier': 'torque_interface'}
+[0.000644] (impedance_controller_framework) JobQueued: {'identifier': 'impedance_controller_framework', 'dependencies': OrderedDict()}
+[0.000753] (impedance_controller_framework) JobStarted: {'identifier': 'impedance_controller_framework'}
+[0.008214] (impedance_controller_framework) JobProgress: {'identifier': 'impedance_controller_framework', 'progress': 'cmake'}
+[0.008824] (impedance_controller_framework) JobProgress: {'identifier': 'impedance_controller_framework', 'progress': 'build'}
+[0.009467] (impedance_controller_framework) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('SSH_CLIENT', '10.250.58.11 53532 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/usr/src/gtest'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-429e2328-de41-46fe-aa6a-ffaa23bd7ec6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3361'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/giszterlab/.local/bin:/opt/ros/humble/bin:/home/giszterlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d41ab6edfd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.250.58.11 53532 10.250.112.217 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.034398] (impedance_controller_framework) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099420] (-) TimerEvent: {}
+[0.186858] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199568] (-) TimerEvent: {}
+[0.245533] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.249186] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.257156] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.269326] (impedance_controller_framework) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.283683] (impedance_controller_framework) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299678] (-) TimerEvent: {}
+[0.318734] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.320273] (impedance_controller_framework) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399818] (-) TimerEvent: {}
+[0.424761] (impedance_controller_framework) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.480659] (impedance_controller_framework) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.485939] (impedance_controller_framework) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.499917] (-) TimerEvent: {}
+[0.564494] (impedance_controller_framework) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.577868] (impedance_controller_framework) StdoutLine: {'line': b'-- Generating done\n'}
+[0.583029] (impedance_controller_framework) StdoutLine: {'line': b'-- Build files have been written to: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework\n'}
+[0.600055] (-) TimerEvent: {}
+[0.613836] (impedance_controller_framework) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_dummy\x1b[0m\n'}
+[0.621942] (impedance_controller_framework) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.622287] (impedance_controller_framework) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.633520] (impedance_controller_framework) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o\x1b[0m\n'}
+[0.700159] (-) TimerEvent: {}
+[0.800549] (-) TimerEvent: {}
+[0.900992] (-) TimerEvent: {}
+[1.001407] (-) TimerEvent: {}
+[1.101798] (-) TimerEvent: {}
+[1.202179] (-) TimerEvent: {}
+[1.302583] (-) TimerEvent: {}
+[1.402955] (-) TimerEvent: {}
+[1.503335] (-) TimerEvent: {}
+[1.603710] (-) TimerEvent: {}
+[1.616609] (impedance_controller_framework) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.647332] (impedance_controller_framework) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[1.703837] (-) TimerEvent: {}
+[1.804277] (-) TimerEvent: {}
+[1.848764] (impedance_controller_framework) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable test_dummy\x1b[0m\n'}
+[1.904427] (-) TimerEvent: {}
+[1.955472] (impedance_controller_framework) StdoutLine: {'line': b'[ 62%] Built target test_dummy\n'}
+[2.004602] (-) TimerEvent: {}
+[2.105137] (-) TimerEvent: {}
+[2.205674] (-) TimerEvent: {}
+[2.306204] (-) TimerEvent: {}
+[2.406765] (-) TimerEvent: {}
+[2.507303] (-) TimerEvent: {}
+[2.607849] (-) TimerEvent: {}
+[2.708428] (-) TimerEvent: {}
+[2.808861] (-) TimerEvent: {}
+[2.909282] (-) TimerEvent: {}
+[3.009770] (-) TimerEvent: {}
+[3.110230] (-) TimerEvent: {}
+[3.210710] (-) TimerEvent: {}
+[3.311183] (-) TimerEvent: {}
+[3.411655] (-) TimerEvent: {}
+[3.512122] (-) TimerEvent: {}
+[3.612605] (-) TimerEvent: {}
+[3.713074] (-) TimerEvent: {}
+[3.813494] (-) TimerEvent: {}
+[3.913855] (-) TimerEvent: {}
+[3.971899] (impedance_controller_framework) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.013950] (-) TimerEvent: {}
+[4.034848] (impedance_controller_framework) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[4.055654] (impedance_controller_framework) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o\x1b[0m\n'}
+[4.114120] (-) TimerEvent: {}
+[4.214612] (-) TimerEvent: {}
+[4.315104] (-) TimerEvent: {}
+[4.415607] (-) TimerEvent: {}
+[4.516053] (-) TimerEvent: {}
+[4.616550] (-) TimerEvent: {}
+[4.716999] (-) TimerEvent: {}
+[4.817486] (-) TimerEvent: {}
+[4.917988] (-) TimerEvent: {}
+[5.018463] (-) TimerEvent: {}
+[5.118950] (-) TimerEvent: {}
+[5.219419] (-) TimerEvent: {}
+[5.319918] (-) TimerEvent: {}
+[5.420407] (-) TimerEvent: {}
+[5.520917] (-) TimerEvent: {}
+[5.621401] (-) TimerEvent: {}
+[5.721899] (-) TimerEvent: {}
+[5.751339] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.751913] (impedance_controller_framework) StderrLine: {'line': b'   18 | class FactoryTest : public ::testing\x1b[01;31m\x1b[K:\x1b[m\x1b[KTest {};\n'}
+[5.752442] (impedance_controller_framework) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.752784] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.753085] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.753295] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.753736] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.754065] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.754369] (impedance_controller_framework) StderrLine: {'line': b'   20 | TEST_F(\x1b[01;31m\x1b[KFactoryTest\x1b[m\x1b[K, CreateDummyController)\n'}
+[5.754709] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.755258] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.755891] (impedance_controller_framework) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KFactoryTest\x1b[m\x1b[K : public ::testing:Test {};\n'}
+[5.756232] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.756544] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.756864] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.757165] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct testing::internal::SuiteApiResolver<FactoryTest>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.757568] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:\x1b[m\x1b[K   required from here\n'}
+[5.757915] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:503:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.758209] (impedance_controller_framework) StderrLine: {'line': b'  503 | struct \x1b[01;31m\x1b[KSuiteApiResolver\x1b[m\x1b[K : T {\n'}
+[5.758501] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.758963] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.759258] (impedance_controller_framework) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KFactoryTest\x1b[m\x1b[K : public ::testing:Test {};\n'}
+[5.759558] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.759897] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.760182] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.760555] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:507:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KFactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.760867] (impedance_controller_framework) StderrLine: {'line': b'  507 |       typename std::conditional<\x1b[01;31m\x1b[Ksizeof(T)\x1b[m\x1b[K != 0, ::testing::Test, void>::type;\n'}
+[5.761143] (impedance_controller_framework) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.761410] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:27:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.761736] (impedance_controller_framework) StderrLine: {'line': b'   27 | TEST_F(\x1b[01;31m\x1b[KFactoryTest\x1b[m\x1b[K, CreateNonexistantController)\n'}
+[5.762026] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.762305] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass FactoryTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.762614] (impedance_controller_framework) StderrLine: {'line': b'   18 | class \x1b[01;36m\x1b[KFactoryTest\x1b[m\x1b[K : public ::testing:Test {};\n'}
+[5.762935] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.763212] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.763524] (impedance_controller_framework) StderrLine: {'line': b'   33 | class ManagerTest : public ::testing\x1b[01;31m\x1b[K:\x1b[m\x1b[KTest\n'}
+[5.763829] (impedance_controller_framework) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.764111] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.764592] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.764912] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.765200] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.765816] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.766174] (impedance_controller_framework) StderrLine: {'line': b'   38 | TEST_F(\x1b[01;31m\x1b[KManagerTest\x1b[m\x1b[K, SetActiveControllerSuccess)\n'}
+[5.766456] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.766781] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.767067] (impedance_controller_framework) StderrLine: {'line': b'   33 | class \x1b[01;36m\x1b[KManagerTest\x1b[m\x1b[K : public ::testing:Test\n'}
+[5.767354] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.767665] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.767963] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.768252] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct testing::internal::SuiteApiResolver<ManagerTest>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.768551] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:\x1b[m\x1b[K   required from here\n'}
+[5.768880] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:503:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.769174] (impedance_controller_framework) StderrLine: {'line': b'  503 | struct \x1b[01;31m\x1b[KSuiteApiResolver\x1b[m\x1b[K : T {\n'}
+[5.769461] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.769771] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.770072] (impedance_controller_framework) StderrLine: {'line': b'   33 | class \x1b[01;36m\x1b[KManagerTest\x1b[m\x1b[K : public ::testing:Test\n'}
+[5.770350] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.770661] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.770961] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.771242] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:507:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.771542] (impedance_controller_framework) StderrLine: {'line': b'  507 |       typename std::conditional<\x1b[01;31m\x1b[Ksizeof(T)\x1b[m\x1b[K != 0, ::testing::Test, void>::type;\n'}
+[5.771869] (impedance_controller_framework) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.772153] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ManagerTest_SetActiveControllerSuccess_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.772444] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:40:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmanager\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.772763] (impedance_controller_framework) StderrLine: {'line': b'   40 |     bool result = \x1b[01;31m\x1b[Kmanager\x1b[m\x1b[K.setActiveController("DummyController");\n'}
+[5.773082] (impedance_controller_framework) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.773364] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.773675] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.773969] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.774248] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:45:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.774723] (impedance_controller_framework) StderrLine: {'line': b'   45 | TEST_F(\x1b[01;31m\x1b[KManagerTest\x1b[m\x1b[K, SetActiveControllerFailure)\n'}
+[5.775171] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.775458] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.775788] (impedance_controller_framework) StderrLine: {'line': b'   33 | class \x1b[01;36m\x1b[KManagerTest\x1b[m\x1b[K : public ::testing:Test\n'}
+[5.776096] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.776379] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ManagerTest_SetActiveControllerFailure_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.776699] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:47:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmanager\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.776996] (impedance_controller_framework) StderrLine: {'line': b'   47 |     bool result = \x1b[01;31m\x1b[Kmanager\x1b[m\x1b[K.setActiveController("Nonexistant");\n'}
+[5.777276] (impedance_controller_framework) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.777567] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.777889] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.778172] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.778452] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:52:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.778788] (impedance_controller_framework) StderrLine: {'line': b'   52 | TEST_F(\x1b[01;31m\x1b[KManagerTest\x1b[m\x1b[K, ComputeTorqueNoActiveControllerReturnsZero)\n'}
+[5.779076] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.779351] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.779659] (impedance_controller_framework) StderrLine: {'line': b'   33 | class \x1b[01;36m\x1b[KManagerTest\x1b[m\x1b[K : public ::testing:Test\n'}
+[5.779943] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.785262] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.785725] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:55:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmanager\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.786163] (impedance_controller_framework) StderrLine: {'line': b'   55 |     auto torque = \x1b[01;31m\x1b[Kmanager\x1b[m\x1b[K.computeTorque(input);\n'}
+[5.786465] (impedance_controller_framework) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.786792] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.787083] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.787367] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.787682] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:62:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.787979] (impedance_controller_framework) StderrLine: {'line': b'   62 | TEST_F(\x1b[01;31m\x1b[KManagerTest\x1b[m\x1b[K, ComputeTorqueWithActiveController)\n'}
+[5.788240] (impedance_controller_framework) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.788498] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass ManagerTest\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.788839] (impedance_controller_framework) StderrLine: {'line': b'   33 | class \x1b[01;36m\x1b[KManagerTest\x1b[m\x1b[K : public ::testing:Test\n'}
+[5.789105] (impedance_controller_framework) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.793216] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.793678] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:64:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmanager\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.794003] (impedance_controller_framework) StderrLine: {'line': b'   64 |     \x1b[01;31m\x1b[Kmanager\x1b[m\x1b[K.setActiveController("DummyController");\n'}
+[5.794281] (impedance_controller_framework) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.801864] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.802306] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:76:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint (*)()\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.802626] (impedance_controller_framework) StderrLine: {'line': b'   76 |     return \x1b[01;31m\x1b[KRUN_ALL_TESTS\x1b[m\x1b[K;\n'}
+[5.802911] (impedance_controller_framework) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.803179] (impedance_controller_framework) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[5.803441] (impedance_controller_framework) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[Kint (*)()\x1b[m\x1b[K\n'}
+[5.822058] (-) TimerEvent: {}
+[5.865025] (impedance_controller_framework) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62\x1b[m\x1b[K,\n'}
+[5.865429] (impedance_controller_framework) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1\x1b[m\x1b[K:\n'}
+[5.865675] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetSetUpCaseOrSuite(const char*, int))() [with T = FactoryTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.865901] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:\x1b[m\x1b[K   required from here\n'}
+[5.866294] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:512:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KFactoryTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.866480] (impedance_controller_framework) StderrLine: {'line': b'  512 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::SetUpTestCase\x1b[m\x1b[K, &Test::SetUpTestCase);\n'}
+[5.866691] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.866858] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:514:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KFactoryTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.867017] (impedance_controller_framework) StderrLine: {'line': b'  514 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::SetUpTestSuite\x1b[m\x1b[K, &Test::SetUpTestSuite);\n'}
+[5.867176] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.867330] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetTearDownCaseOrSuite(const char*, int))() [with T = FactoryTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.867492] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:\x1b[m\x1b[K   required from here\n'}
+[5.867690] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:527:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KFactoryTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.867854] (impedance_controller_framework) StderrLine: {'line': b'  527 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::TearDownTestCase\x1b[m\x1b[K, &Test::TearDownTestCase);\n'}
+[5.868009] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868161] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:529:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KFactoryTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.868318] (impedance_controller_framework) StderrLine: {'line': b'  529 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::TearDownTestSuite\x1b[m\x1b[K, &Test::TearDownTestSuite);\n'}
+[5.868486] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868691] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetSetUpCaseOrSuite(const char*, int))() [with T = ManagerTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.869013] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:\x1b[m\x1b[K   required from here\n'}
+[5.869191] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:512:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KManagerTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.869360] (impedance_controller_framework) StderrLine: {'line': b'  512 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::SetUpTestCase\x1b[m\x1b[K, &Test::SetUpTestCase);\n'}
+[5.869541] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.869719] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:514:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KManagerTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.869876] (impedance_controller_framework) StderrLine: {'line': b'  514 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::SetUpTestSuite\x1b[m\x1b[K, &Test::SetUpTestSuite);\n'}
+[5.870027] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.870176] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetTearDownCaseOrSuite(const char*, int))() [with T = ManagerTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.870334] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:\x1b[m\x1b[K   required from here\n'}
+[5.870487] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:527:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KManagerTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.870666] (impedance_controller_framework) StderrLine: {'line': b'  527 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::TearDownTestCase\x1b[m\x1b[K, &Test::TearDownTestCase);\n'}
+[5.870823] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.870973] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:529:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[KManagerTest\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[5.871140] (impedance_controller_framework) StderrLine: {'line': b'  529 |         GetNotDefaultOrNull(\x1b[01;31m\x1b[K&T::TearDownTestSuite\x1b[m\x1b[K, &Test::TearDownTestSuite);\n'}
+[5.871294] (impedance_controller_framework) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.922214] (-) TimerEvent: {}
+[5.976221] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_ComputeTorqueWithActiveController_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.976721] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.976920] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KManagerTest_ComputeTorqueWithActiveController_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[5.977099] (impedance_controller_framework) StderrLine: {'line': b'  460 |   Test* CreateTest() override { return new \x1b[01;31m\x1b[KTestClass\x1b[m\x1b[K; }\n'}
+[5.977304] (impedance_controller_framework) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.977472] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.977669] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.977836] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[5.978002] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_SetActiveControllerFailure_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.978176] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.978333] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KManagerTest_SetActiveControllerFailure_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[5.978505] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_SetActiveControllerSuccess_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.978693] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.978851] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KManagerTest_SetActiveControllerSuccess_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[5.979012] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = FactoryTest_CreateNonexistantController_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.979171] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.979327] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KFactoryTest_CreateNonexistantController_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[5.979486] (impedance_controller_framework) StderrLine: {'line': b'/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = FactoryTest_CreateDummyController_Test]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.979684] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:\x1b[m\x1b[K   required from here\n'}
+[5.979858] (impedance_controller_framework) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[KFactoryTest_CreateDummyController_Test*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Ktesting::Test*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[6.010891] (impedance_controller_framework) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:76: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o] Error 1\n'}
+[6.011270] (impedance_controller_framework) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2\n'}
+[6.011654] (impedance_controller_framework) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.014374] (impedance_controller_framework) CommandEnded: {'returncode': 2}
+[6.022563] (-) TimerEvent: {}
+[6.027161] (impedance_controller_framework) JobEnded: {'identifier': 'impedance_controller_framework', 'rc': 2}
+[6.037664] (-) EventReactorShutdown: {}

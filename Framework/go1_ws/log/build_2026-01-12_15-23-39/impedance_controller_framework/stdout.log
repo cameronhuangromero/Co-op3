@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_dummy[0m
+[100%] Built target test_dummy
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy
+-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy" to ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/package_run_dependencies/impedance_controller_framework
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/parent_prefix_path/impedance_controller_framework
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.bash
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.zsh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.dsv
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/packages/impedance_controller_framework
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig.cmake
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig-version.cmake
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.xml

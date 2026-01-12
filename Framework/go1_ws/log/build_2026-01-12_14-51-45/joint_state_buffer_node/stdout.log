@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node
+[35m[1mConsolidate compiler generated dependencies of target joint_state_buffer_node[0m
+[35m[1mConsolidate compiler generated dependencies of target torque_command_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/torque_command_node.dir/src/ros2_command_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_state_buffer_node.dir/src/ros2_buffer_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable joint_state_buffer_node[0m
+[ 75%] Built target joint_state_buffer_node
+[100%] [32m[1mLinking CXX executable torque_command_node[0m
+[100%] Built target torque_command_node
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/joint_state_buffer_node
+-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/joint_state_buffer_node" to ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/torque_command_node
+-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/torque_command_node" to ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/package_run_dependencies/joint_state_buffer_node
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/parent_prefix_path/joint_state_buffer_node
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/ament_prefix_path.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/ament_prefix_path.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/path.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/path.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.bash
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.sh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.zsh
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/package.dsv
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/packages/joint_state_buffer_node
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/cmake/joint_state_buffer_nodeConfig.cmake
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/cmake/joint_state_buffer_nodeConfig-version.cmake
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/package.xml

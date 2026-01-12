@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target impedance_controller_lib[0m
+[ 33%] Built target gtest
+[ 33%] Built target gtest_main
+[ 41%] [32mBuilding CXX object CMakeFiles/impedance_controller_lib.dir/test/test_dummy.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libimpedance_controller_lib.a[0m
+[ 66%] Built target impedance_controller_lib
+[35m[1mConsolidate compiler generated dependencies of target test_impedance_controller[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_dummy[0m
+[ 91%] Built target test_dummy
+[100%] [32m[1mLinking CXX executable test_impedance_controller[0m
+[100%] Built target test_impedance_controller
+-- Install configuration: ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/libimpedance_controller_lib.a
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy
+-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy" to ""
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_impedance_controller
+-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_impedance_controller" to ""
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/package_run_dependencies/impedance_controller_framework
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/parent_prefix_path/impedance_controller_framework
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.sh
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.sh
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.dsv
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.bash
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.sh
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.zsh
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.dsv
+-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.dsv
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/packages/impedance_controller_framework
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig.cmake
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig-version.cmake
+-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.xml

@@ -1,0 +1,59 @@
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerSuccess_Test::TestBody()[m[K’:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   40 |     bool result = [01;31m[Kmanager[m[K.setActiveController("DummyController");
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+                 from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:42:15:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   42 |     EXPECT_EQ([01;31m[Kmanager[m[K.getActiveControllerName(), "DummyController");
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerFailure_Test::TestBody()[m[K’:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   47 |     bool result = [01;31m[Kmanager[m[K.setActiveController("Nonexistant");
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+                 from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:49:15:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   49 |     EXPECT_EQ([01;31m[Kmanager[m[K.getActiveControllerName(), "");
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()[m[K’:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:55:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   55 |     auto torque = [01;31m[Kmanager[m[K.computeTorque(input);
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()[m[K’:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   64 |     [01;31m[Kmanager[m[K.setActiveController("DummyController");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:66:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+   66 |     auto torque = [01;31m[Kmanager[m[K.computeTorque(input);
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:76:12:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint (*)()[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   76 |     return [01;31m[KRUN_ALL_TESTS[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint (*)()[m[K
+gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:76: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

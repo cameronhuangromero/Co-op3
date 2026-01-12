@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[1.248s] [100%] [32m[1mLinking CXX executable test_dummy[0m
+[1.356s] [100%] Built target test_dummy
+[1.371s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[1.383s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+[1.392s] -- Install configuration: ""
+[1.393s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy
+[1.393s] -- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/lib/impedance_controller_framework/test_dummy" to ""
+[1.393s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/package_run_dependencies/impedance_controller_framework
+[1.394s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/parent_prefix_path/impedance_controller_framework
+[1.394s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.sh
+[1.394s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/ament_prefix_path.dsv
+[1.395s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.sh
+[1.395s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/environment/path.dsv
+[1.395s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.bash
+[1.395s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.sh
+[1.395s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.zsh
+[1.396s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/local_setup.dsv
+[1.396s] -- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.dsv
+[1.396s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/ament_index/resource_index/packages/impedance_controller_framework
+[1.396s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig.cmake
+[1.396s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/cmake/impedance_controller_frameworkConfig-version.cmake
+[1.396s] -- Installing: /home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework/share/impedance_controller_framework/package.xml
+[1.399s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework

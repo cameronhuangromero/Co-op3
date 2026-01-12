@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (joint_state_buffer_node) JobQueued: {'identifier': 'joint_state_buffer_node', 'dependencies': OrderedDict()}
+[0.000372] (joint_state_buffer_node) JobStarted: {'identifier': 'joint_state_buffer_node'}
+[0.008049] (joint_state_buffer_node) JobProgress: {'identifier': 'joint_state_buffer_node', 'progress': 'cmake'}
+[0.008622] (joint_state_buffer_node) JobProgress: {'identifier': 'joint_state_buffer_node', 'progress': 'build'}
+[0.009247] (joint_state_buffer_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node', '--', '-j8', '-l8'], 'cwd': '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('SSH_CLIENT', '10.250.58.11 53532 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab/USING/Framework'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-429e2328-de41-46fe-aa6a-ffaa23bd7ec6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3361'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/giszterlab/.local/bin:/opt/ros/humble/bin:/home/giszterlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d41ab6edfd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.250.58.11 53532 10.250.112.217 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.038148] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099308] (-) TimerEvent: {}
+[0.174732] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199463] (-) TimerEvent: {}
+[0.211254] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.214149] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.220480] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.231655] (joint_state_buffer_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.244949] (joint_state_buffer_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.278820] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.280149] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299563] (-) TimerEvent: {}
+[0.378737] (joint_state_buffer_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399698] (-) TimerEvent: {}
+[0.431049] (joint_state_buffer_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.499807] (-) TimerEvent: {}
+[0.542832] (joint_state_buffer_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.554835] (joint_state_buffer_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.559868] (joint_state_buffer_node) StdoutLine: {'line': b'-- Build files have been written to: /home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node\n'}
+[0.587481] (joint_state_buffer_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_state_buffer_node\x1b[0m\n'}
+[0.587710] (joint_state_buffer_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target torque_command_node\x1b[0m\n'}
+[0.599928] (-) TimerEvent: {}
+[0.604823] (joint_state_buffer_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/torque_command_node.dir/src/ros2_command_node.cpp.o\x1b[0m\n'}
+[0.606159] (joint_state_buffer_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_state_buffer_node.dir/src/ros2_buffer_node.cpp.o\x1b[0m\n'}
+[0.700049] (-) TimerEvent: {}
+[0.800391] (-) TimerEvent: {}
+[0.900742] (-) TimerEvent: {}
+[1.001099] (-) TimerEvent: {}
+[1.101465] (-) TimerEvent: {}
+[1.201960] (-) TimerEvent: {}
+[1.302424] (-) TimerEvent: {}
+[1.402899] (-) TimerEvent: {}
+[1.503329] (-) TimerEvent: {}
+[1.603722] (-) TimerEvent: {}
+[1.704211] (-) TimerEvent: {}
+[1.804675] (-) TimerEvent: {}
+[1.905148] (-) TimerEvent: {}
+[2.005611] (-) TimerEvent: {}
+[2.106098] (-) TimerEvent: {}
+[2.206558] (-) TimerEvent: {}
+[2.307049] (-) TimerEvent: {}
+[2.407531] (-) TimerEvent: {}
+[2.507967] (-) TimerEvent: {}
+[2.608477] (-) TimerEvent: {}
+[2.708935] (-) TimerEvent: {}
+[2.809454] (-) TimerEvent: {}
+[2.909818] (-) TimerEvent: {}
+[3.010197] (-) TimerEvent: {}
+[3.110560] (-) TimerEvent: {}
+[3.210920] (-) TimerEvent: {}
+[3.311278] (-) TimerEvent: {}
+[3.411639] (-) TimerEvent: {}
+[3.512006] (-) TimerEvent: {}
+[3.612353] (-) TimerEvent: {}
+[3.712711] (-) TimerEvent: {}
+[3.813069] (-) TimerEvent: {}
+[3.913436] (-) TimerEvent: {}
+[4.013819] (-) TimerEvent: {}
+[4.114313] (-) TimerEvent: {}
+[4.214664] (-) TimerEvent: {}
+[4.315028] (-) TimerEvent: {}
+[4.415363] (-) TimerEvent: {}
+[4.515848] (-) TimerEvent: {}
+[4.616368] (-) TimerEvent: {}
+[4.716868] (-) TimerEvent: {}
+[4.817396] (-) TimerEvent: {}
+[4.917922] (-) TimerEvent: {}
+[5.018440] (-) TimerEvent: {}
+[5.118930] (-) TimerEvent: {}
+[5.159102] (joint_state_buffer_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable joint_state_buffer_node\x1b[0m\n'}
+[5.219068] (-) TimerEvent: {}
+[5.319480] (-) TimerEvent: {}
+[5.364971] (joint_state_buffer_node) StdoutLine: {'line': b'[ 75%] Built target joint_state_buffer_node\n'}
+[5.419588] (-) TimerEvent: {}
+[5.519930] (-) TimerEvent: {}
+[5.620286] (-) TimerEvent: {}
+[5.720636] (-) TimerEvent: {}
+[5.820996] (-) TimerEvent: {}
+[5.921336] (-) TimerEvent: {}
+[6.021689] (-) TimerEvent: {}
+[6.122044] (-) TimerEvent: {}
+[6.222391] (-) TimerEvent: {}
+[6.322731] (-) TimerEvent: {}
+[6.423070] (-) TimerEvent: {}
+[6.523404] (-) TimerEvent: {}
+[6.623745] (-) TimerEvent: {}
+[6.724080] (-) TimerEvent: {}
+[6.824420] (-) TimerEvent: {}
+[6.924758] (-) TimerEvent: {}
+[7.025099] (-) TimerEvent: {}
+[7.125443] (-) TimerEvent: {}
+[7.225787] (-) TimerEvent: {}
+[7.326145] (-) TimerEvent: {}
+[7.426485] (-) TimerEvent: {}
+[7.526823] (-) TimerEvent: {}
+[7.627172] (-) TimerEvent: {}
+[7.727504] (-) TimerEvent: {}
+[7.827838] (-) TimerEvent: {}
+[7.928184] (-) TimerEvent: {}
+[8.028524] (-) TimerEvent: {}
+[8.128858] (-) TimerEvent: {}
+[8.229210] (-) TimerEvent: {}
+[8.329552] (-) TimerEvent: {}
+[8.429890] (-) TimerEvent: {}
+[8.530241] (-) TimerEvent: {}
+[8.630579] (-) TimerEvent: {}
+[8.730998] (-) TimerEvent: {}
+[8.831501] (-) TimerEvent: {}
+[8.932030] (-) TimerEvent: {}
+[9.032524] (-) TimerEvent: {}
+[9.132959] (-) TimerEvent: {}
+[9.137555] (joint_state_buffer_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable torque_command_node\x1b[0m\n'}
+[9.233140] (-) TimerEvent: {}
+[9.333635] (-) TimerEvent: {}
+[9.434109] (-) TimerEvent: {}
+[9.529757] (joint_state_buffer_node) StdoutLine: {'line': b'[100%] Built target torque_command_node\n'}
+[9.534214] (-) TimerEvent: {}
+[9.542191] (joint_state_buffer_node) CommandEnded: {'returncode': 0}
+[9.542801] (joint_state_buffer_node) JobProgress: {'identifier': 'joint_state_buffer_node', 'progress': 'install'}
+[9.552794] (joint_state_buffer_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node'], 'cwd': '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'giszterlab'), ('SSH_CLIENT', '10.250.58.11 53532 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/giszterlab'), ('OLDPWD', '/home/giszterlab/USING/Framework'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-429e2328-de41-46fe-aa6a-ffaa23bd7ec6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'giszterlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3361'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/giszterlab/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/giszterlab/.local/bin:/opt/ros/humble/bin:/home/giszterlab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-d41ab6edfd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.250.58.11 53532 10.250.112.217 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[9.560057] (joint_state_buffer_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.560283] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/joint_state_buffer_node\n'}
+[9.561613] (joint_state_buffer_node) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/joint_state_buffer_node" to ""\n'}
+[9.561798] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/torque_command_node\n'}
+[9.565315] (joint_state_buffer_node) StdoutLine: {'line': b'-- Set runtime path of "/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/lib/joint_state_buffer_node/torque_command_node" to ""\n'}
+[9.565696] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/package_run_dependencies/joint_state_buffer_node\n'}
+[9.565908] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/parent_prefix_path/joint_state_buffer_node\n'}
+[9.566164] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/ament_prefix_path.sh\n'}
+[9.566355] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/ament_prefix_path.dsv\n'}
+[9.566573] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/path.sh\n'}
+[9.566782] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/environment/path.dsv\n'}
+[9.567056] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.bash\n'}
+[9.567239] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.sh\n'}
+[9.567455] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.zsh\n'}
+[9.567584] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/local_setup.dsv\n'}
+[9.567695] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/package.dsv\n'}
+[9.567803] (joint_state_buffer_node) StdoutLine: {'line': b'-- Up-to-date: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/ament_index/resource_index/packages/joint_state_buffer_node\n'}
+[9.567912] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/cmake/joint_state_buffer_nodeConfig.cmake\n'}
+[9.568074] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/cmake/joint_state_buffer_nodeConfig-version.cmake\n'}
+[9.568185] (joint_state_buffer_node) StdoutLine: {'line': b'-- Installing: /home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node/share/joint_state_buffer_node/package.xml\n'}
+[9.569082] (joint_state_buffer_node) CommandEnded: {'returncode': 0}
+[9.585125] (joint_state_buffer_node) JobEnded: {'identifier': 'joint_state_buffer_node', 'rc': 0}
+[9.586301] (-) EventReactorShutdown: {}

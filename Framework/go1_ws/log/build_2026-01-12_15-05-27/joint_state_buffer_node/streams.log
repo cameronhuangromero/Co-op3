@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.181s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.236s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.309s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.310s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.473s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.585s] -- Configuring done
+[0.588s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[0.589s]   Cannot find source file:
+[0.589s] 
+[0.589s]     test/test_dummy_controller.cpp
+[0.589s] 
+[0.589s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.589s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.589s] 
+[0.589s] [0m
+[0.589s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[0.589s]   No SOURCES given to target: test_dummy_controller
+[0.589s] 
+[0.589s] [0m
+[0.589s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.596s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.599s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/joint_state_buffer_node -- -j8 -l8

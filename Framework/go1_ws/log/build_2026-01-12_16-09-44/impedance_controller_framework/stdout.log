@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[ 50%] Built target gtest_main
+[ 50%] Built target gtest
+[ 75%] Built target test_dummy
+[35m[1mConsolidate compiler generated dependencies of target test_impedance_controller[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o[0m

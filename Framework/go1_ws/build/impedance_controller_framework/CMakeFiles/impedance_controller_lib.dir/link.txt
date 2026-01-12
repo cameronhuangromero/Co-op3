@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimpedance_controller_lib.a CMakeFiles/impedance_controller_lib.dir/src/impedance_controller_factory.cpp.o CMakeFiles/impedance_controller_lib.dir/src/impedance_controller_manager.cpp.o CMakeFiles/impedance_controller_lib.dir/test/test_dummy.cpp.o
+/usr/bin/ranlib libimpedance_controller_lib.a

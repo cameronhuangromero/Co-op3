@@ -1,0 +1,64 @@
+Start testing: Jan 12 16:13 EST
+----------------------------------------------------------
+1/1 Testing: test_impedance_controller
+1/1 Test: test_impedance_controller
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml"
+Directory: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+"test_impedance_controller" start time: Jan 12 16:13 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework':
+ - /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller --gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from FactoryTest
+[ RUN      ] FactoryTest.CreateDummyController
+/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:24: Failure
+Expected equality of these values:
+  controller->name()
+    Which is: "DummyImpedanceController"
+  "DummyController"
+[  FAILED  ] FactoryTest.CreateDummyController (0 ms)
+[ RUN      ] FactoryTest.CreateNonexistantController
+[       OK ] FactoryTest.CreateNonexistantController (0 ms)
+[----------] 2 tests from FactoryTest (0 ms total)
+
+[----------] 4 tests from ManagerTest
+[ RUN      ] ManagerTest.SetActiveControllerSuccess
+/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:43: Failure
+Expected equality of these values:
+  manager.getActiveControllerName()
+    Which is: "DummyImpedanceController"
+  "DummyController"
+[  FAILED  ] ManagerTest.SetActiveControllerSuccess (0 ms)
+[ RUN      ] ManagerTest.SetActiveControllerFailure
+[       OK ] ManagerTest.SetActiveControllerFailure (0 ms)
+[ RUN      ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero
+[       OK ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero (0 ms)
+[ RUN      ] ManagerTest.ComputeTorqueWithActiveController
+[       OK ] ManagerTest.ComputeTorqueWithActiveController (0 ms)
+[----------] 4 tests from ManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] FactoryTest.CreateDummyController
+[  FAILED  ] ManagerTest.SetActiveControllerSuccess
+
+ 2 FAILED TESTS
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+-- run_test.py: verify result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Failed.
+"test_impedance_controller" end time: Jan 12 16:13 EST
+"test_impedance_controller" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 12 16:13 EST
+
+gtest =   0.08 sec*proc
+

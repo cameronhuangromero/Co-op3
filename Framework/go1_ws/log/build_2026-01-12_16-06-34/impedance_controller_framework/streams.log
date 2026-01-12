@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.318s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.472s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.482s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.483s]   By not providing "Findgtest.cmake" in CMAKE_MODULE_PATH this project has
+[0.483s]   asked CMake to find a package configuration file provided by "gtest", but
+[0.483s]   CMake did not find one.
+[0.484s] 
+[0.484s]   Could not find a package configuration file provided by "gtest" with any of
+[0.484s]   the following names:
+[0.485s] 
+[0.485s]     gtestConfig.cmake
+[0.485s]     gtest-config.cmake
+[0.485s] 
+[0.486s]   Add the installation prefix of "gtest" to CMAKE_PREFIX_PATH or set
+[0.486s]   "gtest_DIR" to a directory containing one of the above files.  If "gtest"
+[0.486s]   provides a separate development package or SDK, be sure it has been
+[0.487s]   installed.
+[0.487s] 
+[0.487s] [0m
+[0.487s] -- Configuring incomplete, errors occurred!
+[0.488s] See also "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CMakeFiles/CMakeOutput.log".
+[0.489s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.493s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8

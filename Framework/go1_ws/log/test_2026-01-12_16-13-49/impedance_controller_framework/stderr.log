@@ -1,0 +1,3 @@
+Errors while running CTest
+Output from these tests are in: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

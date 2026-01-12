@@ -1,0 +1,196 @@
+[0.011s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.318s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.480s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.485s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.564s] -- Configuring done
+[0.577s] -- Generating done
+[0.582s] -- Build files have been written to: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+[0.613s] [35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[0.621s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.622s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.633s] [ 37%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[1.616s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.647s] [ 50%] Built target gtest_main
+[1.848s] [ 62%] [32m[1mLinking CXX executable test_dummy[0m
+[1.955s] [ 62%] Built target test_dummy
+[3.971s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.034s] [ 75%] Built target gtest
+[4.055s] [ 87%] [32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o[0m
+[5.751s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K:[m[K’ token
+[5.752s]    18 | class FactoryTest : public ::testing[01;31m[K:[m[KTest {};
+[5.752s]       |                                     [01;31m[K^[m[K
+[5.752s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K:[m[K’ token
+[5.752s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:[m[K’ token
+[5.753s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.753s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.754s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass FactoryTest[m[K’
+[5.754s]    20 | TEST_F([01;31m[KFactoryTest[m[K, CreateDummyController)
+[5.754s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.755s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass FactoryTest[m[K’
+[5.755s]    18 | class [01;36m[KFactoryTest[m[K : public ::testing:Test {};
+[5.756s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.756s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.756s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.757s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstruct testing::internal::SuiteApiResolver<FactoryTest>[m[K’:
+[5.757s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:[m[K   required from here
+[5.757s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:503:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass FactoryTest[m[K’
+[5.758s]   503 | struct [01;31m[KSuiteApiResolver[m[K : T {
+[5.758s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.758s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass FactoryTest[m[K’
+[5.759s]    18 | class [01;36m[KFactoryTest[m[K : public ::testing:Test {};
+[5.759s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.759s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.760s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.760s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:507:33:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KFactoryTest[m[K’
+[5.760s]   507 |       typename std::conditional<[01;31m[Ksizeof(T)[m[K != 0, ::testing::Test, void>::type;
+[5.761s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[5.761s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:27:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass FactoryTest[m[K’
+[5.761s]    27 | TEST_F([01;31m[KFactoryTest[m[K, CreateNonexistantController)
+[5.761s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.762s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:18:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass FactoryTest[m[K’
+[5.762s]    18 | class [01;36m[KFactoryTest[m[K : public ::testing:Test {};
+[5.762s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.763s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K:[m[K’ token
+[5.763s]    33 | class ManagerTest : public ::testing[01;31m[K:[m[KTest
+[5.763s]       |                                     [01;31m[K^[m[K
+[5.764s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K:[m[K’ token
+[5.764s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:[m[K’ token
+[5.764s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.765s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.765s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass ManagerTest[m[K’
+[5.766s]    38 | TEST_F([01;31m[KManagerTest[m[K, SetActiveControllerSuccess)
+[5.766s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.766s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass ManagerTest[m[K’
+[5.766s]    33 | class [01;36m[KManagerTest[m[K : public ::testing:Test
+[5.767s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.767s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.767s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.768s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstruct testing::internal::SuiteApiResolver<ManagerTest>[m[K’:
+[5.768s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:[m[K   required from here
+[5.768s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:503:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass ManagerTest[m[K’
+[5.769s]   503 | struct [01;31m[KSuiteApiResolver[m[K : T {
+[5.769s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.769s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass ManagerTest[m[K’
+[5.769s]    33 | class [01;36m[KManagerTest[m[K : public ::testing:Test
+[5.770s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.770s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.770s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.771s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:507:33:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KManagerTest[m[K’
+[5.771s]   507 |       typename std::conditional<[01;31m[Ksizeof(T)[m[K != 0, ::testing::Test, void>::type;
+[5.771s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[5.772s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerSuccess_Test::TestBody()[m[K’:
+[5.772s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager[m[K’ was not declared in this scope
+[5.772s]    40 |     bool result = [01;31m[Kmanager[m[K.setActiveController("DummyController");
+[5.773s]       |                   [01;31m[K^~~~~~~[m[K
+[5.773s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.773s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.773s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K At global scope:
+[5.774s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:45:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass ManagerTest[m[K’
+[5.774s]    45 | TEST_F([01;31m[KManagerTest[m[K, SetActiveControllerFailure)
+[5.775s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.775s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass ManagerTest[m[K’
+[5.775s]    33 | class [01;36m[KManagerTest[m[K : public ::testing:Test
+[5.776s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.776s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerFailure_Test::TestBody()[m[K’:
+[5.776s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager[m[K’ was not declared in this scope
+[5.776s]    47 |     bool result = [01;31m[Kmanager[m[K.setActiveController("Nonexistant");
+[5.777s]       |                   [01;31m[K^~~~~~~[m[K
+[5.777s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.777s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.778s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K At global scope:
+[5.778s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:52:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass ManagerTest[m[K’
+[5.778s]    52 | TEST_F([01;31m[KManagerTest[m[K, ComputeTorqueNoActiveControllerReturnsZero)
+[5.779s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.779s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass ManagerTest[m[K’
+[5.779s]    33 | class [01;36m[KManagerTest[m[K : public ::testing:Test
+[5.779s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.785s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()[m[K’:
+[5.785s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:55:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager[m[K’ was not declared in this scope
+[5.786s]    55 |     auto torque = [01;31m[Kmanager[m[K.computeTorque(input);
+[5.786s]       |                   [01;31m[K^~~~~~~[m[K
+[5.786s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.787s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.787s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K At global scope:
+[5.787s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:62:8:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass ManagerTest[m[K’
+[5.787s]    62 | TEST_F([01;31m[KManagerTest[m[K, ComputeTorqueWithActiveController)
+[5.788s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[5.788s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:33:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass ManagerTest[m[K’
+[5.788s]    33 | class [01;36m[KManagerTest[m[K : public ::testing:Test
+[5.789s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[5.793s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()[m[K’:
+[5.793s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanager[m[K’ was not declared in this scope
+[5.793s]    64 |     [01;31m[Kmanager[m[K.setActiveController("DummyController");
+[5.794s]       |     [01;31m[K^~~~~~~[m[K
+[5.801s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.802s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:76:12:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint (*)()[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.802s]    76 |     return [01;31m[KRUN_ALL_TESTS[m[K;
+[5.802s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[5.803s]       |            [01;31m[K|[m[K
+[5.803s]       |            [01;31m[Kint (*)()[m[K
+[5.865s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[5.865s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[5.865s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetSetUpCaseOrSuite(const char*, int))() [with T = FactoryTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()][m[K’:
+[5.865s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:[m[K   required from here
+[5.866s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:512:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KFactoryTest[m[K’ used in nested name specifier
+[5.866s]   512 |         GetNotDefaultOrNull([01;31m[K&T::SetUpTestCase[m[K, &Test::SetUpTestCase);
+[5.866s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.866s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:514:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KFactoryTest[m[K’ used in nested name specifier
+[5.866s]   514 |         GetNotDefaultOrNull([01;31m[K&T::SetUpTestSuite[m[K, &Test::SetUpTestSuite);
+[5.867s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.867s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetTearDownCaseOrSuite(const char*, int))() [with T = FactoryTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()][m[K’:
+[5.867s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:20:1:[m[K   required from here
+[5.867s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:527:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KFactoryTest[m[K’ used in nested name specifier
+[5.867s]   527 |         GetNotDefaultOrNull([01;31m[K&T::TearDownTestCase[m[K, &Test::TearDownTestCase);
+[5.867s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.868s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:529:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KFactoryTest[m[K’ used in nested name specifier
+[5.868s]   529 |         GetNotDefaultOrNull([01;31m[K&T::TearDownTestSuite[m[K, &Test::TearDownTestSuite);
+[5.868s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.868s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetSetUpCaseOrSuite(const char*, int))() [with T = ManagerTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()][m[K’:
+[5.868s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:[m[K   required from here
+[5.869s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:512:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KManagerTest[m[K’ used in nested name specifier
+[5.869s]   512 |         GetNotDefaultOrNull([01;31m[K&T::SetUpTestCase[m[K, &Test::SetUpTestCase);
+[5.869s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.869s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:514:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KManagerTest[m[K’ used in nested name specifier
+[5.869s]   514 |         GetNotDefaultOrNull([01;31m[K&T::SetUpTestSuite[m[K, &Test::SetUpTestSuite);
+[5.869s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.870s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Kstatic void (* testing::internal::SuiteApiResolver<T>::GetTearDownCaseOrSuite(const char*, int))() [with T = ManagerTest; testing::internal::SetUpTearDownSuiteFuncType = void (*)()][m[K’:
+[5.870s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:38:1:[m[K   required from here
+[5.870s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:527:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KManagerTest[m[K’ used in nested name specifier
+[5.870s]   527 |         GetNotDefaultOrNull([01;31m[K&T::TearDownTestCase[m[K, &Test::TearDownTestCase);
+[5.870s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.870s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:529:29:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KManagerTest[m[K’ used in nested name specifier
+[5.870s]   529 |         GetNotDefaultOrNull([01;31m[K&T::TearDownTestSuite[m[K, &Test::TearDownTestSuite);
+[5.871s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.976s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_ComputeTorqueWithActiveController_Test][m[K’:
+[5.976s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.976s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KManagerTest_ComputeTorqueWithActiveController_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[5.976s]   460 |   Test* CreateTest() override { return new [01;31m[KTestClass[m[K; }
+[5.977s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[5.977s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test][m[K’:
+[5.977s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.977s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[5.977s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_SetActiveControllerFailure_Test][m[K’:
+[5.978s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.978s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KManagerTest_SetActiveControllerFailure_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[5.978s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = ManagerTest_SetActiveControllerSuccess_Test][m[K’:
+[5.978s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.978s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KManagerTest_SetActiveControllerSuccess_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[5.978s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = FactoryTest_CreateNonexistantController_Test][m[K’:
+[5.979s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.979s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KFactoryTest_CreateNonexistantController_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[5.979s] /opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = FactoryTest_CreateDummyController_Test][m[K’:
+[5.979s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[5.979s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KFactoryTest_CreateDummyController_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+[6.010s] gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:76: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o] Error 1
+[6.011s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2
+[6.011s] gmake: *** [Makefile:146: all] Error 2
+[6.014s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8

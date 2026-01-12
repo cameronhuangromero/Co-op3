@@ -1,0 +1,4 @@
+source;share/impedance_controller_framework/local_setup.bash
+source;share/impedance_controller_framework/local_setup.dsv
+source;share/impedance_controller_framework/local_setup.sh
+source;share/impedance_controller_framework/local_setup.zsh

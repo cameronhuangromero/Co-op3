@@ -1,0 +1,14 @@
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_manager.cpp:28:52:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::array<float, 12> ImpedanceControllerManager::computeTorque(const ImpedanceControllerInput*)[m[K’
+   28 | std::array<float, ImpedanceController::kNumJoints> [01;31m[KImpedanceControllerManager[m[K::computeTorque(const ImpedanceControllerInput* input)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/src/impedance_controller_manager.cpp:1[m[K:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller_manager.hpp:25:56:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kstd::array<float, 12> ImpedanceControllerManager::computeTorque(const ImpedanceControllerInput&)[m[K’
+   25 |     std::array<float, ImpedanceController::kNumJoints> [01;36m[KcomputeTorque[m[K(const ImpedanceControllerInput& input);
+      |                                                        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller_manager.hpp:16:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ImpedanceControllerManager[m[K’ defined here
+   16 | class [01;36m[KImpedanceControllerManager[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/impedance_controller_lib.dir/build.make:90: CMakeFiles/impedance_controller_lib.dir/src/impedance_controller_manager.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/impedance_controller_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

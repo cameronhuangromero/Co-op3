@@ -1,0 +1,58 @@
+[0.023s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/usr/local:/usr/local /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.030s] UpdateCTestConfiguration  from :/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+[0.030s] Parse Config file:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+[0.030s]    Site: giszterlab-Precision-Tower-5810
+[0.030s]    Build name: (empty)
+[0.030s]  Add coverage exclude regular expressions.
+[0.031s] Create new tag: 20260112-2115 - Experimental
+[0.031s] UpdateCTestConfiguration  from :/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+[0.031s] Parse Config file:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+[0.031s] Test project /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+[0.031s] Constructing a list of tests
+[0.031s] Done constructing a list of tests
+[0.032s] Updating test list for fixtures
+[0.032s] Added 0 tests to meet fixture requirements
+[0.032s] Checking test dependency graph...
+[0.032s] Checking test dependency graph end
+[0.032s] test 1
+[0.032s]     Start 1: test_impedance_controller
+[0.032s] 
+[0.032s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml"
+[0.033s] 1: Test timeout computed to be: 60
+[0.106s] 1: -- run_test.py: invoking following command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework':
+[0.107s] 1:  - /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller --gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml
+[0.108s] 1: [==========] Running 6 tests from 2 test suites.
+[0.109s] 1: [----------] Global test environment set-up.
+[0.109s] 1: [----------] 2 tests from FactoryTest
+[0.109s] 1: [ RUN      ] FactoryTest.CreateDummyController
+[0.109s] 1: [       OK ] FactoryTest.CreateDummyController (0 ms)
+[0.109s] 1: [ RUN      ] FactoryTest.CreateNonexistantController
+[0.110s] 1: [       OK ] FactoryTest.CreateNonexistantController (0 ms)
+[0.110s] 1: [----------] 2 tests from FactoryTest (0 ms total)
+[0.110s] 1: 
+[0.110s] 1: [----------] 4 tests from ManagerTest
+[0.110s] 1: [ RUN      ] ManagerTest.SetActiveControllerSuccess
+[0.110s] 1: [       OK ] ManagerTest.SetActiveControllerSuccess (0 ms)
+[0.110s] 1: [ RUN      ] ManagerTest.SetActiveControllerFailure
+[0.110s] 1: [       OK ] ManagerTest.SetActiveControllerFailure (0 ms)
+[0.111s] 1: [ RUN      ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero
+[0.111s] 1: [       OK ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero (0 ms)
+[0.111s] 1: [ RUN      ] ManagerTest.ComputeTorqueWithActiveController
+[0.111s] 1: [       OK ] ManagerTest.ComputeTorqueWithActiveController (0 ms)
+[0.111s] 1: [----------] 4 tests from ManagerTest (0 ms total)
+[0.111s] 1: 
+[0.111s] 1: [----------] Global test environment tear-down
+[0.111s] 1: [==========] 6 tests from 2 test suites ran. (0 ms total)
+[0.112s] 1: [  PASSED  ] 6 tests.
+[0.112s] 1: -- run_test.py: return code 0
+[0.112s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+[0.112s] 1: -- run_test.py: verify result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+[0.119s] 1/1 Test #1: test_impedance_controller ........   Passed    0.09 sec
+[0.119s] 
+[0.120s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.120s] 
+[0.120s] Label Time Summary:
+[0.120s] gtest    =   0.09 sec*proc (1 test)
+[0.120s] 
+[0.120s] Total Test time (real) =   0.09 sec
+[0.125s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '0': CMAKE_PREFIX_PATH=/home/giszterlab/USING/Framework/go1_ws/install/impedance_controller_framework:/home/giszterlab/USING/Framework/go1_ws/install/joint_state_buffer_node:/usr/local:/usr/local /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

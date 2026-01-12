@@ -1,0 +1,38 @@
+[0.012s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[0.142s] In file included from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:2[m[K:
+[0.142s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/dummy_impedance_controller.hpp:2:9:[m[K [01;31m[Kerror: [m[Kmacro names must be identifiers
+[0.142s]     2 | #define [01;31m[K#[m[KDUMMY_IMPEDANCE_CONTROLLER
+[0.142s]       |         [01;31m[K^[m[K
+[1.069s] In file included from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/dummy_impedance_controller.hpp:4[m[K,
+[1.069s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:2[m[K:
+[1.069s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller.hpp:27:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+[1.069s]    27 | }
+[1.069s]       |  [01;31m[K^[m[K
+[1.069s]       |  [32m[K;[m[K
+[1.079s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller.hpp:35:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+[1.079s]    35 | }
+[1.079s]       |  [01;31m[K^[m[K
+[1.080s]       |  [32m[K;[m[K
+[1.087s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller.hpp:41:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after struct definition
+[1.087s]    41 | }
+[1.087s]       |  [01;31m[K^[m[K
+[1.088s]       |  [32m[K;[m[K
+[1.088s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/impedance_controller.hpp:52:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.088s]    52 | }
+[1.088s]       |  [01;31m[K^[m[K
+[1.088s]       |  [32m[K;[m[K
+[1.092s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.092s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerInputHandler[m[K’ was not declared in this scope; did you mean ‘[01m[KImpedanceControllerInput[m[K’?
+[1.092s]     8 |     [01;31m[KImpedanceControllerInputHandler[m[K input;
+[1.092s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.093s]       |     [32m[KImpedanceControllerInput[m[K
+[1.094s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:10:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+[1.094s]    10 |     auto torque = controller.computeTorque([01;31m[Kinput[m[K);
+[1.094s]       |                                            [01;31m[K^~~~~[m[K
+[1.094s]       |                                            [32m[Kint[m[K
+[1.187s] gmake[2]: *** [CMakeFiles/test_dummy.dir/build.make:76: CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o] Error 1
+[1.187s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_dummy.dir/all] Error 2
+[1.188s] gmake: *** [Makefile:146: all] Error 2
+[1.192s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8

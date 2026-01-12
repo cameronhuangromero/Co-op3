@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.066s] [ 75%] Built target test_dummy
+[0.066s] [ 75%] Built target gtest_main
+[0.066s] [ 75%] Built target gtest
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target test_impedance_controller[0m
+[0.097s] [ 87%] [32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o[0m
+[2.234s] [100%] [32m[1mLinking CXX executable test_impedance_controller[0m
+[2.353s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `(anonymous namespace)::dummy_registered::{lambda()#1}::operator()() const':
+[2.353s] test_impedance_controller.cpp:(.text+0xaa): undefined reference to `ImpedanceControllerFactory::registerController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::shared_ptr<ImpedanceController> ()>)'
+[2.353s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateDummyController_Test::TestBody()':
+[2.353s] test_impedance_controller.cpp:(.text+0x187): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[2.353s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateNonexistantController_Test::TestBody()':
+[2.354s] test_impedance_controller.cpp:(.text+0x4bb): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[2.354s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerSuccess_Test::TestBody()':
+[2.354s] test_impedance_controller.cpp:(.text+0x6a1): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[2.354s] /usr/bin/ld: test_impedance_controller.cpp:(.text+0x7a5): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'
+[2.354s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerFailure_Test::TestBody()':
+[2.355s] test_impedance_controller.cpp:(.text+0x9d3): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[2.355s] /usr/bin/ld: test_impedance_controller.cpp:(.text+0xae1): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'
+[2.355s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()':
+[2.355s] test_impedance_controller.cpp:(.text+0xd13): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'
+[2.355s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()':
+[2.355s] test_impedance_controller.cpp:(.text+0xf2c): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[2.356s] /usr/bin/ld: test_impedance_controller.cpp:(.text+0xf85): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'
+[2.356s] /usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest::ManagerTest()':
+[2.356s] test_impedance_controller.cpp:(.text._ZN11ManagerTestC2Ev[_ZN11ManagerTestC5Ev]+0x37): undefined reference to `ImpedanceControllerManager::ImpedanceControllerManager()'
+[2.372s] collect2: error: ld returned 1 exit status
+[2.374s] gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:99: test_impedance_controller] Error 1
+[2.374s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2
+[2.374s] gmake: *** [Makefile:146: all] Error 2
+[2.377s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8

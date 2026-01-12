@@ -1,0 +1,77 @@
+UpdateCTestConfiguration  from :/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+Parse Config file:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+   Site: giszterlab-Precision-Tower-5810
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260112-2113 - Experimental
+UpdateCTestConfiguration  from :/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+Parse Config file:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/CTestConfiguration.ini
+Test project /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_impedance_controller
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml" "--package-name" "impedance_controller_framework" "--output-file" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/ament_cmake_gtest/test_impedance_controller.txt" "--command" "/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller" "--gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework':
+1:  - /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_impedance_controller --gtest_output=xml:/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml
+1: [==========] Running 6 tests from 2 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 2 tests from FactoryTest
+1: [ RUN      ] FactoryTest.CreateDummyController
+1: /home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:24: Failure
+1: Expected equality of these values:
+1:   controller->name()
+1:     Which is: "DummyImpedanceController"
+1:   "DummyController"
+1: [  FAILED  ] FactoryTest.CreateDummyController (0 ms)
+1: [ RUN      ] FactoryTest.CreateNonexistantController
+1: [       OK ] FactoryTest.CreateNonexistantController (0 ms)
+1: [----------] 2 tests from FactoryTest (0 ms total)
+1: 
+1: [----------] 4 tests from ManagerTest
+1: [ RUN      ] ManagerTest.SetActiveControllerSuccess
+1: /home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:43: Failure
+1: Expected equality of these values:
+1:   manager.getActiveControllerName()
+1:     Which is: "DummyImpedanceController"
+1:   "DummyController"
+1: [  FAILED  ] ManagerTest.SetActiveControllerSuccess (0 ms)
+1: [ RUN      ] ManagerTest.SetActiveControllerFailure
+1: [       OK ] ManagerTest.SetActiveControllerFailure (0 ms)
+1: [ RUN      ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero
+1: [       OK ] ManagerTest.ComputeTorqueNoActiveControllerReturnsZero (0 ms)
+1: [ RUN      ] ManagerTest.ComputeTorqueWithActiveController
+1: [       OK ] ManagerTest.ComputeTorqueWithActiveController (0 ms)
+1: [----------] 4 tests from ManagerTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 6 tests from 2 test suites ran. (0 ms total)
+1: [  PASSED  ] 4 tests.
+1: [  FAILED  ] 2 tests, listed below:
+1: [  FAILED  ] FactoryTest.CreateDummyController
+1: [  FAILED  ] ManagerTest.SetActiveControllerSuccess
+1: 
+1:  2 FAILED TESTS
+1: -- run_test.py: return code 1
+1: -- run_test.py: inject classname prefix into gtest result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+1: -- run_test.py: verify result file '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/test_results/impedance_controller_framework/test_impedance_controller.gtest.xml'
+1/1 Test #1: test_impedance_controller ........***Failed    0.08 sec
+
+0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =   0.08 sec*proc (1 test)
+
+Total Test time (real) =   0.08 sec
+
+The following tests FAILED:
+	[0;31m  1 - test_impedance_controller (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

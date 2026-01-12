@@ -1,0 +1,69 @@
+[0.012s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[0.069s] [ 50%] Built target gtest_main
+[0.069s] [ 50%] Built target gtest
+[0.072s] [ 75%] Built target test_dummy
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target test_impedance_controller[0m
+[0.098s] [ 87%] [32mBuilding CXX object CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o[0m
+[1.799s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerSuccess_Test::TestBody()[m[K’:
+[1.799s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.799s]    40 |     bool result = [01;31m[Kmanager[m[K.setActiveController("DummyController");
+[1.799s]       |                   [01;31m[K^~~~~~~[m[K
+[1.800s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.800s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.800s]       |                                [01;36m[K^~~~~~~[m[K
+[1.800s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[1.800s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[1.801s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:42:15:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.801s]    42 |     EXPECT_EQ([01;31m[Kmanager[m[K.getActiveControllerName(), "DummyController");
+[1.801s]       |               [01;31m[K^~~~~~~[m[K
+[1.801s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.802s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.802s]       |                                [01;36m[K^~~~~~~[m[K
+[1.802s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_SetActiveControllerFailure_Test::TestBody()[m[K’:
+[1.802s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:47:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.803s]    47 |     bool result = [01;31m[Kmanager[m[K.setActiveController("Nonexistant");
+[1.803s]       |                   [01;31m[K^~~~~~~[m[K
+[1.803s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.803s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.804s]       |                                [01;36m[K^~~~~~~[m[K
+[1.804s] In file included from [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[1.804s]                  from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:1[m[K:
+[1.804s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:49:15:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.804s]    49 |     EXPECT_EQ([01;31m[Kmanager[m[K.getActiveControllerName(), "");
+[1.804s]       |               [01;31m[K^~~~~~~[m[K
+[1.805s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.805s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.805s]       |                                [01;36m[K^~~~~~~[m[K
+[1.805s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()[m[K’:
+[1.805s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:55:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.805s]    55 |     auto torque = [01;31m[Kmanager[m[K.computeTorque(input);
+[1.805s]       |                   [01;31m[K^~~~~~~[m[K
+[1.806s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.806s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.806s]       |                                [01;36m[K^~~~~~~[m[K
+[1.806s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual void ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()[m[K’:
+[1.806s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.807s]    64 |     [01;31m[Kmanager[m[K.setActiveController("DummyController");
+[1.807s]       |     [01;31m[K^~~~~~~[m[K
+[1.807s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.807s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.807s]       |                                [01;36m[K^~~~~~~[m[K
+[1.808s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:66:19:[m[K [01;31m[Kerror: [m[K‘[01m[KImpedanceControllerManager ManagerTest::manager[m[K’ is private within this context
+[1.808s]    66 |     auto torque = [01;31m[Kmanager[m[K.computeTorque(input);
+[1.808s]       |                   [01;31m[K^~~~~~~[m[K
+[1.808s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:35:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[1.808s]    35 |     ImpedanceControllerManager [01;36m[Kmanager[m[K;
+[1.808s]       |                                [01;36m[K^~~~~~~[m[K
+[1.809s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.809s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_impedance_controller.cpp:76:12:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint (*)()[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.809s]    76 |     return [01;31m[KRUN_ALL_TESTS[m[K;
+[1.809s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[1.809s]       |            [01;31m[K|[m[K
+[1.809s]       |            [01;31m[Kint (*)()[m[K
+[1.999s] gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:76: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o] Error 1
+[1.999s] gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2
+[2.000s] gmake: *** [Makefile:146: all] Error 2
+[2.002s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8

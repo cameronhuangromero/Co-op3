@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+In file included from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:2[m[K:
+[01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/dummy_impedance_controller.hpp:2:9:[m[K [01;31m[Kerror: [m[Kmacro names must be identifiers
+    2 | #define [01;31m[K#[m[KDUMMY_IMPEDANCE_CONTROLLER
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_dummy.dir/build.make:76: CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_dummy.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0" timestamp="2026-01-12T16:15:29" name="AllTests">
+  <testsuite name="FactoryTest" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2026-01-12T16:15:29">
+    <testcase name="CreateDummyController" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.FactoryTest" />
+    <testcase name="CreateNonexistantController" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.FactoryTest" />
+  </testsuite>
+  <testsuite name="ManagerTest" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2026-01-12T16:15:29">
+    <testcase name="SetActiveControllerSuccess" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.ManagerTest" />
+    <testcase name="SetActiveControllerFailure" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.ManagerTest" />
+    <testcase name="ComputeTorqueNoActiveControllerReturnsZero" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.ManagerTest" />
+    <testcase name="ComputeTorqueWithActiveController" status="run" result="completed" time="0" timestamp="2026-01-12T16:15:29" classname="impedance_controller_framework.ManagerTest" />
+  </testsuite>
+</testsuites>

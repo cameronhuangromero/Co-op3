@@ -1,0 +1,23 @@
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `(anonymous namespace)::dummy_registered::{lambda()#1}::operator()() const':
+test_impedance_controller.cpp:(.text+0xaa): undefined reference to `ImpedanceControllerFactory::registerController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<std::shared_ptr<ImpedanceController> ()>)'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateDummyController_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0x187): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `FactoryTest_CreateNonexistantController_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0x4bb): undefined reference to `ImpedanceControllerFactory::create(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerSuccess_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0x6a1): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: test_impedance_controller.cpp:(.text+0x7a5): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_SetActiveControllerFailure_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0x9d3): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: test_impedance_controller.cpp:(.text+0xae1): undefined reference to `ImpedanceControllerManager::getActiveControllerName[abi:cxx11]()'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueNoActiveControllerReturnsZero_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0xd13): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest_ComputeTorqueWithActiveController_Test::TestBody()':
+test_impedance_controller.cpp:(.text+0xf2c): undefined reference to `ImpedanceControllerManager::setActiveController(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: test_impedance_controller.cpp:(.text+0xf85): undefined reference to `ImpedanceControllerManager::computeTorque(ImpedanceControllerInput const&)'
+/usr/bin/ld: CMakeFiles/test_impedance_controller.dir/test/test_impedance_controller.cpp.o: in function `ManagerTest::ManagerTest()':
+test_impedance_controller.cpp:(.text._ZN11ManagerTestC2Ev[_ZN11ManagerTestC5Ev]+0x37): undefined reference to `ImpedanceControllerManager::ImpedanceControllerManager()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_impedance_controller.dir/build.make:99: test_impedance_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:184: CMakeFiles/test_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

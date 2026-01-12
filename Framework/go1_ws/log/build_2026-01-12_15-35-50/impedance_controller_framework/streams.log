@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target test_dummy[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o[0m
+[0.145s] In file included from [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/test/test_dummy.cpp:2[m[K:
+[0.146s] [01m[K/home/giszterlab/USING/Framework/go1_ws/src/impedance_controller_framework/include/dummy_impedance_controller.hpp:2:9:[m[K [01;31m[Kerror: [m[Kmacro names must be identifiers
+[0.146s]     2 | #define [01;31m[K#[m[KDUMMY_IMPEDANCE_CONTROLLER
+[0.146s]       |         [01;31m[K^[m[K
+[1.169s] gmake[2]: *** [CMakeFiles/test_dummy.dir/build.make:76: CMakeFiles/test_dummy.dir/test/test_dummy.cpp.o] Error 1
+[1.169s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_dummy.dir/all] Error 2
+[1.169s] gmake: *** [Makefile:146: all] Error 2
+[1.173s] Invoked command in '/home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/giszterlab/USING/Framework/go1_ws/build/impedance_controller_framework -- -j8 -l8
