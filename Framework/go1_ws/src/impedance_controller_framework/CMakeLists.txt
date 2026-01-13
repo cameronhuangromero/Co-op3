@@ -12,7 +12,6 @@ include_directories(
   ${EIGEN3_INCLUDE_DIRS}
 )
 
-# Build a library from your implementation sources
 add_library(impedance_controller_lib
   src/impedance_controller_factory.cpp
   src/impedance_controller_manager.cpp
@@ -23,13 +22,11 @@ target_include_directories(impedance_controller_lib PUBLIC include)
 target_link_libraries(impedance_controller_lib Eigen3::Eigen)
 ament_target_dependencies(impedance_controller_lib rclcpp std_msgs)
 
-# Existing dummy test executable
 add_executable(test_dummy test/test_dummy.cpp)
 target_link_libraries(test_dummy impedance_controller_lib Eigen3::Eigen)
 target_include_directories(test_dummy PRIVATE include)
 ament_target_dependencies(test_dummy rclcpp std_msgs)
 
-# New gtest executable for factory and manager tests
 ament_add_gtest(test_impedance_controller test/test_impedance_controller.cpp)
 if(TARGET test_impedance_controller)
   target_link_libraries(test_impedance_controller impedance_controller_lib Eigen3::Eigen)
